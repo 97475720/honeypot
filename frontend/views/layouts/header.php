@@ -13,7 +13,9 @@ use yii\helpers\Url;
 </head>
 <body>
 
-<?= $content; ?>
+<div id="warp">
+    <?= $content; ?>
+</div>
 
 </body>
 </html>

@@ -1,0 +1,69 @@
+body,div,input,p,i,span,em,a,ul,li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Microsoft YaHei';
+}
+input{
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+
+#warp{
+    width: 100%;
+}
+#top{
+    width: 100%;
+    height: 750px;
+    background-image:url(../images/backgroundImg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 750px;
+    padding-top: 32px;
+}
+#top .top-info{
+    width: 100%;
+    overflow: hidden;
+    color: #FFFFFF;
+    font-weight: 200;
+}
+.top-info .top-log{
+    margin-left: 360px;
+    float: left;
+}
+.top-info .top-log img{
+    width: 70px;
+    height: 70px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 20px;
+}
+.top-info .top-log span{
+    vertical-align: middle;
+    line-height: 70px;
+    display: inline-block;
+    font-size: 42px;
+}
+.top-info .sign-login{
+    float: right;
+    margin-right: 360px;
+}
+.top-info .sign-login span{
+    padding: 0 12px;
+    line-height: 32px;
+    vertical-align: middle;
+    font-size: 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.top-info .sign-login .sign{
+    background: rgba(228,4,4,0.87);
+}
