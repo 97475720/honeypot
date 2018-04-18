@@ -15,6 +15,12 @@ use yii\helpers\Url;
 
 <div id="warp">
     <?= $content; ?>
+    <div id="footer">
+        <div class="log-container">
+            <img src="<?= Url::to('@web/images/log.png') ?>">
+            <span>蜜罐，做生活设计师</span>
+        </div>
+    </div>
 </div>
 
 </body>
