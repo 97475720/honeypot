@@ -42,6 +42,16 @@ use yii\helpers\Url;
                     <i>1</i>
                     <em>st</em>
                 </p>
+                <p class="cases-title">
+                    马来西亚风景
+                </p>
+                <p class="cases-count">
+                    收藏数：
+                </p>
+                <p class="cases-author">
+                    <span>作者：</span>
+                    <a>花无缺</a>
+                </p>
             </div>
         </div>
         <div class="cases-container">

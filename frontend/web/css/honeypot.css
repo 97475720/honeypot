@@ -206,10 +206,42 @@ i,em{
 .cases-details img{
     width: 100%;
     height: inherit;
+
 }
+.cases-details  p{
+    padding-left: 16px;
+}
+.cases-details .cases-sort{
+    color: #fcE806;
+}
+
 .cases-details .cases-sort i{
-    font-size: 75px;
+    font-size: 70px;
 }
 .cases-details .cases-sort em{
     font-size: 35px;
+}
+.cases-details .cases-title{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.cases-details .cases-count{
+    font-size: 16px;
+    margin-top: 26px;
+    color: #999999;
+}
+.cases-details .cases-author{
+    margin-top: 16px;
+}
+.cases-details .cases-author span{
+    font-size: 16px;
+    color: #999999;
+    padding-left: 184px;
+}
+.cases-details .cases-author a{
+    font-size: 24px;
+    display: block;
+    padding-right: 24px;
+    text-align: right;
+    margin-top: 10px;
 }
