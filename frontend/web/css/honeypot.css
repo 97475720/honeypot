@@ -12,6 +12,10 @@ a{
     text-decoration: none;
     cursor: pointer;
 }
+a:hover{
+    text-decoration: none;
+    color: black;
+}
 ul{
     list-style: none;
 }
@@ -21,6 +25,139 @@ li{
 i,em{
     font-style: normal;
 }
+#login-container{
+    margin: 0;
+    padding: 0;
+    width: inherit;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 10;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.form-container{
+    width: 500px;
+    margin: -100% auto 0;
+    background: #FFFFFF;
+    border-radius: 8px;
+    transition: all 0.5s;
+    padding-bottom: 30px;
+    opacity: 1;
+}
+.form-container p{
+    text-align: center;
+    padding: 12px 0;
+}
+.form-container p img{
+    filter: drop-shadow(0px 0px 0px #f9fc0a);
+    display: inline-block;
+    vertical-align: middle;
+}
+.form-container p span{
+    font-size: 38px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.form-container form{
+    width: inherit;
+    margin-top: 20px;
+}
+.form-container form div{
+    padding: 0 100px;
+}
+.form-container form div label{
+    font-size: 20px;
+    color: #999999;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+}
+.form-container form div input{
+    width: 100%;
+    font-size: 18px;
+    border: 1px solid #999999;
+    display: block;
+    vertical-align: middle;
+    line-height: 32px;
+    border-radius: 0;
+    outline: none;!important;
+    height: auto;
+    padding: 0 6px;
+}
+.form-container form div p{
+    margin: 0;
+    line-height: 20px;
+    height: 20px;
+    padding: 0 6px;
+    text-align: left;
+}
+.form-container form div button{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0;
+    color: #FFFFFF;
+    background: #f9fc0a;
+    border: none;
+    padding: 8px 20px;
+    font-size: 20px;
+
+}
+.form-container form .login-submit{
+    text-align: center;
+}
+.form-container form .login-submit button:hover{
+    color: #FFFFFF;
+}
+
+.form-container form .sign-submit{
+    text-align: center;
+}
+.form-container form .sign-submit button:hover{
+    color: #FFFFFF;
+}
+
+
+#sign-container{
+    margin: 0;
+    padding: 0;
+    width: inherit;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 10;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+}
+#sign-container .sign-form{
+    width: 500px;
+    margin: -100% auto 0;
+    background: #FFFFFF;
+    border-radius: 8px;
+    transition: all 0.5s;
+    padding-bottom: 30px;
+    opacity: 1;
+}
+
+.sign-form p{
+    text-align: center;
+    padding: 12px 0;
+}
+.sign-form p img{
+    filter: drop-shadow(0px 0px 0px #f9fc0a);
+    display: inline-block;
+    vertical-align: middle;
+}
+.sign-form p span{
+    font-size: 38px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
 #footer{
     width: 100%;
     background: black;
@@ -111,6 +248,7 @@ i,em{
     border-radius: 5px;
     margin-left: 38px;
     border:1px solid;
+    cursor: pointer;
 }
 .top-info .sign-login .sign{
     background: rgba(228,4,4,0.87);
@@ -127,11 +265,9 @@ i,em{
     font-weight: 300;
 }
 #top .top-search{
-    height: 40px;
     border: 4px solid rgba(239,239,239,0.7);
     width: 800px;
     margin: 0 auto;
-    padding: 8px;
 }
 .top-search input{
     background: none;
@@ -163,6 +299,13 @@ i,em{
     font-size: 25px;
     font-weight: 200;
     margin-right: 16px;
+}
+.hot-tag span a{
+    color: #efefef;
+}
+.hot-tag span a:hover{
+    color: #efefef;
+    text-decoration: none;
 }
 #middle-content{
     margin: 0 360px;
@@ -244,4 +387,5 @@ i,em{
     padding-right: 24px;
     text-align: right;
     margin-top: 10px;
+    color: black;
 }

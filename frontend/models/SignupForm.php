@@ -10,8 +10,9 @@ use common\models\User;
 class SignupForm extends Model
 {
     public $username;
-    public $email;
+    public $nickname;
     public $password;
+    public $verifyPassword;
 
 
     /**
@@ -20,19 +21,23 @@ class SignupForm extends Model
     public function rules()
     {
         return [
-            ['username', 'trim'],
-            ['username', 'required'],
-            ['username', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This username has already been taken.'],
-            ['username', 'string', 'min' => 2, 'max' => 255],
 
-            ['email', 'trim'],
-            ['email', 'required'],
-            ['email', 'email'],
+
+            ['username', 'trim'],
+            ['username', 'required', 'message' => '账号不能为空'],
+            ['username', 'unique',  'message' => '用户名已被使用'],
+            ['username', 'string', 'min' => 6, 'max' => 16],
+
+            ['nickname', 'unique' , '用户名已被使用'],
+            ['nickname', 'required', 'message' => '用户名不能为空'],
             ['email', 'string', 'max' => 255],
             ['email', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This email address has already been taken.'],
 
-            ['password', 'required'],
-            ['password', 'string', 'min' => 6],
+            ['password', 'required', 'message' => '请输入密码'],
+            ['password', 'string', 'min' => 6 , 'max' => 16],
+
+            ['verifyPassword', 'required', 'message' => '请确认密码'],
+            ['verifyPassword', 'string', 'min' => 6 , 'max' => 16],
         ];
     }
 
@@ -49,7 +54,7 @@ class SignupForm extends Model
         
         $user = new User();
         $user->username = $this->username;
-        $user->email = $this->email;
+        $user->nickname = $this->nickname;
         $user->setPassword($this->password);
         $user->generateAuthKey();
         

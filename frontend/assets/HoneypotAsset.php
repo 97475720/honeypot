@@ -7,16 +7,16 @@ use yii\web\AssetBundle;
 /**
  * Main frontend application asset bundle.
  */
-class AppAsset extends AssetBundle
+class HoneypotAsset extends AssetBundle
 {
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $sourcePath = '@web';
     public $css = [
-        'css/site.css',
         'css/honeypot.css',
     ];
     public $js = [
+        'js/honeypot.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',

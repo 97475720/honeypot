@@ -4,7 +4,7 @@ use yii\helpers\Url;
 <div id="top">
     <div class="top-info">
         <div class="top-log">
-            <img src="<?= Url::to('@web/images/log.png') ?>" />
+            <img src="<?= Url::to('@web/images/logo.png') ?>" />
             <span>蜜罐</span>
         </div>
         <div class="sign-login">
@@ -35,7 +35,7 @@ use yii\helpers\Url;
     <div class="hot-cases">
         <div class="cases-container">
             <div class="cases-details">
-                <img src="<?= Url::to('@web/images/test.jpg') ?>">
+                <img src="<?= Url::to('@web/images/Article.jpg') ?>">
             </div>
             <div class="cases-details">
                 <p class="cases-sort">
