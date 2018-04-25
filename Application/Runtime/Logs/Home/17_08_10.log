@@ -1,0 +1,30 @@
+[ 2017-08-10T14:35:42+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-08-10T14:35:43+08:00 ] ::1 /lplive/index.php/Home/Index/__PUBLIC__/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-08-10T14:40:30+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+
+[ 2017-08-10T14:40:30+08:00 ] ::1 /lplive/index.php/Home/Index/__PUBLIC__/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+
+[ 2017-08-10T14:40:33+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-08-10T14:40:33+08:00 ] ::1 /lplive/index.php/Home/Index/__PUBLIC__/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+

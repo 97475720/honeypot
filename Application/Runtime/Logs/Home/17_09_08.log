@@ -1,0 +1,20 @@
+[ 2017-09-08T10:44:06+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+
+[ 2017-09-08T10:45:02+08:00 ] ::1 /lplive/index.php/Home/Index/Goods?id=1503575238
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+
+[ 2017-09-08T11:52:21+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+
+[ 2017-09-08T11:54:55+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+

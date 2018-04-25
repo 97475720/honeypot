@@ -1,0 +1,192 @@
+[ 2017-08-13T18:56:57+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-08-13T18:58:11+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+
+[ 2017-08-13T18:58:12+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2017-08-13T18:58:13+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2017-08-13T18:58:14+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-08-13T18:58:14+08:00 ] ::1 /lplive/index.php/Admin/Admin/group_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2017-08-13T18:58:15+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2017-08-13T18:58:15+08:00 ] ::1 /lplive/index.php/Admin/Admin/group_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-08-13T18:58:16+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-08-13T18:58:17+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-08-13T18:58:17+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2017-08-13T18:58:18+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2017-08-13T19:16:08+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-08-13T19:16:10+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+
+[ 2017-08-13T19:16:11+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2017-08-13T19:33:09+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-08-13T19:33:36+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2017-08-13T19:58:59+08:00 ] ::1 /lplive/index.php/Admin/Login/admin%E2%80%94%E2%80%94login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+ERR: 非法操作:admin——login
+
+[ 2017-08-13T19:59:05+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+ERR: Think\Controller:dispaly方法不存在！
+
+[ 2017-08-13T19:59:16+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-08-13T20:04:57+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-08-13T20:05:30+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-08-13T20:05:41+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+
+[ 2017-08-13T20:05:41+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-08-13T20:08:04+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-08-13T20:08:05+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+
+[ 2017-08-13T20:08:29+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-08-13T20:08:48+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+
+[ 2017-08-13T20:11:44+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-08-13T20:12:12+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-08-13T20:12:25+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+
+[ 2017-08-13T20:13:23+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-08-13T20:13:36+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-08-13T20:14:02+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-08-13T20:18:16+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-08-13T20:23:48+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-08-13T20:24:23+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+
+[ 2017-08-13T20:25:28+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+

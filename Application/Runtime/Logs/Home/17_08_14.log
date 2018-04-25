@@ -1,0 +1,396 @@
+[ 2017-08-14T15:39:16+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-08-14T15:39:16+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+
+[ 2017-08-14T15:39:18+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-08-14T15:39:19+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-08-14T15:39:29+08:00 ] ::1 /lplive/index.php/Home/Login/checkCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+
+[ 2017-08-14T15:39:31+08:00 ] ::1 /lplive/index.php/Home/Login/loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wamp64\www\lplive\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `think_lp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `think_lp_user` SET `logintime`='2017-08-14 15:39:31' WHERE `uid` = '1502541973' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_lp_user` WHERE `uid` = '1502541973' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-14T15:39:31+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-08-14T15:39:31+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2017-08-14T15:39:34+08:00 ] ::1 /lplive/index.php/Home/Index/cancel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003738s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002585s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003065s ]
+
+[ 2017-08-14T15:39:34+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-08-14T15:39:34+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+
+[ 2017-08-14T16:19:10+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-08-14T16:19:10+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+
+[ 2017-08-14T16:19:23+08:00 ] ::1 /lplive/index.php/Home/Login/checkCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+
+[ 2017-08-14T16:19:24+08:00 ] ::1 /lplive/index.php/Home/Login/loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wamp64\www\lplive\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `think_lp_user` LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `think_lp_user` SET `logintime`='2017-08-14 16:19:24' WHERE `uid` = '1502541973' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_lp_user` WHERE `uid` = '1502541973' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-08-14T16:19:24+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-08-14T16:19:24+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2017-08-14T16:21:26+08:00 ] ::1 /lplive/index.php/Home/Index/cancel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003967s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002579s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003145s ]
+
+[ 2017-08-14T16:21:26+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+
+[ 2017-08-14T16:21:26+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-08-14T16:21:27+08:00 ] ::1 /lplive/index.php/Home/Login/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-08-14T16:21:27+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-08-14T16:21:35+08:00 ] ::1 /lplive/index.php/Home/Login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_lp_user` WHERE `uphone` = '18311111111' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Home\Model\UserModel::jmpwd() H:\wamp64\www\lplive\Application\Home\Model\UserModel.class.php 第 75 行.
+NOTIC: [8] Undefined variable: value H:\wamp64\www\lplive\Application\Home\Model\UserModel.class.php 第 77 行.
+
+[ 2017-08-14T16:21:39+08:00 ] ::1 /lplive/index.php/Home/Login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-08-14T16:21:43+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502698903915
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-08-14T16:21:47+08:00 ] ::1 /lplive/index.php/Home/Login/checkCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+
+[ 2017-08-14T16:21:49+08:00 ] ::1 /lplive/index.php/Home/Login/signUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_lp_user` WHERE `uphone` = '18311111111' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_lp_user` (`uphone`,`upwd`,`uid`,`unickname`,`headpicture`) VALUES ('18311111111','dd1446a07328d69df8d438716f90d016','1502698909','1502698909','http://localhost/lplive/Uploads/598eedbe5a358.jpg') [ RunTime:0.0003s ]
+SQL: UPDATE `think_lp_user` SET `logintime`='2017-08-14 16:21:49' WHERE `uid` = null [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uname H:\wamp64\www\lplive\Application\Home\Controller\LoginController.class.php 第 70 行.
+NOTIC: [8] Undefined index: uemail H:\wamp64\www\lplive\Application\Home\Controller\LoginController.class.php 第 73 行.
+NOTIC: [8] Undefined index: signtime H:\wamp64\www\lplive\Application\Home\Controller\LoginController.class.php 第 74 行.
+NOTIC: [8] Undefined index: logintime H:\wamp64\www\lplive\Application\Home\Controller\LoginController.class.php 第 75 行.
+NOTIC: [8] Undefined index: ubirthday H:\wamp64\www\lplive\Application\Home\Controller\LoginController.class.php 第 77 行.
+NOTIC: [8] Undefined index: usynopsis H:\wamp64\www\lplive\Application\Home\Controller\LoginController.class.php 第 78 行.
+
+[ 2017-08-14T16:21:49+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+
+[ 2017-08-14T16:21:49+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001162s ]
+
+[ 2017-08-14T16:21:52+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-08-14T16:22:37+08:00 ] ::1 /lplive/index.php/Home/Index/cancel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000748s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004813s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003412s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003970s ]
+
+[ 2017-08-14T16:22:37+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-08-14T16:22:37+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-08-14T16:22:37+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2017-08-14T16:22:48+08:00 ] ::1 /lplive/index.php/Home/Login/checkCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+
+[ 2017-08-14T16:22:50+08:00 ] ::1 /lplive/index.php/Home/Login/loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wamp64\www\lplive\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `think_lp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `think_lp_user` SET `logintime`='2017-08-14 16:22:50' WHERE `uid` = '1502698909' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_lp_user` WHERE `uid` = '1502698909' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-14T16:22:50+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-08-14T16:22:50+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-08-14T16:28:22+08:00 ] ::1 /lplive/index.php/Home/Index/cancel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003762s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002693s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003200s ]
+
+[ 2017-08-14T16:28:22+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-08-14T16:28:22+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-08-14T16:28:25+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+
+[ 2017-08-14T16:28:25+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2017-08-14T16:28:45+08:00 ] ::1 /lplive/index.php/Home/Login/checkCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+
+[ 2017-08-14T16:28:46+08:00 ] ::1 /lplive/index.php/Home/Login/loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wamp64\www\lplive\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `think_lp_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_lp_user` SET `logintime`='2017-08-14 16:28:46' WHERE `uid` = '1502698909' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_lp_user` WHERE `uid` = '1502698909' LIMIT 1   [ RunTime:0.0002s ]
+

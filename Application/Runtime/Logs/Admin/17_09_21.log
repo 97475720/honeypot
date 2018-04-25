@@ -1,0 +1,50 @@
+[ 2017-09-21T10:12:58+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014412s ]
+
+[ 2017-09-21T10:13:00+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-09-21T10:13:03+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2017-09-21T10:13:04+08:00 ] ::1 /lplive/index.php/Admin/Admin/group_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2017-09-21T10:13:04+08:00 ] ::1 /lplive/index.php/Admin/Admin/group_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2017-09-21T10:13:05+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-09-21T10:13:05+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+
+[ 2017-09-21T10:13:06+08:00 ] ::1 /lplive/index.php/Admin/Admin/grounding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-09-21T10:13:08+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2017-09-21T10:13:09+08:00 ] ::1 /lplive/index.php/Admin/Admin/group_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+

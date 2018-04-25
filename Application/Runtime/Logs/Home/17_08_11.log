@@ -1,0 +1,2019 @@
+[ 2017-08-11T12:55:45+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.400094s ]
+
+[ 2017-08-11T12:55:48+08:00 ] ::1 /lplive/index.php/Home/Index/__PUBLIC__/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-08-11T13:22:40+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-08-11T13:22:40+08:00 ] ::1 /lplive/index.php/Home/Index/__PUBLIC__/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+
+[ 2017-08-11T13:22:55+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-08-11T13:22:55+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2017-08-11T13:22:56+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-08-11T13:24:07+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+
+[ 2017-08-11T13:24:08+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-08-11T13:24:22+08:00 ] ::1 /lplive/index.php/Home/Login/checkCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+
+[ 2017-08-11T13:24:24+08:00 ] ::1 /lplive/index.php/Home/Login/loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wamp64\www\lplive\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `think_lp_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_lp_user` SET `logintime`='2017-08-11 13:24:24' WHERE `uid` = '1501515783' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_lp_user` WHERE `uid` = '1501515783' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-11T13:24:24+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2017-08-11T13:24:25+08:00 ] ::1 /lplive/index.php/Home/Index/__PUBLIC__/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-08-11T13:24:27+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-08-11T13:25:12+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+
+[ 2017-08-11T13:25:13+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+
+[ 2017-08-11T13:27:01+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-08-11T13:28:10+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2017-08-11T13:28:14+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-08-11T13:29:23+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-08-11T13:31:59+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-08-11T13:32:40+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-08-11T13:33:18+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-08-11T13:35:02+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-08-11T13:35:05+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2017-08-11T13:35:46+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+
+[ 2017-08-11T13:36:31+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2017-08-11T13:37:14+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2017-08-11T13:37:25+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2017-08-11T13:37:34+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-08-11T13:38:01+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-08-11T13:38:47+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-08-11T13:39:14+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+
+[ 2017-08-11T13:40:02+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+
+[ 2017-08-11T13:40:46+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-08-11T13:41:11+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2017-08-11T13:41:39+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+
+[ 2017-08-11T13:44:13+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-08-11T13:44:50+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-08-11T13:46:11+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+
+[ 2017-08-11T13:47:18+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2017-08-11T13:48:17+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+
+[ 2017-08-11T13:48:32+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-08-11T13:49:44+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-08-11T13:53:05+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-08-11T13:53:06+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-08-11T13:53:22+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2017-08-11T13:54:16+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-08-11T13:54:51+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2017-08-11T14:10:19+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2017-08-11T14:10:56+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-08-11T14:11:01+08:00 ] ::1 /lplive/index.php/Home/Information/saveUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0006s ]
+SQL: UPDATE `think_lp_user` SET `uname`='',`unickname`='1501515783',`uphone`='15502810509',`uemail`='',`ubirthday`='',`usynopsis`='' WHERE `uid` = '保存修改' [ RunTime:0.0002s ]
+
+[ 2017-08-11T14:11:36+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-08-11T14:11:42+08:00 ] ::1 /lplive/index.php/Home/Information/saveUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0008s ]
+ERR: 1292:Incorrect date value: '' for column 'ubirthday' at row 1
+ [ SQL语句 ] : UPDATE `think_lp_user` SET `uname`='',`unickname`='1501515783',`uphone`='15502810509',`uemail`='',`ubirthday`='',`usynopsis`='' WHERE `uid` = '1501515783'
+ERR: 1292:Incorrect date value: '' for column 'ubirthday' at row 1
+ [ SQL语句 ] : UPDATE `think_lp_user` SET `uname`='',`unickname`='1501515783',`uphone`='15502810509',`uemail`='',`ubirthday`='',`usynopsis`='' WHERE `uid` = '1501515783'
+
+[ 2017-08-11T14:13:39+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2017-08-11T14:13:48+08:00 ] ::1 /lplive/index.php/Home/Information/saveUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0009s ]
+ERR: 1292:Incorrect date value: '' for column 'ubirthday' at row 1
+ [ SQL语句 ] : UPDATE `think_lp_user` SET `uname`='柏俊安',`unickname`='1501515783',`uphone`='15502810509',`uemail`='',`ubirthday`='',`usynopsis`='' WHERE `uid` = '1501515783'
+ERR: 1292:Incorrect date value: '' for column 'ubirthday' at row 1
+ [ SQL语句 ] : UPDATE `think_lp_user` SET `uname`='柏俊安',`unickname`='1501515783',`uphone`='15502810509',`uemail`='',`ubirthday`='',`usynopsis`='' WHERE `uid` = '1501515783'
+
+[ 2017-08-11T14:16:51+08:00 ] ::1 /lplive/index.php/Home/Information/saveUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0008s ]
+ERR: 1292:Incorrect date value: '' for column 'ubirthday' at row 1
+ [ SQL语句 ] : UPDATE `think_lp_user` SET `uname`='柏俊安',`unickname`='1501515783',`uphone`='15502810509',`uemail`='',`ubirthday`='',`usynopsis`='' WHERE `uid` = '1501515783'
+ERR: 1292:Incorrect date value: '' for column 'ubirthday' at row 1
+ [ SQL语句 ] : UPDATE `think_lp_user` SET `uname`='柏俊安',`unickname`='1501515783',`uphone`='15502810509',`uemail`='',`ubirthday`='',`usynopsis`='' WHERE `uid` = '1501515783'
+
+[ 2017-08-11T14:16:58+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+
+[ 2017-08-11T14:17:43+08:00 ] ::1 /lplive/index.php/Home/Information/saveUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0007s ]
+ERR: 1292:Incorrect date value: '' for column 'ubirthday' at row 1
+ [ SQL语句 ] : UPDATE `think_lp_user` SET `uname`='柏俊安',`unickname`='1501515783',`uphone`='15502810509',`uemail`='',`ubirthday`='',`usynopsis`='' WHERE `uid` = '1501515783'
+ERR: 1292:Incorrect date value: '' for column 'ubirthday' at row 1
+ [ SQL语句 ] : UPDATE `think_lp_user` SET `uname`='柏俊安',`unickname`='1501515783',`uphone`='15502810509',`uemail`='',`ubirthday`='',`usynopsis`='' WHERE `uid` = '1501515783'
+
+[ 2017-08-11T14:18:44+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-08-11T14:18:49+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-08-11T14:18:50+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-08-11T14:19:04+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-08-11T14:19:05+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-08-11T14:19:05+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-08-11T14:19:34+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-08-11T14:19:35+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+
+[ 2017-08-11T14:20:10+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001176s ]
+
+[ 2017-08-11T14:20:10+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-08-11T14:20:11+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-08-11T14:20:12+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2017-08-11T14:22:01+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2017-08-11T14:22:28+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+
+[ 2017-08-11T14:22:32+08:00 ] ::1 /lplive/index.php/Home/Information/saveUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0007s ]
+ERR: 1292:Incorrect date value: '' for column 'ubirthday' at row 1
+ [ SQL语句 ] : UPDATE `think_lp_user` SET `uname`='',`unickname`='1501515783',`uphone`='15502810509',`uemail`='',`ubirthday`='',`usynopsis`='' WHERE `uid` = '1501515783'
+ERR: 1292:Incorrect date value: '' for column 'ubirthday' at row 1
+ [ SQL语句 ] : UPDATE `think_lp_user` SET `uname`='',`unickname`='1501515783',`uphone`='15502810509',`uemail`='',`ubirthday`='',`usynopsis`='' WHERE `uid` = '1501515783'
+
+[ 2017-08-11T14:23:47+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-08-11T14:23:50+08:00 ] ::1 /lplive/index.php/Home/Index/cancel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+
+[ 2017-08-11T14:23:50+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-08-11T14:23:50+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-08-11T14:23:50+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+
+[ 2017-08-11T14:24:06+08:00 ] ::1 /lplive/index.php/Home/Login/checkCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+
+[ 2017-08-11T14:24:07+08:00 ] ::1 /lplive/index.php/Home/Login/loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wamp64\www\lplive\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `think_lp_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_lp_user` SET `logintime`='2017-08-11 14:24:07' WHERE `uid` = '1501515783' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_lp_user` WHERE `uid` = '1501515783' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-11T14:24:07+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-08-11T14:24:07+08:00 ] ::1 /lplive/index.php/Home/Index/__PUBLIC__/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-08-11T14:24:09+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-08-11T14:24:10+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2017-08-11T14:24:54+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-08-11T14:25:21+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-08-11T14:25:34+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2017-08-11T14:25:51+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001218s ]
+
+[ 2017-08-11T14:25:52+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-08-11T14:25:55+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+
+[ 2017-08-11T14:25:56+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2017-08-11T14:26:23+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+
+[ 2017-08-11T14:26:24+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-08-11T14:27:50+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2017-08-11T14:29:00+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2017-08-11T14:30:48+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2017-08-11T14:31:13+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-08-11T14:31:13+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-08-11T14:32:24+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+
+[ 2017-08-11T14:32:40+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2017-08-11T14:33:04+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+
+[ 2017-08-11T14:33:17+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2017-08-11T14:33:47+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+
+[ 2017-08-11T14:33:48+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-08-11T14:34:30+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-08-11T14:34:42+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2017-08-11T14:35:04+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+
+[ 2017-08-11T14:35:25+08:00 ] ::1 /lplive/index.php/Home/Information/saveUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0008s ]
+SQL: UPDATE `think_lp_user` SET `uname`='柏俊安',`unickname`='1501515783',`uphone`='15502810509',`uemail`='97475720@qq.com',`ubirthday`='1970-01-01',`usynopsis`='测试' WHERE `uid` = '1501515783' [ RunTime:0.0003s ]
+
+[ 2017-08-11T14:35:25+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2017-08-11T14:35:30+08:00 ] ::1 /lplive/index.php/Home/Information/saveUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0005s ]
+SQL: UPDATE `think_lp_user` SET `uname`='柏俊安',`unickname`='1501515783',`uphone`='15502810509',`uemail`='',`ubirthday`='1970-01-01',`usynopsis`='' WHERE `uid` = '1501515783' [ RunTime:0.0003s ]
+
+[ 2017-08-11T14:35:30+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-08-11T14:35:36+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2017-08-11T14:36:33+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-08-11T14:36:46+08:00 ] ::1 /lplive/index.php/Home/Information/saveUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0005s ]
+SQL: UPDATE `think_lp_user` SET `uname`='柏俊安',`unickname`='1501515783',`uphone`='15502810509',`uemail`='97475720@qq.com',`ubirthday`='1970-01-01',`usynopsis`='测试' WHERE `uid` = '1501515783' [ RunTime:0.0003s ]
+
+[ 2017-08-11T14:37:06+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+
+[ 2017-08-11T14:39:45+08:00 ] ::1 /lplive/index.php/Home/Information/saveUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0008s ]
+SQL: UPDATE `think_lp_user` SET `uname`='柏俊安',`unickname`='1501515783',`uphone`='15502810509',`uemail`='1234@qq.com',`ubirthday`='1970-01-01',`usynopsis`='测试' WHERE `uid` = '1501515783' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_lp_user` WHERE `uid` = '1501515783' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-11T14:39:48+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-08-11T14:39:52+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+
+[ 2017-08-11T14:40:21+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+
+[ 2017-08-11T14:41:10+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-08-11T14:41:32+08:00 ] ::1 /lplive/index.php/Home/Information/saveUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0006s ]
+SQL: UPDATE `think_lp_user` SET `uname`='柏俊安',`unickname`='1501515783',`uphone`='15502810509',`uemail`='1234@qq.com',`ubirthday`='1970-01-01',`usynopsis`='再次测试' WHERE `uid` = '1501515783' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_lp_user` WHERE `uid` = '1501515783' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-11T14:41:36+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-08-11T20:00:12+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+
+[ 2017-08-11T20:00:12+08:00 ] ::1 /lplive/index.php/Home/Index/__PUBLIC__/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+
+[ 2017-08-11T20:00:28+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods?name=%E9%B8%A1%E8%9B%8B
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-08-11T20:00:28+08:00 ] ::1 /lplive/index.php/Home/Index/Array
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+ERR: 非法操作:Array
+
+[ 2017-08-11T20:17:55+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods?name=%E9%B8%A1%E8%9B%8B
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-08-11T20:17:55+08:00 ] ::1 /lplive/index.php/Home/Index/Array
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+ERR: 非法操作:Array
+
+[ 2017-08-11T20:18:14+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-08-11T20:18:14+08:00 ] ::1 /lplive/index.php/Home/Index/__PUBLIC__/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+
+[ 2017-08-11T20:33:02+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods?name=%E9%B8%A1%E8%9B%8B
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-08-11T20:33:02+08:00 ] ::1 /lplive/index.php/Home/Index/Array
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: 非法操作:Array
+
+[ 2017-08-11T20:33:05+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods?name=%E9%B8%A1%E8%9B%8B
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-08-11T20:33:05+08:00 ] ::1 /lplive/index.php/Home/Index/Array
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+ERR: 非法操作:Array
+
+[ 2017-08-11T20:33:06+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods?name=%E9%B8%A1%E8%9B%8B
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+
+[ 2017-08-11T20:33:06+08:00 ] ::1 /lplive/index.php/Home/Index/Array
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+ERR: 非法操作:Array
+
+[ 2017-08-11T20:33:13+08:00 ] ::1 /lplive/index.php/Home/Index/goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-08-11T20:44:32+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+
+[ 2017-08-11T20:44:33+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+
+[ 2017-08-11T20:44:43+08:00 ] ::1 /lplive/index.php/Home/Login/checkCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+
+[ 2017-08-11T20:44:44+08:00 ] ::1 /lplive/index.php/Home/Login/loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wamp64\www\lplive\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `think_lp_user` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-11T20:45:20+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-08-11T20:45:20+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+
+[ 2017-08-11T20:45:30+08:00 ] ::1 /lplive/index.php/Home/Login/checkCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001674s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+
+[ 2017-08-11T20:45:32+08:00 ] ::1 /lplive/index.php/Home/Login/loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001657s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wamp64\www\lplive\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `think_lp_user` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-11T20:45:52+08:00 ] ::1 /lplive/index.php/Home/Login/loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wamp64\www\lplive\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `think_lp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `think_lp_user` SET `logintime`='2017-08-11 20:45:52' WHERE `uid` = '1501515783' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_lp_user` WHERE `uid` = '1501515783' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-11T20:45:52+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+
+[ 2017-08-11T20:45:52+08:00 ] ::1 /lplive/index.php/Home/Index/__PUBLIC__/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001669s ]
+
+[ 2017-08-11T20:49:05+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-08-11T20:49:05+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+
+[ 2017-08-11T20:51:04+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-08-11T20:51:04+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-08-11T20:51:06+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-08-11T20:51:51+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+
+[ 2017-08-11T20:51:51+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+
+[ 2017-08-11T20:51:51+08:00 ] ::1 /lplive/index.php/Home/Index/%7B/lplive/Public%7D/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+
+[ 2017-08-11T20:51:52+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2017-08-11T20:51:52+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+
+[ 2017-08-11T20:51:52+08:00 ] ::1 /lplive/index.php/Home/Index/%7B/lplive/Public%7D/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+
+[ 2017-08-11T20:52:24+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+
+[ 2017-08-11T20:52:24+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+
+[ 2017-08-11T20:52:35+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-08-11T20:52:35+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+
+[ 2017-08-11T20:52:36+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2017-08-11T20:52:36+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-08-11T20:52:36+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+
+[ 2017-08-11T20:52:36+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+
+[ 2017-08-11T20:52:36+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+
+[ 2017-08-11T20:52:36+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-08-11T20:57:56+08:00 ] ::1 /lplive/index.php/Home/Index/cancel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+
+[ 2017-08-11T20:57:56+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-08-11T20:57:56+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+
+[ 2017-08-11T20:57:58+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-08-11T20:57:58+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-08-11T20:58:09+08:00 ] ::1 /lplive/index.php/Home/Login/checkCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+
+[ 2017-08-11T20:58:10+08:00 ] ::1 /lplive/index.php/Home/Login/loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wamp64\www\lplive\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `think_lp_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_lp_user` SET `logintime`='2017-08-11 20:58:10' WHERE `uid` = '1501515783' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_lp_user` WHERE `uid` = '1501515783' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-11T20:58:11+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-08-11T20:58:11+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-08-11T20:58:14+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+
+[ 2017-08-11T20:58:19+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-08-11T20:58:19+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-08-11T20:58:20+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+
+[ 2017-08-11T20:58:22+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-08-11T20:58:25+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-08-11T20:58:26+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-08-11T20:58:40+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2017-08-11T20:59:28+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-08-11T21:00:56+08:00 ] ::1 /lplive/index.php/Home/Index/cancel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+
+[ 2017-08-11T21:00:56+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-08-11T21:00:56+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-08-11T21:00:56+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+
+[ 2017-08-11T21:01:21+08:00 ] ::1 /lplive/index.php/Home/Login/checkCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+
+[ 2017-08-11T21:01:25+08:00 ] ::1 /lplive/index.php/Home/Login/loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wamp64\www\lplive\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `think_lp_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_lp_user` SET `logintime`='2017-08-11 21:01:25' WHERE `uid` = '1501515783' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_lp_user` WHERE `uid` = '1501515783' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() H:\wamp64\www\lplive\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-08-11T21:01:25+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-08-11T21:01:25+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+
+[ 2017-08-11T21:01:31+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-08-11T21:01:31+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+
+[ 2017-08-11T21:01:42+08:00 ] ::1 /lplive/index.php/Home/Login/checkCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+
+[ 2017-08-11T21:02:01+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001513s ]
+
+[ 2017-08-11T21:02:01+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+
+[ 2017-08-11T21:02:02+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-08-11T21:02:02+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2017-08-11T21:02:02+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+
+[ 2017-08-11T21:02:02+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+
+[ 2017-08-11T21:02:03+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2017-08-11T21:02:03+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001261s ]
+
+[ 2017-08-11T21:02:04+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-08-11T21:02:04+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+
+[ 2017-08-11T21:02:05+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-08-11T21:02:05+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-08-11T21:02:05+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-08-11T21:02:05+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-08-11T21:02:05+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-08-11T21:02:05+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-08-11T21:02:05+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-08-11T21:02:05+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+
+[ 2017-08-11T21:02:05+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-08-11T21:02:06+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000459s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003342s ]
+
+[ 2017-08-11T21:02:06+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-08-11T21:02:06+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001222s ]
+
+[ 2017-08-11T21:02:06+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-08-11T21:02:06+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2017-08-11T21:02:07+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-08-11T21:02:07+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-08-11T21:02:20+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+
+[ 2017-08-11T21:02:20+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2017-08-11T21:02:21+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2017-08-11T21:02:21+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-08-11T21:02:21+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2017-08-11T21:02:21+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-08-11T21:02:22+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+
+[ 2017-08-11T21:02:22+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+
+[ 2017-08-11T21:02:22+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+
+[ 2017-08-11T21:02:22+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+
+[ 2017-08-11T21:02:39+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-08-11T21:02:39+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+
+[ 2017-08-11T21:02:43+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-08-11T21:02:43+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+
+[ 2017-08-11T21:03:02+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-08-11T21:03:02+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+
+[ 2017-08-11T21:03:03+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2017-08-11T21:03:03+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+
+[ 2017-08-11T21:03:03+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+
+[ 2017-08-11T21:03:03+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+
+[ 2017-08-11T21:03:03+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+
+[ 2017-08-11T21:03:03+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-08-11T21:03:25+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-08-11T21:03:25+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-08-11T21:03:26+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+
+[ 2017-08-11T21:03:45+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-08-11T21:04:05+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-08-11T21:04:05+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-08-11T21:04:13+08:00 ] ::1 /lplive/index.php/Home/Login/checkCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+
+[ 2017-08-11T21:04:15+08:00 ] ::1 /lplive/index.php/Home/Login/loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wamp64\www\lplive\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `think_lp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `think_lp_user` SET `logintime`='2017-08-11 21:04:15' WHERE `uid` = '1501515783' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_lp_user` WHERE `uid` = '1501515783' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() H:\wamp64\www\lplive\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-08-11T21:04:15+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-08-11T21:04:15+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-08-11T21:04:27+08:00 ] ::1 /lplive/index.php/Home/Information/saveInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-08-11T21:04:53+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+
+[ 2017-08-11T21:04:53+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+
+[ 2017-08-11T21:05:05+08:00 ] ::1 /lplive/index.php/Home/Login/checkCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+
+[ 2017-08-11T21:05:10+08:00 ] ::1 /lplive/index.php/Home/Login/checkCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+
+[ 2017-08-11T21:05:17+08:00 ] ::1 /lplive/index.php/Home/Login/loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wamp64\www\lplive\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `think_lp_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `think_lp_user` SET `logintime`='2017-08-11 21:05:17' WHERE `uid` = '1501515783' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_lp_user` WHERE `uid` = '1501515783' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-11T21:05:17+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-08-11T21:05:17+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+
+[ 2017-08-11T21:05:19+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-08-11T21:07:46+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+
+[ 2017-08-11T21:07:48+08:00 ] ::1 /lplive/index.php/Home/Index/cancel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+
+[ 2017-08-11T21:07:48+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2017-08-11T21:07:50+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2017-08-11T21:07:50+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+
+[ 2017-08-11T21:07:59+08:00 ] ::1 /lplive/index.php/Home/Login/checkCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+
+[ 2017-08-11T21:08:01+08:00 ] ::1 /lplive/index.php/Home/Login/checkCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+
+[ 2017-08-11T21:08:02+08:00 ] ::1 /lplive/index.php/Home/Login/checkCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+
+[ 2017-08-11T21:08:03+08:00 ] ::1 /lplive/index.php/Home/Login/loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `think_lp_user` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wamp64\www\lplive\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `think_lp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `think_lp_user` SET `logintime`='2017-08-11 21:08:03' WHERE `uid` = '1501515783' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_lp_user` WHERE `uid` = '1501515783' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] A session had already been started - ignoring session_start() H:\wamp64\www\lplive\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2017-08-11T21:08:03+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+
+[ 2017-08-11T21:08:04+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-08-11T21:08:08+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-08-11T21:08:12+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-08-11T21:08:13+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+
+[ 2017-08-11T21:08:14+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-08-11T21:08:14+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-08-11T21:08:15+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+
+[ 2017-08-11T21:08:15+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2017-08-11T21:08:16+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2017-08-11T21:08:16+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+
+[ 2017-08-11T21:08:17+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-08-11T21:08:18+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-08-11T21:08:18+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-08-11T21:08:19+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-08-11T21:08:19+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-08-11T21:08:19+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2017-08-11T21:08:20+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2017-08-11T21:08:20+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+
+[ 2017-08-11T21:08:20+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+
+[ 2017-08-11T21:08:21+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-08-11T21:08:21+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+
+[ 2017-08-11T21:08:21+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-08-11T21:08:22+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000208s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002072s ]
+
+[ 2017-08-11T21:08:22+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-08-11T21:08:22+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-08-11T21:08:23+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+
+[ 2017-08-11T21:08:23+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+
+[ 2017-08-11T21:08:24+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-08-11T21:08:24+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+
+[ 2017-08-11T21:08:24+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-08-11T21:08:25+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-08-11T21:08:25+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+
+[ 2017-08-11T21:08:25+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+
+[ 2017-08-11T21:08:26+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-08-11T21:08:26+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2017-08-11T21:08:26+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+
+[ 2017-08-11T21:08:27+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+
+[ 2017-08-11T21:08:27+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+
+[ 2017-08-11T21:08:28+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+
+[ 2017-08-11T21:08:28+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+
+[ 2017-08-11T21:08:28+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+
+[ 2017-08-11T21:08:29+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-08-11T21:08:29+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-08-11T21:08:29+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+
+[ 2017-08-11T21:08:30+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+
+[ 2017-08-11T21:08:30+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-08-11T21:08:31+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+
+[ 2017-08-11T21:08:31+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-08-11T21:08:31+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2017-08-11T21:08:33+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2017-08-11T21:08:34+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-08-11T21:08:34+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-08-11T21:08:35+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-08-11T21:08:35+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+
+[ 2017-08-11T21:08:35+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-08-11T21:08:36+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+
+[ 2017-08-11T21:08:36+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-08-11T21:08:36+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-08-11T21:08:37+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+
+[ 2017-08-11T21:08:37+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-08-11T21:08:37+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-08-11T21:09:16+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-08-11T21:09:17+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-08-11T21:09:18+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-08-11T21:09:18+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-08-11T21:09:18+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-08-11T21:09:19+08:00 ] ::1 /lplive/index.php/Home/Information/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-08-11T21:44:34+08:00 ] ::1 /lplive/index.php/Home/Index/goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+
+[ 2017-08-11T21:44:42+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-08-11T21:44:42+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-08-11T21:44:48+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods?name=%E9%B8%A1%E8%9B%8B
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+
+[ 2017-08-11T21:44:49+08:00 ] ::1 /lplive/index.php/Home/Index/Array
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+ERR: 非法操作:Array
+
+[ 2017-08-11T21:45:06+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-08-11T21:45:07+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-08-11T21:45:47+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-08-11T21:45:47+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+
+[ 2017-08-11T21:45:50+08:00 ] ::1 /lplive/index.php/Home/Index/Goods?id=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2017-08-11T21:45:50+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+
+[ 2017-08-11T21:45:50+08:00 ] ::1 /lplive/index.php/Home/Index/jsgjalgas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+ERR: 非法操作:jsgjalgas
+
+[ 2017-08-11T21:45:50+08:00 ] ::1 /lplive/index.php/Home/Index/ajsgjaskgd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+ERR: 非法操作:ajsgjaskgd
+
+[ 2017-08-11T21:45:50+08:00 ] ::1 /lplive/index.php/Home/Index/sajgakgjdas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+ERR: 非法操作:sajgakgjdas
+

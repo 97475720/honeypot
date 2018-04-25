@@ -1,0 +1,12 @@
+<div class="pop_up">
+				<h3>所有分组：</h3>
+				<div class="all_group_list">
+					<volist name='map' id='vo'>
+						<span class="group_name {$vo.css_style}" group_id="{$vo.id}">{$vo.title_name}</span>
+					</volist>
+					
+				</div>
+				<div class="operate_bar">
+					<span class="save_operate" admin_id="{$admin_id}">保存</span><span class="exit_operate">退出</span>
+				</div>
+</div>

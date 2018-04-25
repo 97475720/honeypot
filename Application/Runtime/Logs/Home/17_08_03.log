@@ -1,0 +1,66 @@
+[ 2017-08-03T15:50:12+08:00 ] ::1 /lplive/index.php/Home/Index/information
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+ERR: 非法操作:information
+
+[ 2017-08-03T15:50:24+08:00 ] ::1 /lplive/index.php/Home/Index/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2017-08-03T15:54:42+08:00 ] ::1 /lplive/index.php/Home/Index/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-08-03T15:54:44+08:00 ] ::1 /lplive/index.php/Home/Index/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+
+[ 2017-08-03T15:54:55+08:00 ] ::1 /lplive/index.php/Home/Index/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+
+[ 2017-08-03T15:55:08+08:00 ] ::1 /lplive/index.php/Home/Index/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-08-03T16:00:49+08:00 ] ::1 /lplive/index.php/Home/Index/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001054s ]
+
+[ 2017-08-03T16:02:57+08:00 ] ::1 /lplive/index.php/Home/Index/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-08-03T16:06:39+08:00 ] ::1 /lplive/index.php/Home/Index/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+
+[ 2017-08-03T16:07:18+08:00 ] ::1 /lplive/index.php/Home/Index/userInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-08-03T19:52:24+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-08-03T19:52:28+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2017-08-03T20:02:24+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+

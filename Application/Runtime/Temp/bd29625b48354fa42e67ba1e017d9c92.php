@@ -1,0 +1,3 @@
+<?php
+//000000000006a:1:{i:0;a:10:{s:2:"id";s:10:"1503572345";s:10:"goods_name";s:24:"西部山区散养鸡蛋";s:9:"goods_img";s:99:"http://localhost/lplive/Uploads/599eb1727f721.jpg,http://localhost/lplive/Uploads/599eb17280bc8.jpg";s:10:"cost_price";s:3:"159";s:13:"current_price";s:2:"89";s:11:"goods_class";s:25:"热门推荐,精选礼品";s:14:"goods_synopsis";s:199:"http://localhost/lplive/Uploads/599eb176a54d6.jpg,http://localhost/lplive/Uploads/599eb176a6290.jpg,http://localhost/lplive/Uploads/599eb176a74fa.jpg,http://localhost/lplive/Uploads/599eb176b089a.jpg";s:14:"goods_standard";s:17:"30枚=89,50枚=99";s:9:"date_save";s:19:"2017-08-24 18:59:05";s:12:"goods_status";s:1:"1";}}
+?>

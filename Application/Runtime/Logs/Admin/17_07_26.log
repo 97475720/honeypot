@@ -1,0 +1,2344 @@
+[ 2017-07-26T13:10:30+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+
+[ 2017-07-26T14:13:37+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+
+[ 2017-07-26T14:13:37+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+
+[ 2017-07-26T14:13:38+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-07-26T14:13:38+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+
+[ 2017-07-26T14:13:38+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-07-26T14:13:38+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2017-07-26T14:14:04+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-07-26T14:14:05+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+
+[ 2017-07-26T14:14:19+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-07-26T14:14:20+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-07-26T14:14:57+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-07-26T14:14:58+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-07-26T14:15:18+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-07-26T14:16:25+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+
+[ 2017-07-26T14:16:56+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-07-26T14:17:07+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-07-26T14:17:10+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-07-26T14:17:13+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-07-26T14:17:14+08:00 ] ::1 /lplive/index.php/Admin/Admin/group_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+
+[ 2017-07-26T14:17:15+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2017-07-26T14:17:16+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-07-26T14:31:25+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-07-26T15:02:53+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-07-26T15:02:55+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-07-26T15:03:03+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+
+[ 2017-07-26T15:03:10+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+
+[ 2017-07-26T15:06:22+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+
+[ 2017-07-26T15:06:27+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+
+[ 2017-07-26T15:06:31+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+
+[ 2017-07-26T15:06:54+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-07-26T15:06:55+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-07-26T15:10:10+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+
+[ 2017-07-26T15:10:12+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-07-26T15:11:06+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-07-26T15:11:18+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+
+[ 2017-07-26T15:11:22+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+
+[ 2017-07-26T15:15:12+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-07-26T15:15:14+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+
+[ 2017-07-26T15:15:15+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-07-26T15:15:15+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-07-26T15:15:15+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+
+[ 2017-07-26T15:15:15+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-07-26T15:15:21+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+
+[ 2017-07-26T15:15:26+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+
+[ 2017-07-26T15:15:28+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+
+[ 2017-07-26T15:15:36+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+
+[ 2017-07-26T15:15:47+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+
+[ 2017-07-26T15:15:47+08:00 ] ::1 /lplive/index.php/Admin/Admin/createRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+
+[ 2017-07-26T15:15:50+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+
+[ 2017-07-26T15:15:55+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+
+[ 2017-07-26T15:15:58+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-07-26T15:16:08+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-07-26T15:16:11+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+
+[ 2017-07-26T15:16:16+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+
+[ 2017-07-26T15:16:25+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+
+[ 2017-07-26T15:16:35+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+
+[ 2017-07-26T15:16:35+08:00 ] ::1 /lplive/index.php/Admin/Admin/createRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+
+[ 2017-07-26T15:16:37+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+
+[ 2017-07-26T15:17:10+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-07-26T15:17:15+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-07-26T15:17:26+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_auth_rule` WHERE `title` = 'Admin/Admin/group_list' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-07-26T15:17:32+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_auth_rule` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-26T15:19:05+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_auth_rule` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-26T15:20:24+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_auth_rule` WHERE `title` = 'Admin/Admin/group_list' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-07-26T15:20:24+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_auth_rule` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-26T15:20:39+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_auth_rule` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-26T15:20:44+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004642s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_auth_rule` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-26T15:22:05+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_auth_rule` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-26T15:22:15+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+
+[ 2017-07-26T15:22:17+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-07-26T15:22:18+08:00 ] ::1 /lplive/index.php/Admin/Admin/group_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+
+[ 2017-07-26T15:22:19+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2017-07-26T15:22:23+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-07-26T15:22:28+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-07-26T15:22:41+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_auth_rule` WHERE `title` = 'Admin/Admin/group_list' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-07-26T15:22:49+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-07-26T15:22:49+08:00 ] ::1 /lplive/index.php/Admin/Admin/createRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_auth_rule` WHERE `title` = 'Admin/Admin/group_list' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_auth_rule` (`controller`,`controller_name`,`title`,`name`,`status`,`id`) VALUES ('Admin','后台管理','Admin/Admin/group_list','查看分组列表','1','GZ1501053769') [ RunTime:0.0016s ]
+
+[ 2017-07-26T15:22:51+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+
+[ 2017-07-26T15:23:39+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-07-26T15:23:48+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-07-26T15:23:50+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-07-26T15:24:08+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_auth_rule` WHERE `title` = 'Admin/Edit/' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-07-26T15:24:11+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_auth_rule` WHERE `title` = 'Admin/Edit/' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-07-26T15:24:39+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_auth_rule` WHERE `title` = 'Admin/Edit/goods_list' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-07-26T15:24:47+08:00 ] ::1 /lplive/index.php/Admin/Admin/checkRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-07-26T15:24:47+08:00 ] ::1 /lplive/index.php/Admin/Admin/createRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_auth_rule` WHERE `title` = 'Admin/Edit/goods_list' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_auth_rule` (`controller`,`controller_name`,`title`,`name`,`status`,`id`) VALUES ('Edit','后台编辑','Admin/Edit/goods_list','查看商品列表','1','GZ1501053887') [ RunTime:0.0003s ]
+
+[ 2017-07-26T15:24:48+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+
+[ 2017-07-26T15:24:50+08:00 ] ::1 /lplive/index.php/Admin/Admin/group_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-07-26T15:24:51+08:00 ] ::1 /lplive/index.php/Admin/Admin/readAllRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_auth_group` WHERE `id` = '123' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: rule H:\wamp64\www\lplive\Application\Admin\Controller\AdminController.class.php 第 273 行.
+SQL: SELECT * FROM `think_auth_rule`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+
+[ 2017-07-26T15:25:56+08:00 ] ::1 /lplive/index.php/Admin/Admin/group_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2017-07-26T15:25:57+08:00 ] ::1 /lplive/index.php/Admin/Admin/readAllRule.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002081s ]
+SQL: SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_auth_group` WHERE `id` = '123' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: rule H:\wamp64\www\lplive\Application\Admin\Controller\AdminController.class.php 第 273 行.
+SQL: SELECT * FROM `think_auth_rule`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+
+[ 2017-07-26T15:26:07+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-07-26T15:26:08+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+
+[ 2017-07-26T15:34:38+08:00 ] ::1 /lplive/index.php/Admin/Admin/group_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+
+[ 2017-07-26T15:36:13+08:00 ] ::1 /lplive/index.php/Admin/Admin/group_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-07-26T15:37:14+08:00 ] ::1 /lplive/index.php/Admin/Admin/group_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-07-26T15:38:16+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-07-26T15:41:02+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-07-26T16:13:03+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-07-26T16:14:22+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-07-26T16:15:58+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-07-26T16:15:59+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+
+[ 2017-07-26T16:16:00+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+
+[ 2017-07-26T16:16:01+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-07-26T16:18:50+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+
+[ 2017-07-26T16:18:59+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = '柏俊安' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:19:02+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '18011111111' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:19:08+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '123512@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:19:11+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:20:46+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = '柏俊安' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '18011111111' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '123512@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+SQL: INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('柏俊安','18011111111','123512@qq.com','123456','1','LP1501057246') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = '柏俊安' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-26T16:20:47+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-07-26T16:21:31+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = '杨宏伟' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:21:34+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-07-26T16:21:38+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '13544444444' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:21:45+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '19876612@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:21:48+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:21:52+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = '杨宏伟' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '13544444444' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '19876612@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+SQL: INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('杨宏伟','13544444444','19876612@qq.com','123456','1','LP1501057312') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = '杨宏伟' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-26T16:21:53+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-07-26T16:22:16+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'dsagaskjgkasgjkl' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:22:21+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '15599999999' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:22:33+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '198@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:22:35+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:22:47+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'dsagaskjgkasgjkl' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '15599999999' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '198@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+SQL: INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('dsagaskjgkasgjkl','15599999999','198@qq.com','123456','1','LP1501057367') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'dsagaskjgkasgjkl' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-26T16:22:50+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+
+[ 2017-07-26T16:23:20+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = '123467521312' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:23:26+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '13711111111' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:23:29+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '198973@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:23:34+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:23:38+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = '123467521312' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '13711111111' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '198973@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+SQL: INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('123467521312','13711111111','198973@qq.com','123456','1','LP1501057418') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = '123467521312' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-26T16:23:54+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-07-26T16:23:55+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-07-26T16:24:44+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+
+[ 2017-07-26T16:24:46+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'kasjkasjgkasjl' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:24:52+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '13711111111' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-26T16:24:55+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '13711111112' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:25:01+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '1217815738@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:25:03+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:25:08+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'kasjkasjgkasjl' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '13711111112' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '1217815738@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+SQL: INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('kasjkasjgkasjl','13711111112','1217815738@qq.com','123456','1','LP1501057508') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'kasjkasjgkasjl' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-26T16:26:50+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-07-26T16:26:52+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'dagksdajgksakjsl' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:26:57+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '15599911111' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:27:03+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '1997387@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:27:07+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+
+[ 2017-07-26T16:27:16+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'dagksdajgksakjsl' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '15599911111' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '1997387@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'dagksdajgksakjsl' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '15599911111' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '1997387@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 93 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 95 行.
+SQL: INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('dagksdajgksakjsl','15599911111','1997387@qq.com','123456','1','LP1501057636') [ RunTime:0.0003s ]
+
+[ 2017-07-26T16:43:44+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'sajkgakgakl' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:43:51+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '15598765688' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:43:52+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '1997387@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-26T16:44:05+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '987677655@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:44:06+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:44:07+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'sajkgakgakl' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '15598765688' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '987677655@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+NOTIC: [8] Undefined variable: AdminUser H:\wamp64\www\lplive\Application\Admin\Controller\AdminController.class.php 第 71 行.
+SQL: INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('sajkgakgakl','15598765688','987677655@qq.com','123456','1','LP1501058647') [ RunTime:0.0003s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123',NULL)
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123',NULL)
+
+[ 2017-07-26T16:44:09+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'sajkgakgakl' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: AdminUser H:\wamp64\www\lplive\Application\Admin\Controller\AdminController.class.php 第 71 行.
+
+[ 2017-07-26T16:45:07+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'sajkgakgakl123141' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:45:10+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '15598765687' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:45:12+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '9876776551@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:45:12+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'sajkgakgakl123141' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '15598765687' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '9876776551@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+NOTIC: [8] Undefined variable: AdminUser H:\wamp64\www\lplive\Application\Admin\Controller\AdminController.class.php 第 71 行.
+ERR: 1406:Data too long for column 'uname' at row 1
+ [ SQL语句 ] : INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('sajkgakgakl123141','15598765687','9876776551@qq.com','123456','1','LP1501058712')
+ERR: 1406:Data too long for column 'uname' at row 1
+ [ SQL语句 ] : INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('sajkgakgakl123141','15598765687','9876776551@qq.com','123456','1','LP1501058712')
+
+[ 2017-07-26T16:45:22+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+
+[ 2017-07-26T16:45:43+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-07-26T16:45:45+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-07-26T16:45:49+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'jdskljadskgakdsjgkl123' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:45:55+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '13609808907' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:46:04+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '12344444444444@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:46:10+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:46:15+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'jdskljadskgakdsjgkl123' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '13609808907' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '12344444444444@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+NOTIC: [8] Undefined variable: AdminUser H:\wamp64\www\lplive\Application\Admin\Controller\AdminController.class.php 第 71 行.
+ERR: 1406:Data too long for column 'uname' at row 1
+ [ SQL语句 ] : INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('jdskljadskgakdsjgkl123','13609808907','12344444444444@qq.com','123456','1','LP1501058775')
+ERR: 1406:Data too long for column 'uname' at row 1
+ [ SQL语句 ] : INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('jdskljadskgakdsjgkl123','13609808907','12344444444444@qq.com','123456','1','LP1501058775')
+
+[ 2017-07-26T16:48:17+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'jdskljadskgakdsjgkl123' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '13609808907' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '12344444444444@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+NOTIC: [8] Undefined variable: AdminUser H:\wamp64\www\lplive\Application\Admin\Controller\AdminController.class.php 第 71 行.
+SQL: INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('jdskljadskgakdsjgkl123','13609808907','12344444444444@qq.com','123456','1','LP1501058897') [ RunTime:0.0003s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123',NULL)
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123',NULL)
+
+[ 2017-07-26T16:48:18+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'jdskljadskgakdsjgkl123' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: AdminUser H:\wamp64\www\lplive\Application\Admin\Controller\AdminController.class.php 第 71 行.
+
+[ 2017-07-26T16:49:06+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+
+[ 2017-07-26T16:49:18+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'jdskljadskgakdsjgkl12' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:49:20+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '13609808906' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:49:22+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '1234444444444@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:49:22+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'jdskljadskgakdsjgkl12' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '13609808906' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '1234444444444@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+NOTIC: [8] Undefined variable: AdminUser H:\wamp64\www\lplive\Application\Admin\Controller\AdminController.class.php 第 71 行.
+SQL: INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('jdskljadskgakdsjgkl12','13609808906','1234444444444@qq.com','123456','1','LP1501058962') [ RunTime:0.0003s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123',NULL)
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123',NULL)
+
+[ 2017-07-26T16:50:08+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'jdskljadskgakd' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:50:10+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '13609808956' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:50:12+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '12344444444@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:50:12+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'jdskljadskgakd' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '13609808956' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '12344444444@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+SQL: INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('jdskljadskgakd','13609808956','12344444444@qq.com','123456','1','LP1501059012') [ RunTime:0.0003s ]
+SQL: INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123','LP1501059012') [ RunTime:0.0302s ]
+
+[ 2017-07-26T16:50:13+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+
+[ 2017-07-26T16:53:26+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'gsklgajklgjakljak' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:53:30+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '18378478437' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:53:35+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '89789789@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:53:38+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:53:43+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'gsklgajklgjakljak' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '18378478437' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '89789789@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+NOTIC: [8] Undefined variable: dminUser H:\wamp64\www\lplive\Application\Admin\Controller\AdminController.class.php 第 71 行.
+SQL: INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('gsklgajklgjakljak','18378478437','89789789@qq.com','123456','1','LP1501059223') [ RunTime:0.0002s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123',NULL)
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123',NULL)
+
+[ 2017-07-26T16:57:33+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'gsklgajklgjakljak1' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:57:36+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '18378478435' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:57:38+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '897897189@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:57:38+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'gsklgajklgjakljak1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '18378478435' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '897897189@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+SQL: INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('gsklgajklgjakljak1','18378478435','897897189@qq.com','123456','1','LP1501059458') [ RunTime:0.0003s ]
+SQL: INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123','LP1501059458') [ RunTime:0.0002s ]
+
+[ 2017-07-26T16:57:40+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+
+[ 2017-07-26T16:57:52+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'sjagkasjkgsja' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:57:57+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '18999890809' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:58:01+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '17879@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:58:06+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:58:09+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'sjagkasjkgsja' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '18999890809' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '17879@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+NOTIC: [8] Undefined variable: dminUser H:\wamp64\www\lplive\Application\Admin\Controller\AdminController.class.php 第 71 行.
+SQL: INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('sjagkasjkgsja','18999890809','17879@qq.com','123456','1','LP1501059489') [ RunTime:0.0003s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123',NULL)
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123',NULL)
+
+[ 2017-07-26T16:58:10+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'sjagkasjkgsja' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: dminUser H:\wamp64\www\lplive\Application\Admin\Controller\AdminController.class.php 第 71 行.
+
+[ 2017-07-26T16:59:54+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'sjagkasjkgsja121' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:59:57+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '18999896809' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:59:58+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '178791231@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T16:59:59+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'sjagkasjkgsja121' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '18999896809' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '178791231@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+NOTIC: [8] Undefined variable: dminUser H:\wamp64\www\lplive\Application\Admin\Controller\AdminController.class.php 第 71 行.
+SQL: INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('sjagkasjkgsja121','18999896809','178791231@qq.com','123456','1','LP1501059599') [ RunTime:0.0002s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123',NULL)
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123',NULL)
+
+[ 2017-07-26T17:02:19+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'sjagkasjkgs' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T17:02:21+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '18999596809' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T17:02:23+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '1787912121231@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T17:02:23+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'sjagkasjkgs' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '18999596809' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '1787912121231@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+NOTIC: [8] Undefined variable: dminUser H:\wamp64\www\lplive\Application\Admin\Controller\AdminController.class.php 第 71 行.
+SQL: INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('sjagkasjkgs','18999596809','1787912121231@qq.com','123456','1','LP1501059743') [ RunTime:0.0002s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123',NULL)
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123',NULL)
+
+[ 2017-07-26T17:02:38+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'sjagkasjks' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T17:02:40+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '18949596809' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T17:02:42+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '17879121231@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T17:02:42+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'sjagkasjks' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '18949596809' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '17879121231@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+NOTIC: [8] Undefined variable: dminUser H:\wamp64\www\lplive\Application\Admin\Controller\AdminController.class.php 第 71 行.
+SQL: INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('sjagkasjks','18949596809','17879121231@qq.com','123456','1','LP1501059762') [ RunTime:0.0002s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123',NULL)
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123',NULL)
+
+[ 2017-07-26T17:04:28+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'sjagkajks' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T17:04:30+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '18945696809' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T17:04:32+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '17121231@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T17:04:32+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'sjagkajks' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '18945696809' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '17121231@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+NOTIC: [8] Undefined variable: dminUser H:\wamp64\www\lplive\Application\Admin\Controller\AdminController.class.php 第 71 行.
+SQL: INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('sjagkajks','18945696809','17121231@qq.com','123456','1','LP1501059872') [ RunTime:0.0003s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123',NULL)
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123',NULL)
+
+[ 2017-07-26T17:18:49+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'sjagkajks124142' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T17:18:52+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '18945696909' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T17:18:54+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '17121241411231@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+
+[ 2017-07-26T17:18:54+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_admin_user` WHERE `uname` = 'sjagkajks124142' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '18945696909' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uemail` = '17121241411231@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\AdminuserModel::jmpwd() H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 94 行.
+NOTIC: [8] Undefined variable: val H:\wamp64\www\lplive\Application\Admin\Model\AdminuserModel.class.php 第 96 行.
+NOTIC: [8] Undefined variable: dminUser H:\wamp64\www\lplive\Application\Admin\Controller\AdminController.class.php 第 71 行.
+SQL: INSERT INTO `think_admin_user` (`uname`,`uphone`,`uemail`,`upwd`,`ustatus`,`uid`) VALUES ('sjagkajks124142','18945696909','17121241411231@qq.com','123456','1','LP1501060734') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123',NULL)
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_auth_group_access` (`group_id`,`uid`) VALUES ('123',NULL)
+
+[ 2017-07-26T17:22:18+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+
+[ 2017-07-26T17:22:18+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-07-26T17:22:19+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2017-07-26T17:22:21+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin_list/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-07-26T17:22:23+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin_list/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+
+[ 2017-07-26T17:22:37+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin_list/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-07-26T17:22:39+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin_list/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+
+[ 2017-07-26T17:28:53+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+
+[ 2017-07-26T17:28:53+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-07-26T17:28:54+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-07-26T17:28:55+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-07-26T17:28:55+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+
+[ 2017-07-26T17:28:55+08:00 ] ::1 /lplive/index.php/Admin/Admin/group_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+
+[ 2017-07-26T17:28:56+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+
+[ 2017-07-26T17:28:56+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+
+[ 2017-07-26T17:28:56+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2017-07-26T17:28:57+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+

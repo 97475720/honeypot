@@ -1,0 +1,141 @@
+[ 2017-08-27T15:45:16+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-08-27T15:45:16+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+
+[ 2017-08-27T15:45:25+08:00 ] ::1 /lplive/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0369s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '15511111111' OR `uemail` = '15511111111' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 1 H:\wamp64\www\lplive\Application\Admin\Controller\LoginController.class.php 第 18 行.
+
+[ 2017-08-27T15:45:34+08:00 ] ::1 /lplive/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '15511111111' OR `uemail` = '15511111111' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 H:\wamp64\www\lplive\Application\Admin\Controller\LoginController.class.php 第 18 行.
+SQL: UPDATE `think_admin_user` SET `ulogin_date`='2017-08-27 15:45:34' WHERE `uphone` = '15511111111' OR `uemail` = '15511111111' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_admin_user` INNER JOIN think_auth_group_access on think_admin_user.uid = think_auth_group_access.uid INNER JOIN think_auth_group on think_auth_group.id = think_auth_group_access.group_id  WHERE think_admin_user.uid = 'LP1502695634'  [ RunTime:0.0857s ]
+
+[ 2017-08-27T15:45:34+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2017-08-27T15:45:36+08:00 ] ::1 /lplive/index.php/Admin/Admin/grounding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-08-27T15:47:25+08:00 ] ::1 /lplive/index.php/Admin/Goods/goodsImgUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given H:\wamp64\www\lplive\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given H:\wamp64\www\lplive\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-08-27T15:47:31+08:00 ] ::1 /lplive/index.php/Admin/Goods/goodsImgUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given H:\wamp64\www\lplive\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given H:\wamp64\www\lplive\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-08-27T15:48:13+08:00 ] ::1 /lplive/index.php/Admin/Admin/grounding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+
+[ 2017-08-27T15:48:23+08:00 ] ::1 /lplive/index.php/Admin/Admin/grounding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-08-27T15:51:16+08:00 ] ::1 /lplive/index.php/Admin/Goods/goodsImgUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given H:\wamp64\www\lplive\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-08-27T15:51:18+08:00 ] ::1 /lplive/index.php/Admin/Goods/deleteFile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+
+[ 2017-08-27T15:51:30+08:00 ] ::1 /lplive/index.php/Admin/Goods/goodsImgUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given H:\wamp64\www\lplive\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given H:\wamp64\www\lplive\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-08-27T15:51:30+08:00 ] ::1 /lplive/index.php/Admin/Goods/goodsImgUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given H:\wamp64\www\lplive\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given H:\wamp64\www\lplive\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-08-27T15:51:34+08:00 ] ::1 /lplive/index.php/Admin/Goods/goodsImgUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given H:\wamp64\www\lplive\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given H:\wamp64\www\lplive\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-08-27T15:51:35+08:00 ] ::1 /lplive/index.php/Admin/Goods/addGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `think_lp_goods` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_lp_goods` WHERE `goods_name` = '达州灯影牛肉' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto H:\wamp64\www\lplive\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `think_lp_goods` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_lp_goods` WHERE `id` = '33166252101150382029536350708' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `think_lp_goods` (`goods_name`,`current_price`,`goods_class`,`cost_price`,`goods_standard`,`goods_img`,`goods_synopsis`,`id`,`date_save`) VALUES ('达州灯影牛肉','49','进口优选','68','0.5斤/罐=49,1斤/罐=89','http://localhost/lplive/Uploads/59a27a02db0ba.jpg,http://localhost/lplive/Uploads/59a27a02dc0d2.jpg','http://localhost/lplive/Uploads/59a27a06471e0.jpg,http://localhost/lplive/Uploads/59a27a06481af.jpg','33166252101150382029536350708','2017-08-27 15:51:35') [ RunTime:0.0003s ]
+
+[ 2017-08-27T15:51:35+08:00 ] ::1 /lplive/index.php/Admin/Admin/grounding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+

@@ -1,0 +1,252 @@
+[ 2017-08-13T19:39:44+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+
+[ 2017-08-13T19:39:45+08:00 ] ::1 /lplive/index.php/Home/Index/IMG/hot_picture.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001372s ]
+
+[ 2017-08-13T19:39:47+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2017-08-13T19:39:48+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-08-13T19:39:49+08:00 ] ::1 /lplive/Index.php/Home/Veiry/veiry?1502624389130
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+ERR: 无法加载控制器:Veiry
+
+[ 2017-08-13T19:39:50+08:00 ] ::1 /lplive/Index.php/Home/Veiry/veiry?1502624390092
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+ERR: 无法加载控制器:Veiry
+
+[ 2017-08-13T19:40:46+08:00 ] ::1 /lplive/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+
+[ 2017-08-13T19:40:46+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2017-08-13T19:40:47+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624447343
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-08-13T19:40:47+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624447821
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2017-08-13T19:40:48+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624448026
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2017-08-13T19:40:48+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624448210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+
+[ 2017-08-13T19:40:48+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624448390
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2017-08-13T19:40:48+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624448558
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-08-13T19:40:48+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624448727
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-08-13T19:40:48+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624448893
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-08-13T19:40:49+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624449057
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-08-13T19:40:49+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624449205
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-08-13T19:40:49+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624449362
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2017-08-13T19:40:49+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624449522
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-08-13T19:40:49+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624449700
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-08-13T19:40:49+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624449876
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-08-13T19:40:50+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624450058
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-08-13T19:40:50+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624450247
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+
+[ 2017-08-13T19:40:50+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624450421
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+
+[ 2017-08-13T19:40:50+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624450583
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-08-13T19:40:50+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624450758
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2017-08-13T19:40:50+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624450946
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2017-08-13T19:40:51+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624451308
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-08-13T19:40:51+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624451506
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-08-13T19:40:51+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624451689
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-08-13T19:40:52+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624452036
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2017-08-13T19:40:52+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624452224
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-08-13T19:40:52+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624452410
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+
+[ 2017-08-13T19:40:52+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624452617
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-08-13T19:40:52+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624452961
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2017-08-13T19:40:53+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624453129
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+
+[ 2017-08-13T19:40:53+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624453301
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+
+[ 2017-08-13T19:40:53+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624453462
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+
+[ 2017-08-13T19:40:53+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624453624
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+
+[ 2017-08-13T19:40:53+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624453812
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+
+[ 2017-08-13T19:40:54+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624454000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2017-08-13T19:40:54+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624454186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2017-08-13T19:40:54+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624454375
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+
+[ 2017-08-13T19:40:54+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624454559
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-08-13T19:40:54+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624454904
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-08-13T19:40:55+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624455055
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-08-13T19:40:55+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624455228
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-08-13T19:40:55+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624455414
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2017-08-13T19:40:55+08:00 ] ::1 /lplive/index.php/Home/verify/verify?1502624455576
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+

@@ -1,0 +1,59 @@
+[ 2017-08-25T19:57:25+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-08-25T19:57:25+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+
+[ 2017-08-25T19:58:03+08:00 ] ::1 /lplive/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '15511111111' OR `uemail` = '15511111111' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1 H:\wamp64\www\lplive\Application\Admin\Controller\LoginController.class.php 第 18 行.
+SQL: UPDATE `think_admin_user` SET `ulogin_date`='2017-08-25 19:58:03' WHERE `uphone` = '15511111111' OR `uemail` = '15511111111' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_admin_user` INNER JOIN think_auth_group_access on think_admin_user.uid = think_auth_group_access.uid INNER JOIN think_auth_group on think_auth_group.id = think_auth_group_access.group_id  WHERE think_admin_user.uid = 'LP1502695634'  [ RunTime:0.0854s ]
+
+[ 2017-08-25T19:58:03+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2017-08-25T19:58:06+08:00 ] ::1 /lplive/index.php/Admin/Admin/grounding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-08-25T19:58:12+08:00 ] ::1 /lplive/index.php/Admin/Goods/goodsImgUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given H:\wamp64\www\lplive\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given H:\wamp64\www\lplive\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-08-25T19:58:14+08:00 ] ::1 /lplive/index.php/Admin/Goods/deleteFile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-08-25T19:58:15+08:00 ] ::1 /lplive/index.php/Admin/Goods/deleteFile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+

@@ -1,0 +1,62 @@
+[ 2018-04-25T14:32:13+08:00 ] ::1 /honeypot/Publicimages/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载模块:Publicimages
+
+[ 2018-04-25T14:32:13+08:00 ] ::1 /honeypot/Publicimages/search.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+ERR: 无法加载模块:Publicimages
+
+[ 2018-04-25T14:32:13+08:00 ] ::1 /honeypot/Public/css/images/logo1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+ERR: 无法加载模块:Public
+
+
+
+[ 2018-04-25T14:32:40+08:00 ] ::1 /honeypot/Public/images/Article.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-25T14:32:40+08:00 ] ::1 /honeypot/Public/css/images/logo1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-25T14:33:23+08:00 ] ::1 /honeypot/Public/css/images/logo1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002712s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-25T14:35:10+08:00 ] ::1 /honeypot/Public/css/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-25T14:35:10+08:00 ] ::1 /honeypot/Public/css/images/logo1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-25T18:34:41+08:00 ] ::1 /honeypot/index.php/HomeIndex/registerVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+ERR: 无法加载模块:HomeIndex
+
+[ 2018-04-25T18:34:43+08:00 ] ::1 /honeypot/index.php/HomeIndex/registerVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+ERR: 无法加载模块:HomeIndex
+

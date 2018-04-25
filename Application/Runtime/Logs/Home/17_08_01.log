@@ -1,0 +1,156 @@
+[ 2017-08-01T00:00:49+08:00 ] ::1 /lplive/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-08-01T00:00:50+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2017-08-01T00:01:00+08:00 ] ::1 /lplive/index.php/Home/Index/checkCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+
+[ 2017-08-01T00:01:02+08:00 ] ::1 /lplive/index.php/Home/Index/loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001565s ]
+SQL: SHOW COLUMNS FROM `lp_user` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wamp64\www\lplive\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `lp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `lp_user` SET `logintime`='2017-08-01 00:01:02' WHERE `uid` = '1501515783' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lp_user` WHERE `uid` = '1501515783' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-01T00:01:27+08:00 ] ::1 /lplive/index.php/Home/Index/loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: SHOW COLUMNS FROM `lp_user` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wamp64\www\lplive\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `lp_user` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2017-08-01T00:02:27+08:00 ] ::1 /lplive/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+
+[ 2017-08-01T00:02:27+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+
+[ 2017-08-01T00:02:36+08:00 ] ::1 /lplive/index.php/Home/Index/checkCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+
+[ 2017-08-01T00:02:37+08:00 ] ::1 /lplive/index.php/Home/Index/loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `lp_user` [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wamp64\www\lplive\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `lp_user` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-01T00:05:12+08:00 ] ::1 /lplive/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+
+[ 2017-08-01T00:05:13+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+
+[ 2017-08-01T00:05:56+08:00 ] ::1 /lplive/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+
+[ 2017-08-01T00:05:56+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001295s ]
+
+[ 2017-08-01T00:07:39+08:00 ] ::1 /lplive/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-08-01T00:07:40+08:00 ] ::1 /lplive/index.php/Home/verify/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2017-08-01T00:07:56+08:00 ] ::1 /lplive/index.php/Home/Index/checkCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+
+[ 2017-08-01T00:07:57+08:00 ] ::1 /lplive/index.php/Home/Index/loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `lp_user` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wamp64\www\lplive\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `lp_user` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-01T00:08:07+08:00 ] ::1 /lplive/index.php/Home/Index/loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `lp_user` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wamp64\www\lplive\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `lp_user` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-08-01T00:08:58+08:00 ] ::1 /lplive/index.php/Home/Index/loginUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `lp_user` [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' H:\wamp64\www\lplive\Application\Common\Common\function.php 第 22 行.
+NOTIC: [2] Invalid argument supplied for foreach() H:\wamp64\www\lplive\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT * FROM `lp_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `lp_user` SET `logintime`='2017-08-01 00:08:58' WHERE `uid` = '1501515783' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lp_user` WHERE `uid` = '1501515783' LIMIT 1   [ RunTime:0.0002s ]
+

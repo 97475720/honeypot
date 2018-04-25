@@ -1,0 +1,538 @@
+[ 2017-08-21T14:51:57+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+
+[ 2017-08-21T14:51:57+08:00 ] ::1 /lplive/index.php/Admin/Login/admin_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001189s ]
+
+[ 2017-08-21T14:52:12+08:00 ] ::1 /lplive/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002587s ]
+SQL: SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `think_admin_user` WHERE `uphone` = '15522222222' OR `uemail` = '15522222222' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 1 H:\wamp64\www\lplive\Application\Admin\Controller\LoginController.class.php 第 18 行.
+SQL: UPDATE `think_admin_user` SET `ulogin_date`='2017-08-21 14:52:12' WHERE `uphone` = '15522222222' OR `uemail` = '15522222222' [ RunTime:0.0011s ]
+SQL: SELECT * FROM `think_admin_user` INNER JOIN think_auth_group_access on think_admin_user.uid = think_auth_group_access.uid INNER JOIN think_auth_group on think_auth_group.id = think_auth_group_access.group_id  WHERE think_admin_user.uid = 'LP1502695817'  [ RunTime:0.0129s ]
+
+[ 2017-08-21T14:52:12+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+
+[ 2017-08-21T14:52:28+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-08-21T14:52:29+08:00 ] ::1 /lplive/index.php/Admin/Admin/grounding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-08-21T14:53:09+08:00 ] ::1 /lplive/index.php/Admin/Admin/grounding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-08-21T14:54:04+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2017-08-21T14:54:06+08:00 ] ::1 /lplive/index.php/Admin/Admin/group_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+
+[ 2017-08-21T14:54:06+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-08-21T15:00:55+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-08-21T15:01:08+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-08-21T15:01:13+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+
+[ 2017-08-21T15:01:15+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+
+[ 2017-08-21T15:01:16+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+
+[ 2017-08-21T15:01:17+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+
+[ 2017-08-21T15:01:17+08:00 ] ::1 /lplive/index.php/Admin/Admin/group_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+
+[ 2017-08-21T15:01:19+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+
+[ 2017-08-21T15:01:20+08:00 ] ::1 /lplive/index.php/Admin/Admin/group_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-08-21T15:01:20+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-08-21T15:01:21+08:00 ] ::1 /lplive/index.php/Admin/Admin/grounding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+
+[ 2017-08-21T15:02:26+08:00 ] ::1 /lplive/index.php/Admin/Admin/admin_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2017-08-21T15:02:29+08:00 ] ::1 /lplive/index.php/Admin/Admin/group_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+
+[ 2017-08-21T15:02:31+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+
+[ 2017-08-21T15:02:31+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+
+[ 2017-08-21T15:02:31+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_group
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+
+[ 2017-08-21T15:02:32+08:00 ] ::1 /lplive/index.php/Admin/Admin/code_rule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-08-21T15:02:59+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+
+[ 2017-08-21T15:03:07+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+NOTIC: [2] Missing argument 1 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [2] Missing argument 2 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [8] Undefined variable: uid H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 105 行.
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+NOTIC: [2] array_diff(): Argument #1 is not an array H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='LP1502695817' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT `condition`,`name` FROM `think_auth_rule` WHERE `id` IN ('GZ1502713931','GZ1502712947') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+
+[ 2017-08-21T15:03:08+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+NOTIC: [2] Missing argument 1 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [2] Missing argument 2 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [8] Undefined variable: uid H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 105 行.
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+NOTIC: [2] array_diff(): Argument #1 is not an array H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0003s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='LP1502695817' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `condition`,`name` FROM `think_auth_rule` WHERE `id` IN ('GZ1502713931','GZ1502712947') AND `type` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+
+[ 2017-08-21T15:03:10+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+NOTIC: [2] Missing argument 1 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [2] Missing argument 2 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [8] Undefined variable: uid H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 105 行.
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+NOTIC: [2] array_diff(): Argument #1 is not an array H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='LP1502695817' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0003s ]
+SQL: SELECT `condition`,`name` FROM `think_auth_rule` WHERE `id` IN ('GZ1502713931','GZ1502712947') AND `type` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+
+[ 2017-08-21T15:03:14+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+NOTIC: [2] Missing argument 1 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [2] Missing argument 2 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [8] Undefined variable: uid H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 105 行.
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+NOTIC: [2] array_diff(): Argument #1 is not an array H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0003s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='LP1502695817' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT `condition`,`name` FROM `think_auth_rule` WHERE `id` IN ('GZ1502713931','GZ1502712947') AND `type` = 1 AND `status` = 1  [ RunTime:0.0005s ]
+
+[ 2017-08-21T15:03:16+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+NOTIC: [2] Missing argument 1 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [2] Missing argument 2 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [8] Undefined variable: uid H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0007s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 105 行.
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+NOTIC: [2] array_diff(): Argument #1 is not an array H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='LP1502695817' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT `condition`,`name` FROM `think_auth_rule` WHERE `id` IN ('GZ1502713931','GZ1502712947') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+
+[ 2017-08-21T15:07:23+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001914s ]
+NOTIC: [2] Missing argument 1 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [2] Missing argument 2 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [8] Undefined variable: uid H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0008s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 105 行.
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+NOTIC: [2] array_diff(): Argument #1 is not an array H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0015s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='LP1502695817' and g.status='1' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0012s ]
+SQL: SELECT `condition`,`name` FROM `think_auth_rule` WHERE `id` IN ('GZ1502713931','GZ1502712947') AND `type` = 1 AND `status` = 1  [ RunTime:0.0007s ]
+
+[ 2017-08-21T15:10:37+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+NOTIC: [2] Missing argument 1 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [2] Missing argument 2 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [8] Undefined variable: uid H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0007s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 105 行.
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+NOTIC: [2] array_diff(): Argument #1 is not an array H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='LP1502695817' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT `condition`,`name` FROM `think_auth_rule` WHERE `id` IN ('GZ1502713931','GZ1502712947') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+
+[ 2017-08-21T15:10:40+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+NOTIC: [2] Missing argument 1 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [2] Missing argument 2 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [8] Undefined variable: uid H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 105 行.
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+NOTIC: [2] array_diff(): Argument #1 is not an array H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='LP1502695817' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT `condition`,`name` FROM `think_auth_rule` WHERE `id` IN ('GZ1502713931','GZ1502712947') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+
+[ 2017-08-21T15:10:45+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+NOTIC: [2] Missing argument 1 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [2] Missing argument 2 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [8] Undefined variable: uid H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 105 行.
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+NOTIC: [2] array_diff(): Argument #1 is not an array H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='LP1502695817' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `condition`,`name` FROM `think_auth_rule` WHERE `id` IN ('GZ1502713931','GZ1502712947') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+
+[ 2017-08-21T15:10:59+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+NOTIC: [2] Missing argument 1 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [2] Missing argument 2 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [8] Undefined variable: uid H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 105 行.
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+NOTIC: [2] array_diff(): Argument #1 is not an array H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='LP1502695817' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT `condition`,`name` FROM `think_auth_rule` WHERE `id` IN ('GZ1502713931','GZ1502712947') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+
+[ 2017-08-21T15:11:05+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+NOTIC: [2] Missing argument 1 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [2] Missing argument 2 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [8] Undefined variable: uid H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 105 行.
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+NOTIC: [2] array_diff(): Argument #1 is not an array H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='LP1502695817' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT `condition`,`name` FROM `think_auth_rule` WHERE `id` IN ('GZ1502713931','GZ1502712947') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+
+[ 2017-08-21T15:11:13+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+NOTIC: [2] Missing argument 1 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [2] Missing argument 2 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [8] Undefined variable: uid H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 105 行.
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+NOTIC: [2] array_diff(): Argument #1 is not an array H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='LP1502695817' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT `condition`,`name` FROM `think_auth_rule` WHERE `id` IN ('GZ1502713931','GZ1502712947') AND `type` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+
+[ 2017-08-21T15:11:15+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+
+[ 2017-08-21T15:11:50+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+NOTIC: [2] Missing argument 1 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [2] Missing argument 2 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [8] Undefined variable: uid H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 105 行.
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+NOTIC: [2] array_diff(): Argument #1 is not an array H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='LP1502695817' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT `condition`,`name` FROM `think_auth_rule` WHERE `id` IN ('GZ1502713931','GZ1502712947') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+
+[ 2017-08-21T15:11:53+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+NOTIC: [2] Missing argument 1 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [2] Missing argument 2 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [8] Undefined variable: uid H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 105 行.
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+NOTIC: [2] array_diff(): Argument #1 is not an array H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='LP1502695817' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT `condition`,`name` FROM `think_auth_rule` WHERE `id` IN ('GZ1502713931','GZ1502712947') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+
+[ 2017-08-21T15:12:02+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+NOTIC: [2] Missing argument 1 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [2] Missing argument 2 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [8] Undefined variable: uid H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 105 行.
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+NOTIC: [2] array_diff(): Argument #1 is not an array H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='LP1502695817' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT `condition`,`name` FROM `think_auth_rule` WHERE `id` IN ('GZ1502713931','GZ1502712947') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+
+[ 2017-08-21T15:12:05+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002242s ]
+NOTIC: [2] Missing argument 1 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [2] Missing argument 2 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [8] Undefined variable: uid H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 105 行.
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+NOTIC: [2] array_diff(): Argument #1 is not an array H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0006s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='LP1502695817' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT `condition`,`name` FROM `think_auth_rule` WHERE `id` IN ('GZ1502713931','GZ1502712947') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+
+[ 2017-08-21T15:12:08+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+NOTIC: [2] Missing argument 1 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [2] Missing argument 2 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [8] Undefined variable: uid H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 105 行.
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+NOTIC: [2] array_diff(): Argument #1 is not an array H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='LP1502695817' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0006s ]
+SQL: SELECT `condition`,`name` FROM `think_auth_rule` WHERE `id` IN ('GZ1502713931','GZ1502712947') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+
+[ 2017-08-21T15:12:14+08:00 ] ::1 /lplive/index.php/Admin/Admin/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+NOTIC: [2] Missing argument 1 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [2] Missing argument 2 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [8] Undefined variable: uid H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 105 行.
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+NOTIC: [2] array_diff(): Argument #1 is not an array H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='LP1502695817' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0005s ]
+SQL: SELECT `condition`,`name` FROM `think_auth_rule` WHERE `id` IN ('GZ1502713931','GZ1502712947') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+
+[ 2017-08-21T15:12:24+08:00 ] ::1 /lplive/index.php/Admin/Admin/createAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+NOTIC: [2] Missing argument 1 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [2] Missing argument 2 for Think\Auth::check(), called in H:\wamp64\www\lplive\Application\Admin\Controller\AuthController.class.php on line 38 and defined H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 101 行.
+NOTIC: [8] Undefined variable: uid H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0005s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 105 行.
+NOTIC: [8] Undefined variable: name H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+NOTIC: [2] array_diff(): Argument #1 is not an array H:\wamp64\www\lplive\ThinkPHP\Library\Think\Auth.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM think_auth_group_access a INNER JOIN think_auth_group g on a.group_id=g.id  WHERE ( a.uid='LP1502695817' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.0004s ]
+SQL: SELECT `condition`,`name` FROM `think_auth_rule` WHERE `id` IN ('GZ1502713931','GZ1502712947') AND `type` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+
+[ 2017-08-21T15:12:27+08:00 ] ::1 /lplive/index.php/Admin/Admin/create_admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+

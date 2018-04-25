@@ -1,0 +1,343 @@
+[ 2017-08-02T15:32:04+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-08-02T15:32:57+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-08-02T15:39:51+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+
+[ 2017-08-02T15:40:10+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-08-02T15:40:43+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+
+[ 2017-08-02T15:41:18+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+
+[ 2017-08-02T15:41:19+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+
+[ 2017-08-02T15:41:39+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+
+[ 2017-08-02T15:41:54+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-08-02T15:42:18+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-08-02T15:42:41+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-08-02T15:49:19+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2017-08-02T15:50:04+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-08-02T15:50:21+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+
+[ 2017-08-02T15:50:22+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2017-08-02T15:52:27+08:00 ] ::1 /lplive/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-08-02T15:52:35+08:00 ] ::1 /lplive/index.php/Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+
+[ 2017-08-02T15:53:13+08:00 ] ::1 /lplive/index.php/Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+
+[ 2017-08-02T15:53:15+08:00 ] ::1 /lplive/index.php/Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-08-02T15:53:30+08:00 ] ::1 /lplive/index.php/Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-08-02T15:53:45+08:00 ] ::1 /lplive/index.php/Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-08-02T15:55:53+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-08-02T15:55:54+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+
+[ 2017-08-02T15:58:16+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-08-02T15:59:13+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+ERR: Think\Model:countNum方法不存在！
+
+[ 2017-08-02T15:59:43+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+ERR: Think\Model:countNum方法不存在！
+
+[ 2017-08-02T15:59:44+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+ERR: Think\Model:countNum方法不存在！
+
+[ 2017-08-02T16:00:09+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+ERR: Think\Model:countNum方法不存在！
+
+[ 2017-08-02T16:01:10+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+ERR: Think\Model:countNum方法不存在！
+
+[ 2017-08-02T16:01:11+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+ERR: Think\Model:countNum方法不存在！
+
+[ 2017-08-02T16:02:54+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+ERR: Think\Model:countNum方法不存在！
+
+[ 2017-08-02T16:02:54+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+ERR: Think\Model:countNum方法不存在！
+
+[ 2017-08-02T16:07:34+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-08-02T16:10:59+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-08-02T16:11:00+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-08-02T16:11:30+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+
+[ 2017-08-02T16:11:31+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+
+[ 2017-08-02T16:11:31+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-08-02T16:11:32+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-08-02T16:12:15+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+
+[ 2017-08-02T16:12:16+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2017-08-02T16:12:22+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+
+[ 2017-08-02T16:13:07+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+
+[ 2017-08-02T16:13:25+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001094s ]
+
+[ 2017-08-02T16:13:26+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-08-02T16:14:15+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-08-02T16:14:16+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-08-02T16:15:03+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-08-02T16:15:04+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-08-02T16:15:05+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-08-02T16:15:05+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-08-02T16:18:05+08:00 ] ::1 /lplive/index.php/Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-08-02T16:18:09+08:00 ] ::1 /lplive/index.php/Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+
+[ 2017-08-02T16:19:22+08:00 ] ::1 /lplive/index.php/Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-08-02T16:19:35+08:00 ] ::1 /lplive/index.php/Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2017-08-02T16:19:36+08:00 ] ::1 /lplive/index.php/Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-08-02T16:20:00+08:00 ] ::1 /lplive/index.php/Home/Index/test?uid=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+
+[ 2017-08-02T16:20:29+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+
+[ 2017-08-02T16:21:02+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-08-02T16:21:03+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-08-02T16:21:37+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-08-02T16:21:38+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-08-02T16:22:02+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2017-08-02T16:22:03+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-08-02T16:22:41+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods?name=jdsakjdasl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-08-02T16:23:48+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods?name=jdsakjdasl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+
+[ 2017-08-02T16:23:49+08:00 ] ::1 /lplive/index.php/Home/Index/searchGoods?name=jdsakjdasl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
