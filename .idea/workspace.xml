@@ -2,186 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d64073d-2017-421b-938d-7c49edb65b6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/View/Layouts/footer.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.bowerrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Vagrantfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/assets/AppAsset.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/codeception.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/config/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/config/bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/config/main.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/config/params.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/config/test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/controllers/SiteController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/models/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/runtime/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/tests/_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/tests/_data/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/tests/_data/login_data.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/tests/_output/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/tests/_support/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/tests/_support/FunctionalTester.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/tests/_support/UnitTester.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/tests/functional.suite.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/tests/functional/LoginCest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/tests/functional/_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/tests/unit.suite.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/tests/unit/_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/views/layouts/main.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/views/site/error.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/views/site/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/views/site/login.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/assets/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/css/site.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/web/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codeception.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/codeception.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/config/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/config/bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/config/main.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/config/params.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/config/test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/fixtures/UserFixture.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/mail/layouts/html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/mail/layouts/text.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/mail/passwordResetToken-html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/mail/passwordResetToken-text.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/models/LoginForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/models/User.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/tests/_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/tests/_data/user.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/tests/_output/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/tests/_support/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/tests/_support/UnitTester.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/tests/unit.suite.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/tests/unit/models/LoginFormTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/widgets/Alert.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/composer.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/console/config/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/console/config/bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/console/config/main.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/console/config/params.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/console/controllers/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/console/migrations/m130524_201442_init.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/console/migrations/m180423_050151_create_user_table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/console/models/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/console/runtime/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/dev/backend/config/main-local.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/dev/backend/config/params-local.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/dev/backend/config/test-local.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/dev/backend/web/index-test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/dev/backend/web/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/dev/backend/web/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/dev/common/config/main-local.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/dev/common/config/params-local.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/dev/common/config/test-local.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/dev/console/config/main-local.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/dev/console/config/params-local.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/dev/frontend/config/main-local.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/dev/frontend/config/params-local.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/dev/frontend/config/test-local.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/dev/frontend/web/index-test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/dev/frontend/web/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/dev/frontend/web/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/dev/yii" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/dev/yii_test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/dev/yii_test.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/prod/backend/config/main-local.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/prod/backend/config/params-local.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/prod/backend/web/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/prod/backend/web/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/prod/common/config/main-local.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/prod/common/config/params-local.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/prod/console/config/main-local.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/prod/console/config/params-local.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/prod/frontend/config/main-local.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/prod/frontend/config/params-local.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/prod/frontend/web/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/prod/frontend/web/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/environments/prod/yii" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/AppAsset.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/HoneypotAsset.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/codeception.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/config/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/config/bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/config/main.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/config/params.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/config/test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/controllers/IndexController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/controllers/ShareController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/controllers/SiteController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/models/ContactForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/models/LoginForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/models/PasswordResetRequestForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/models/ResetPasswordForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/models/SignupForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/runtime/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/_data/login_data.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/_data/user.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/_output/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/_support/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/_support/FunctionalTester.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/_support/UnitTester.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/acceptance.suite.yml.example" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/acceptance/HomeCest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/acceptance/_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/functional.suite.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/functional/AboutCest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/functional/ContactCest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/functional/HomeCest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/functional/LoginCest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/functional/SignupCest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/functional/_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/unit.suite.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/unit/_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/unit/models/ContactFormTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/unit/models/PasswordResetRequestFormTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/unit/models/ResetPasswordFormTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/tests/unit/models/SignupFormTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/views/Index/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/views/Share/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/views/layouts/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/views/layouts/main.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/views/site/about.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/views/site/contact.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/views/site/error.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/views/site/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/views/site/login.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/views/site/requestPasswordResetToken.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/views/site/resetPassword.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/views/site/signup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/web/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/web/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/web/assets/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/web/css/honeypot.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/web/css/site.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/web/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/web/images/backgroundImg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/web/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/web/images/logo1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/web/images/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/web/images/test.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/web/js/honeypot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/init" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/init.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vagrant/config/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vagrant/config/vagrant-local.example.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vagrant/nginx/app.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vagrant/nginx/log/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vagrant/provision/always-as-root.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vagrant/provision/common.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vagrant/provision/once-as-root.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vagrant/provision/once-as-vagrant.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yii.bat" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/js/honeypot.js" afterPath="$PROJECT_DIR$/Public/js/honeypot.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -191,12 +14,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -205,7 +28,7 @@
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/View/Layouts/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
+            <state relative-caret-position="575">
               <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
               <folding />
             </state>
@@ -215,7 +38,7 @@
       <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/View/Layouts/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="708">
+            <state relative-caret-position="1495">
               <caret line="65" column="30" lean-forward="false" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -232,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/Application/Home/Controller/CommonController.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -241,8 +64,8 @@
       <file leaf-file-name="honeypot.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/css/honeypot.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="271" column="30" lean-forward="true" selection-start-line="271" selection-start-column="30" selection-end-line="271" selection-end-column="30" />
+            <state relative-caret-position="-2397">
+              <caret line="271" column="30" lean-forward="false" selection-start-line="271" selection-start-column="30" selection-end-line="271" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -268,21 +91,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="honeypot.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="honeypot.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/js/honeypot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="708">
-              <caret line="202" column="13" lean-forward="true" selection-start-line="202" selection-start-column="13" selection-end-line="202" selection-end-column="13" />
+            <state relative-caret-position="593">
+              <caret line="201" column="0" lean-forward="false" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="60" column="19" lean-forward="false" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+            <state relative-caret-position="754">
+              <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -291,7 +114,7 @@
       <file leaf-file-name="Model.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Lite/Model.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3134">
+            <state relative-caret-position="19711">
               <caret line="865" column="21" lean-forward="false" selection-start-line="865" selection-start-column="21" selection-end-line="865" selection-end-column="21" />
               <folding />
             </state>
@@ -332,7 +155,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -353,6 +176,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -369,54 +194,7 @@
               <item name="honeypot" type="b2602c69:ProjectViewProjectNode" />
               <item name="honeypot" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="honeypot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honeypot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Conf" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="honeypot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honeypot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Common" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="honeypot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honeypot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Common" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Common" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="honeypot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honeypot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Common" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Conf" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="honeypot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honeypot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Home" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="honeypot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honeypot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Home" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Common" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="honeypot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honeypot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Home" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Conf" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="honeypot" type="b2602c69:ProjectViewProjectNode" />
@@ -424,57 +202,6 @@
               <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Home" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="honeypot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honeypot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Home" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="honeypot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honeypot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Home" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="View" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="honeypot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honeypot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Home" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="View" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Index" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="honeypot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honeypot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Home" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="View" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="honeypot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honeypot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Runtime" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="honeypot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honeypot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Runtime" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Cache" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="honeypot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honeypot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Runtime" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Cache" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="honeypot" type="b2602c69:ProjectViewProjectNode" />
@@ -493,36 +220,16 @@
               <item name="Public" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="honeypot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honeypot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ThinkPHP" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="honeypot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honeypot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ThinkPHP" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Library" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="honeypot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="honeypot" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ThinkPHP" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Library" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Think" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -547,43 +254,34 @@
       <option name="presentableId" value="Default" />
       <updated>1524636569313</updated>
       <workItem from="1524636570872" duration="216000" />
+      <workItem from="1524757565341" duration="155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20244000" />
+    <option name="totallyTimeSpent" value="20399000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -616,11 +314,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Lite/Model.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19711">
+          <caret line="865" column="21" lean-forward="false" selection-start-line="865" selection-start-column="21" selection-end-line="865" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/honeypot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4646">
+          <caret line="202" column="13" lean-forward="true" selection-start-line="202" selection-start-column="13" selection-end-line="202" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -628,7 +341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -636,7 +348,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -644,7 +355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -652,7 +362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,7 +369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -668,7 +376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -676,9 +383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,7 +390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -694,7 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -702,7 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -710,7 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -718,7 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,7 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,7 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,7 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -750,7 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,7 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -766,7 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,9 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -792,7 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,19 +509,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Common/Common/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Common/Common/config.php" />
     <entry file="file://$PROJECT_DIR$/Application/Admin/Conf/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -935,14 +616,14 @@
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Lite/Model.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3134">
+        <state relative-caret-position="19711">
           <caret line="865" column="21" lean-forward="false" selection-start-line="865" selection-start-column="21" selection-end-line="865" selection-end-column="21" />
           <folding />
         </state>
@@ -959,14 +640,14 @@
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/CommonController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Layouts/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
+        <state relative-caret-position="575">
           <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           <folding />
         </state>
@@ -982,7 +663,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Layouts/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
+        <state relative-caret-position="1495">
           <caret line="65" column="30" lean-forward="false" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -996,24 +677,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/css/honeypot.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="271" column="30" lean-forward="true" selection-start-line="271" selection-start-column="30" selection-end-line="271" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="60" column="19" lean-forward="false" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+        <state relative-caret-position="-2397">
+          <caret line="271" column="30" lean-forward="false" selection-start-line="271" selection-start-column="30" selection-end-line="271" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/js/honeypot.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="202" column="13" lean-forward="true" selection-start-line="202" selection-start-column="13" selection-end-line="202" selection-end-column="13" />
+        <state relative-caret-position="593">
+          <caret line="201" column="0" lean-forward="false" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
           <folding />
         </state>
       </provider>
