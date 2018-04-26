@@ -31,8 +31,8 @@ class IndexController extends Controller {
         $username = I('post.username');
         $password = I('post.password');
         $user_info = $this->userModel
-                        ->where(['username'=>$username])
-                        ->find();
+            ->where(['username'=>$username])
+            ->find();
         if(!$user_info || md5($password.$user_info['salt']) != $user_info['password']){
             json(110,'用户名不存在或密码错误');
         }
@@ -62,5 +62,39 @@ class IndexController extends Controller {
         }
 
     }
+
+
+    /**
+     *注册前的验证
+     */
+    public function registerVerify()
+    {
+        if($this->userModel->create('','registerVerify') === false){
+            json(110,$this->userModel->getError());
+        }
+        json();
+    }
+    /**
+     * 注册新用户
+     */
+    public function sign()
+    {
+        $user_info = $this->userModel->create('','register');
+        if($user_info === false){
+            json(110,$this->userModel->getError());
+        }
+        $user_id = $this->userModel->registerNewUser();
+        if($user_id === false){
+            json(110,$this->userModel->getError());
+        }
+        $data = array(
+            'id' => $user_id,
+            'nickname'=> $user_info['nickname'],
+            'token' => $user_info['token'],
+        );
+        $_SESSION['honeypot'] = $data;
+        json();
+    }
+
 
 }
