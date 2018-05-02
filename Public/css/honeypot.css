@@ -26,15 +26,11 @@ i,em{
     font-style: normal;
 }
 .pagination-container{
-    width: inherit;
-    height: 100px;
-    background: #FFFFFF;
-    overflow: hidden;
     text-align: center;
-}
-.pagination-container .pagination{
     font-size: 16px;
     line-height: 100px;
+    height: 100px;
+    background: #FFFFFF;
 }
 #login-container{
     margin: 0;
@@ -562,7 +558,7 @@ i,em{
     float: left;
     box-shadow: 0 2px 6px #999999;
 }
-.publish-cases a img{
+.publish-cases img{
     width: 68px;
     height: 68px;
     margin: 100px auto 20px;
