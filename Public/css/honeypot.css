@@ -25,6 +25,17 @@ li{
 i,em{
     font-style: normal;
 }
+.pagination-container{
+    width: inherit;
+    height: 100px;
+    background: #FFFFFF;
+    overflow: hidden;
+    text-align: center;
+}
+.pagination-container .pagination{
+    font-size: 16px;
+    line-height: 100px;
+}
 #login-container{
     margin: 0;
     padding: 0;
@@ -189,6 +200,22 @@ i,em{
 .search-text:-ms-input-placeholder { /* Internet Explorer 10+ */
     color: rgba(239,239,239,0.7);
     font-weight: 200;
+}
+.search-key-word::-webkit-input-placeholder { /* WebKit browsers */
+    color: #999999;
+    font-weight: 300;
+}
+.search-key-word:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #999999;
+    font-weight: 300;
+}
+.search-key-word::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #999999;
+    font-weight: 300;
+}
+.search-key-word:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #999999;
+    font-weight: 300;
 }
 #warp{
     width: 100%;
@@ -406,4 +433,279 @@ i,em{
     text-align: right;
     margin-top: 10px;
     color: black;
+}
+
+
+/*通用的顶部*/
+#warp .common-top{
+    width: 100%;
+    background: #FFFFFF;
+    overflow: hidden;
+    height: 85px;
+    margin-top: 15px;
+}
+.common-top .common-log{
+    float: left;
+    margin-left: 210px;
+}
+.common-log img{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.common-log span{
+    vertical-align: middle;
+    line-height: 70px;
+    display: inline-block;
+    font-size: 42px;
+}
+.common-sign-login{
+    float: right;
+    margin-right: 210px;
+    padding-top: 6px;
+}
+.common-sign-login span{
+    padding: 0 12px;
+    line-height: 32px;
+    vertical-align: middle;
+    font-size: 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 38px;
+    border:1px solid;
+    cursor: pointer;
+    font-weight: 500;
+}
+.common-sign-login .sign{
+    background: rgba(228,4,4,0.87);
+    border-color: rgba(228,4,4,0.87);
+    color: #FFFFFF;
+}
+.common-sign-login .login{
+    border-color:  #FFFFFF;
+}
+#warp .search-middle{
+    width: inherit;
+    height: auto;
+    background: #d0d0d0;
+    overflow: hidden;
+}
+.search-middle .search-warp{
+        margin: 0 200px;
+}
+.search-warp .search-box{
+    margin: 34px 10px;
+    height: auto;
+    overflow: hidden;
+    background: #FFFFFF;
+}
+.search-box .search-input-container{
+    margin: 24px;
+    border-radius: 10px;
+    height: 56px;
+    border: 2px solid #d0d0d0;
+    padding: 8px;
+    overflow: inherit;
+}
+.search-input-container .search-key-word{
+    height: 34px;
+    border: none;
+    font-size: 20px;
+    line-height: 34px;
+    width: calc(100% - 16px - 34px);
+    color: #999999;
+}
+.search-input-container .search-btn{
+    width: 34px;
+    height: 34px;
+    display: block;
+    float: right;
+    cursor: pointer;
+}
+.search-box .search-info{
+    margin: 0 32px 32px 32px;
+    overflow: hidden;
+    line-height: 30px;
+}
+.search-info .search-count{
+    float: left;
+    margin: 0;
+}
+.search-info .search-type{
+    float: right;
+    font-size: 14px;
+    color: #444444;
+}
+.search-type i{
+    font-size: 14px;
+    color: #444444;
+}
+.search-info .type-active{
+    color: #fe0304;
+}
+.search-type span{
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.search-warp .search-content-box{
+    width: inherit;
+    height: auto;
+    overflow: hidden;
+}
+.cases-list{
+    width: 230px;
+    height: 300px;
+    margin: 0 10px 20px;
+    float: left;
+    box-shadow: 0 2px 6px #999999;
+}
+.publish-cases a img{
+    width: 68px;
+    height: 68px;
+    margin: 100px auto 20px;
+    display: block;
+}
+.publish-cases{
+    background: #FFFFFF;
+}
+.publish-cases p{
+    text-align: center;
+    font-size: 18px;
+    color: #999999;
+}
+.cases-list a .case-img{
+    width: 230px;
+    height: 240px;
+}
+.cases-list .operate-box{
+    width: inherit;
+    height: 60px;
+    background: #FFFFFF;
+    overflow: inherit;
+}
+.operate-box .cases-title{
+    font-size: 12px;
+    color: #000000;
+    margin: 0 0 0 16px;
+    line-height: 30px;
+}
+.operate-box div{
+    height: 30px;
+    float: left;
+    margin-left: 16px;
+}
+.operate-box div img{
+    display:inline-block;
+    vertical-align:middle;
+    text-align: center;
+    width: 16px;
+}
+.operate-box div span{
+    display:inline-block;
+    vertical-align:middle;
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+}
+#info-warp{
+    width: inherit;
+    height: auto;
+    overflow: hidden;
+    background: #d0d0d0;
+}
+#info-warp{
+    width: inherit;
+    height: auto;
+    overflow: hidden;
+    background: #d0d0d0;
+}
+#info-warp #info-content{
+    margin: 0 210px;
+}
+#info-content .user-info-container{
+    width: inherit;
+    height: 300px;
+    background: #FFFFFF;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.user-info-container .user-info{
+    height: 220px;
+    width: inherit;
+}
+.user-info .info-photo-position{
+    width: 250px;
+    height: 220px;
+    margin: 0 60px;
+    position: relative;
+    float: left;
+}
+.info-photo-position img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    display: block;
+    left: 0;
+    top: -30px;
+}
+.user-info .info-nickname{
+    float: left;
+    margin-top: 30px;
+    width: 800px;
+    font-size: 40px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.user-info .info-message{
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.info-message img{
+    width: 40px;
+    vertical-align: middle;
+}
+.info-message i{
+    vertical-align: middle;
+    font-size: 18px;
+    color: #999999;
+}
+.user-info-container .user-operate-data{
+    height: 80px;
+    width: 250px;
+    overflow: hidden;
+    margin-left: 60px;
+}
+.user-operate-data div{
+    height: inherit;
+    width: 50%;
+    float: left;
+}
+.user-operate-data div p {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 26px;
+    margin: 0;
+    color: #6c4444;
+}
+.user-operate-data div span {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin: 0;
+    color: #999999;
+    display: block;
+}
+#info-warp #user-publish-cases{
+    margin: 0 200px;
+    height: auto;
+    overflow: hidden;
 }

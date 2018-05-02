@@ -197,7 +197,7 @@ $(document).ready(function () {
     $('.index-login-out').click(function () {
         $.post(requestUrl+'Index/loginOut',function (data) {
             if(data.code == 200){
-                window.location.href = "http://localhost/honeypot/index.php/Home/Index/index";
+                window.location.href = requestUrl+"Index/index";
             }else {
 
             }
@@ -205,5 +205,15 @@ $(document).ready(function () {
     });
 
 
+    /**
+     * 搜索页选择排序规则
+     */
+    $('.order-type').each(function () {
+        $(this).click(function () {
+            var type = $(this).attr('type');
+            var key = $('.search-key-word').val();
+            window.location.href =  requestUrl+"Index/search?type="+type+"&key="+key;
+        });
+    });
 
 });

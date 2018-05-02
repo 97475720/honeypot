@@ -1,0 +1,71 @@
+<include file="Layouts:header"/>
+<div class="common-top">
+    <div class="common-log">
+        <img src="__PUBLIC__/images/logo1.jpg" />
+        <span>蜜罐</span>
+    </div>
+    <div class="common-sign-login">
+        <span class="sign">注册</span>
+        <span class="login">登录</span>
+    </div>
+</div>
+<div class="search-middle">
+    <div class="search-warp">
+        <div class="search-box">
+            <div class="search-input-container">
+                <input class="search-key-word" type="text" placeholder="请输入标题" value="">
+                <img class="search-btn" src="__PUBLIC__/images/search.jpg">
+            </div>
+            <div class="search-info">
+                <p class="search-count">搜索图片：</p>
+                <div class="search-type">
+                    <i>排序：</i>
+                    <?php if($type==1):?>
+                    <span class="order-type type-active" type="1">最新</span>
+                    <span class="order-type" type="2">最热</span>
+                    <?php elseif($type==2):?>
+                    <span class="order-type" type="1">最新</span>
+                    <span class="order-type type-active" type="2">最热</span>
+                    <?php endif; ?>
+                </div>
+            </div>
+        </div>
+        <div class="search-content-box">
+            <div class="search-content-list cases-list">
+                <a>
+                    <img class="case-img" src="__PUBLIC__/images/search_test.jpg">
+                </a>
+                <div class="operate-box">
+                    <p class="cases-title">蓝色空间</p>
+                    <div>
+                        <img src="__PUBLIC__/images/collect.jpg">
+                        <span>789</span>
+                    </div>
+                    <div>
+                        <img src="__PUBLIC__/images/comment.jpg">
+                        <span>798</span>
+                    </div>
+                </div>
+            </div>
+            <div class="search-content-list">
+
+            </div>
+            <div class="search-content-list">
+
+            </div>
+            <div class="search-content-list">
+
+            </div>
+            <div class="search-content-list">
+
+            </div>
+            <div class="search-content-list">
+
+            </div>
+        </div>
+        <div>
+            {$show}
+        </div>
+    </div>
+</div>
+<include file="Layouts:footer"/>

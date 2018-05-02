@@ -1,0 +1,13 @@
+{
+	"name": "yurunsoft/yurun-event",
+	"type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yurun\\Until\\": "Src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4"
+    }
+}
