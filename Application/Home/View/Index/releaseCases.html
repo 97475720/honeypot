@@ -1,0 +1,51 @@
+<include file="Layouts:header"/>
+<div class="common-top">
+    <div class="common-log">
+        <img src="__PUBLIC__/images/logo1.jpg" />
+        <span>蜜罐</span>
+    </div>
+    <div class="common-sign-login">
+        <span class="sign">注册</span>
+        <span class="login">登录</span>
+    </div>
+</div>
+<div id="release-warp">
+    <div class="release-content">
+        <div class="release-title">
+            <p>上传作品</p>
+        </div>
+        <div class="release-info">
+            <p class="release-info-title">作品信息</p>
+            <form class="release-info-form">
+                <div class="form-group">
+                    <p class="release-tips">*请输入作品名称(最多20字)</p>
+                    <input type="text" maxlength="20" placeholder="请输入作品名称" class="release-cases-title form-control">
+                </div>
+                <div class="form-group">
+                    <p class="release-tips">*请输入作品介绍(最多100字)</p>
+                    <textarea maxlength="100" placeholder="请输入作品介绍" class="release-cases-title form-control" rows="4"></textarea>
+                </div>
+                <div class="form-group" style="display: none">
+                    <form enctype="multipart/form-data" method="post" id="cases-image" onsubmit="return false">
+                        <input type="file" name="file" id="btn-cases-image">
+                    </form>
+                </div>
+
+            </form>
+        </div>
+        <div class="release-image">
+            <div class="release-image-title">
+                <span>上传图片</span>
+                <i>注：严禁在互联网上储存、传输、发布淫秽有害信息</i>
+            </div>
+            <div class="release-image-container">
+                <div class="upload-image">
+                    <img src="__PUBLIC__/images/publish.jpg" id="upload-cases-image">
+                    <p>点击添加图片</p>
+                    <span>*仅允许上传不超过2M大小，格式为png、jpg、jpeg、gif的图片，如若上传失败，请检查图片大小及格式是否符合要求。</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<include file="Layouts:footer"/>

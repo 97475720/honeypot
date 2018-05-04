@@ -11,12 +11,17 @@ class IndexController extends Controller {
      * @var \Home\Model\CasesModel
      */
     private $casesModel;
+    /**
+     * @var \Home\Model\DraftImgModel
+     */
+    private $draftImgModel;
 
 
     public function _initialize()
     {
         $this->userModel = D('user');
         $this->casesModel = D('cases');
+        $this->draftImgModel = D('DraftImg');
         $this->assign('user_nickname',$_SESSION['honeypot']['nickname']);
     }
 
@@ -49,6 +54,7 @@ class IndexController extends Controller {
             'id' => $user_info['id'],
             'nickname'=> $user_info['nickname'],
             'token' => $token,
+            'expire'=>time(),
         );
         json();
 
@@ -155,5 +161,40 @@ class IndexController extends Controller {
         $this->display();
     }
 
+    /**
+     * 发布作品页面
+     */
+    public function releaseCases()
+    {
+        $this->display();
+    }
+    
+    /**
+     * 上传图片
+     */
+    public function casesImgUpload()
+    {
+        if(!$_FILES){
+            json(110,"图片上传失败");
+        }
+        $img_info = uploadImg('cases');
+        if($img_info === false){
+            json(110,"图片上传失败");
+        }
+        $img_url = 'http://127.0.0.1/honeypot/Uploads/'.$img_info;
+        $data = array(
+            'user_id' => 1,
+            'image_url' => $img_url,
+        );
+        if($this->draftImgModel->create($data,'addDraft') === false){
+            unlink('./Uploads/'.$img_info);
+            json(110,"图片上传失败");
+        }
+        if($this->draftImgModel->add() === false){
+            unlink('./Uploads/'.$img_info);
+            json(110,"图片上传失败");
+        }
+        json(200,'上传成功',$img_url);
+    }
 
 }

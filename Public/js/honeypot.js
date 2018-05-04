@@ -3,6 +3,12 @@ $(document).ready(function () {
     var requestUrl = "http://localhost/honeypot/index.php/Home/";
     var signErrorTips = $('.sign-error-tips');
     var loginErrorTips = $('.login-error-tips');
+    //获取url参数
+    function getUrlParam(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+        var r = window.location.search.substr(1).match(reg); //匹配目标参数
+        if (r != null) return unescape(r[2]); return null; //返回参数值
+    }
     /**
      * 阻止冒泡使再登录和注册容器内不会触发时间
      */
@@ -40,7 +46,34 @@ $(document).ready(function () {
         },2000);
     }
 
+    /**
+     *   操作提示框显示与点击确定隐藏
+     */
+    function operateModalShow() {
 
+        $('#tips-modal').css({
+            'width':'300px',
+            'height':'200px',
+            'z-index':'99',
+            'opacity':1
+        });
+    }
+    function operateModalHide() {
+
+        $('#tips-modal').css({
+            'opacity':0
+        });
+        setTimeout((function(){
+            $('#tips-modal').css({
+                'z-index':'-99',
+                'width':0,
+                'height':0
+            });
+        }),100)
+    }
+    $('.btn-determine').click(function () {
+        operateModalHide();
+    });
     /**
      * 登录框弹出
      */
@@ -104,6 +137,17 @@ $(document).ready(function () {
     $('#sign-container').click(function () {
         hideSignModal();
     });
+    /**
+     * 判断是登录还是注册
+     */
+    var index_type = getUrlParam('index_type');
+    (function () {
+        if(index_type == 1){
+            showLoginModal();
+        }
+    })();
+
+
 
     /**
      *注册提交前自动去验证
@@ -214,6 +258,41 @@ $(document).ready(function () {
             var key = $('.search-key-word').val();
             window.location.href =  requestUrl+"Index/search?type="+type+"&key="+key;
         });
+    });
+
+
+    /**
+     * 上传图片
+     */
+    $("#upload-cases-image").click(function () {
+        $("#btn-cases-image").click();
+    });
+    $(document).ready(function (e) {
+        $("#btn-cases-image").change(function (e) {
+            var formData = new FormData();
+            formData.append('file', $('#btn-cases-image')[0].files[0]);  //添加图片信息的参数
+            // var formData = new FormData($("#cases-image")[0]);
+            $.ajax({
+                url: requestUrl + 'Index/casesImgUpload',
+                type: 'POST',
+                data: formData,
+                async: false,
+                cache: false,
+                contentType: false,
+                processData: false,
+                success: function (data) {
+                    if (data.code == "200") {
+                        var str = "<div class='image-list'><img src='"+data.data+"'></div>"
+                        $(".release-image-container").append(str);
+                    } else {
+                        operateModalShow();
+                    }
+                },
+                error: function (data) {
+                    operateModalShow();
+                }
+            })
+        })
     });
 
 });
