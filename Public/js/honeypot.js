@@ -52,8 +52,6 @@ $(document).ready(function () {
     function operateModalShow() {
 
         $('#tips-modal').css({
-            'width':'300px',
-            'height':'200px',
             'z-index':'99',
             'opacity':1
         });
@@ -66,8 +64,6 @@ $(document).ready(function () {
         setTimeout((function(){
             $('#tips-modal').css({
                 'z-index':'-99',
-                'width':0,
-                'height':0
             });
         }),100)
     }
@@ -282,7 +278,7 @@ $(document).ready(function () {
                 processData: false,
                 success: function (data) {
                     if (data.code == "200") {
-                        var str = "<div class='image-list'><img src='"+data.data+"'></div>"
+                        var str = "<div class='image-list'><i class='remove-cases-image'></i><img src='"+data.data.image+"' class='cases-image-url' draft_id='"+data.data.draft_id+"'></div>";
                         $(".release-image-container").append(str);
                     } else {
                         operateModalShow();

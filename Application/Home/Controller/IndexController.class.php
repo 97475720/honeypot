@@ -15,6 +15,10 @@ class IndexController extends Controller {
      * @var \Home\Model\DraftImgModel
      */
     private $draftImgModel;
+    /**
+     * @var \Home\Model\CasesImageModel
+     */
+    private $casesImageModel;
 
 
     public function _initialize()
@@ -22,6 +26,7 @@ class IndexController extends Controller {
         $this->userModel = D('user');
         $this->casesModel = D('cases');
         $this->draftImgModel = D('DraftImg');
+        $this->casesImageModel = D('CasesImage');
         $this->assign('user_nickname',$_SESSION['honeypot']['nickname']);
     }
 
@@ -168,7 +173,7 @@ class IndexController extends Controller {
     {
         $this->display();
     }
-    
+
     /**
      * 上传图片
      */
@@ -190,11 +195,49 @@ class IndexController extends Controller {
             unlink('./Uploads/'.$img_info);
             json(110,"图片上传失败");
         }
-        if($this->draftImgModel->add() === false){
+        $draft_id = $this->draftImgModel->add();
+        if($draft_id === false){
             unlink('./Uploads/'.$img_info);
             json(110,"图片上传失败");
         }
-        json(200,'上传成功',$img_url);
+        $result_data = array(
+            'draft_id' => $draft_id,
+            'image' => $img_url
+        );
+        json(200,'上传成功',$result_data);
+    }
+
+    /**
+     * 发布作品
+     * @param string title
+     * @param string synopsis
+     * @param string cover_img
+     */
+    public function publishCases()
+    {
+        $images = I('post.images');
+        if(!$images){
+            json(110,"请至少上传一张封面图");
+        }
+        $images = explode(',',$images);
+        $_POST['cover_image'] = $images[0];
+        $_POST['user_id'] = $images[0];
+        $images = array_splice($images,1,1);
+        $this->casesModel->startTrans();
+        if($this->casesModel->create('','addCases') === false){
+            $this->casesModel->rollback();
+            json(110,$this->casesModel->getError());
+        }
+        $cases_id = $this->casesModel->add();
+        if($cases_id === false){
+            $this->casesModel->rollback();
+            json(110,'作品上传失败，请重试');
+        }
+        if($images){
+            foreach ($images as $k=>$v){
+                $
+            }
+        }
     }
 
 }
