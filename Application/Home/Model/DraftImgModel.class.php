@@ -14,6 +14,6 @@ class DraftImgModel extends Model {
 
     protected $_auto = array(
         array('is_publish',0,'addDraft'),
-        array('created',NOW_TIME,'addDraft'),
+        array('created_at',NOW_TIME,'addDraft'),
     );
 }

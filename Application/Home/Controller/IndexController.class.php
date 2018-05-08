@@ -33,6 +33,36 @@ class IndexController extends Controller {
 
     public function index()
     {
+        $colors = array(
+            "#fe2323",
+            "#2d23fe",
+            "#fe23fb",
+        );
+        $hot_cases = $this->casesModel
+            ->join('user AS u on u.id = c.user_id')
+            ->field('c.id,c.title,c.cover_img,c.collect_count,u.nickname')
+            ->limit(10)
+            ->alias('c')
+            ->order('collect_count desc')
+            ->select();
+        foreach ($hot_cases as $k=>&$v){
+            if($k == 0){
+                $style = 1;
+                $v['style'] = $style;
+                $v['index'] = $k+1;
+                $v['color'] = "#FCE806";
+            }else{
+                $style = rand(1,2);
+                $color_index = rand(0,2);
+                $v['style'] = $style;
+                $v['index'] = $k+1;
+                $v['color'] = $colors[$color_index];
+            }
+
+        }
+//        dump($hot_cases);
+//        die;
+        $this->assign('hot_cases',$hot_cases);
         $this->display();
     }
 
@@ -108,6 +138,7 @@ class IndexController extends Controller {
             'photo' => $user_info['photo'],
             'nickname'=> $user_info['nickname'],
             'token' => $user_info['token'],
+            'expire'=>time(),
         );
         $_SESSION['honeypot'] = $data;
         json();
@@ -138,16 +169,16 @@ class IndexController extends Controller {
      */
     public function search()
     {
-        $type = I('type',1);
-        $key = I('key');
-        if($key){
-            $where['title'] = array('like',"%$key%");
+        $order_type = I('order_type',1);
+        $key_word = I('key_word');
+        if($key_word){
+            $where['title'] = array('like',"%$key_word%");
         }else{
             $where['title'] = true;
         }
-        if($type == 1){
+        if($order_type == 1){
             $order = "created_at desc";
-        }elseif ($type == 2){
+        }elseif ($order_type == 2){
             $order = "collect_count desc";
         }
         $count = $this->casesModel
@@ -162,7 +193,9 @@ class IndexController extends Controller {
             ->select();
         $this->assign('cases',$cases);
         $this->assign('count',$count);
+        $this->assign('key_word',$key_word);
         $this->assign('show',$show);
+        $this->assign('order_type',$order_type);
         $this->display();
     }
 
@@ -180,25 +213,25 @@ class IndexController extends Controller {
     public function casesImgUpload()
     {
         if(!$_FILES){
-            json(110,"图片上传失败");
+            json(110,"网络错误，图片上传说失败");
         }
         $img_info = uploadImg('cases');
         if($img_info === false){
-            json(110,"图片上传失败");
+            json(110,"图片上传失败,请检查图片格式及大小是否符合要求");
         }
         $img_url = 'http://127.0.0.1/honeypot/Uploads/'.$img_info;
         $data = array(
-            'user_id' => 1,
+            'user_id' => $_SESSION['honeypot']['id'],
             'image_url' => $img_url,
         );
         if($this->draftImgModel->create($data,'addDraft') === false){
             unlink('./Uploads/'.$img_info);
-            json(110,"图片上传失败");
+            json(110,"网络错误，图片上传说失败");
         }
         $draft_id = $this->draftImgModel->add();
         if($draft_id === false){
             unlink('./Uploads/'.$img_info);
-            json(110,"图片上传失败");
+            json(110,"网络错误，图片上传说失败");
         }
         $result_data = array(
             'draft_id' => $draft_id,
@@ -208,6 +241,24 @@ class IndexController extends Controller {
     }
 
     /**
+     * 移除图片
+     */
+    public function removeCaseImg()
+    {
+        $draft_id = I('post.draft_id');
+        $image = I('post.image');
+        if(!$draft_id || !$image){
+            json(110,"删除图片失败，请重试");
+        }
+        if($this->draftImgModel->where(['id'=>$draft_id]) === false){
+            json(110,"删除图片失败，请重试");
+        }
+        $image = explode('honeypot/Uploads',$image);
+        unlink('./Uploads'.$image[1]);
+        json();
+    }
+    
+    /**
      * 发布作品
      * @param string title
      * @param string synopsis
@@ -216,13 +267,16 @@ class IndexController extends Controller {
     public function publishCases()
     {
         $images = I('post.images');
+        $draft_id = I('post.draft_id');
+//        dump(!$images);die;
         if(!$images){
             json(110,"请至少上传一张封面图");
         }
         $images = explode(',',$images);
-        $_POST['cover_image'] = $images[0];
-        $_POST['user_id'] = $images[0];
-        $images = array_splice($images,1,1);
+        $draft_id = explode(',',$draft_id);
+        $_POST['cover_img'] = $images[0];
+        $_POST['user_id'] = $_SESSION['honeypot']['id'];
+        array_splice($images,0,1);
         $this->casesModel->startTrans();
         if($this->casesModel->create('','addCases') === false){
             $this->casesModel->rollback();
@@ -235,9 +289,30 @@ class IndexController extends Controller {
         }
         if($images){
             foreach ($images as $k=>$v){
-                $
+                $img_data = array(
+                    'cases_id' => $cases_id,
+                    'image' => $v,
+                );
+                if($this->casesImageModel->create($img_data,'addCases') === false){
+                    $this->casesModel->rollback();
+                    json(110,'作品上传失败，请重试');
+                }
+                if($this->casesImageModel->add() === false){
+                    $this->casesModel->rollback();
+                    json(110,'作品上传失败，请重试');
+                }
             }
         }
+        if($draft_id){
+            foreach ($draft_id as $k=>$v){
+                if($this->draftImgModel->where(['id'=>$v])->delete() === false){
+                    $this->casesModel->rollback();
+                    json(110,'作品上传失败，请重试');
+                }
+            }
+        }
+        $this->casesModel->commit();
+        json(200,"作品上传成功");
     }
 
 }

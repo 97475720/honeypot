@@ -1,13 +1,23 @@
 <include file="Layouts:header"/>
 <div class="common-top">
     <div class="common-log">
-        <img src="__PUBLIC__/images/logo1.jpg" />
+        <a href="{:U('Index/index')}"><img src="__PUBLIC__/images/logo1.jpg" /></a>
         <span>蜜罐</span>
     </div>
+    <?php if($user_nickname): ?>
+    <div class="common-user-information">
+        <span>
+            <i>Hi!~</i>
+            <a href="{:U('Index/userInfo')}"><i class="user-nickname">{$user_nickname}</i></a>
+        </span>
+        <span class="index-login-out">注销</span>
+    </div>
+    <?php else: ?>
     <div class="common-sign-login">
         <span class="sign">注册</span>
         <span class="login">登录</span>
     </div>
+    <?php endif; ?>
 </div>
 <div id="info-warp">
     <div id="info-content">
@@ -24,11 +34,11 @@
             </div>
             <div class="user-operate-data">
                 <div class="user-collect-data">
-                    <p>12</p>
+                    <a><p>12</p></a>
                     <span>收藏</span>
                 </div>
                 <div class="user-publish-data">
-                    <p>31</p>
+                    <a><p>12</p></a>
                     <span>发布</span>
                 </div>
             </div>
@@ -52,7 +62,7 @@
             </div>
         </div>
         <div class="publish-cases cases-list">
-            <a><img src="__PUBLIC__/images/publish.jpg"></a>
+            <a href="{:U('Index/releaseCases')}"><img src="__PUBLIC__/images/publish.jpg"></a>
             <p>发布作品</p>
         </div>
     </div>

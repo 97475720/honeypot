@@ -1,13 +1,23 @@
 <include file="Layouts:header"/>
 <div class="common-top">
     <div class="common-log">
-        <img src="__PUBLIC__/images/logo1.jpg" />
+        <a href="{:U('Index/userInfo')}"><img src="__PUBLIC__/images/logo1.jpg" /></a>
         <span>蜜罐</span>
     </div>
+    <?php if($user_nickname): ?>
+    <div class="common-user-information">
+        <span>
+            <i>Hi!~</i>
+            <a href="{:U('Index/userInfo')}"><i class="user-nickname">{$user_nickname}</i></a>
+        </span>
+        <span class="index-login-out">注销</span>
+    </div>
+    <?php else: ?>
     <div class="common-sign-login">
         <span class="sign">注册</span>
         <span class="login">登录</span>
     </div>
+    <?php endif; ?>
 </div>
 <div id="release-warp">
     <div class="release-content">
@@ -23,7 +33,7 @@
                 </div>
                 <div class="form-group">
                     <p class="release-tips">*请输入作品介绍(最多100字)</p>
-                    <textarea maxlength="100" placeholder="请输入作品介绍" class="release-cases-title form-control" rows="4"></textarea>
+                    <textarea maxlength="100" placeholder="请输入作品介绍" class="release-cases-synopsis form-control" rows="4"></textarea>
                 </div>
                 <div class="form-group" style="display: none">
                     <form enctype="multipart/form-data" method="post" id="cases-image" onsubmit="return false">
@@ -45,6 +55,9 @@
                     <span>*仅允许上传不超过2M大小，格式为png、jpg、jpeg、gif的图片，如若上传失败，请检查图片大小及格式是否符合要求。</span>
                 </div>
             </div>
+        </div>
+        <div class="release-operate-container">
+            <span class="btn btn-submit-cases">发布作品</span>
         </div>
     </div>
 </div>

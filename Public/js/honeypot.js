@@ -49,8 +49,8 @@ $(document).ready(function () {
     /**
      *   操作提示框显示与点击确定隐藏
      */
-    function operateModalShow() {
-
+    function operateModalShow(msg) {
+        $('.tips-content').text(msg);
         $('#tips-modal').css({
             'z-index':'99',
             'opacity':1
@@ -66,7 +66,12 @@ $(document).ready(function () {
                 'z-index':'-99',
             });
         }),100)
+        $('.tips-content').text("");
     }
+
+    /**
+     * 点击确定隐藏
+     */
     $('.btn-determine').click(function () {
         operateModalHide();
     });
@@ -277,18 +282,81 @@ $(document).ready(function () {
                 contentType: false,
                 processData: false,
                 success: function (data) {
+                    $('#btn-cases-image').outerHTML = $('#btn-cases-image').outerHTML;
                     if (data.code == "200") {
                         var str = "<div class='image-list'><i class='remove-cases-image'></i><img src='"+data.data.image+"' class='cases-image-url' draft_id='"+data.data.draft_id+"'></div>";
                         $(".release-image-container").append(str);
+                    } else if(data.code == 100) {
+                        window.location.href = "http://localhost/hoenypot/index.php/Home/Index/index?index_type=1";
                     } else {
-                        operateModalShow();
+                        operateModalShow(data.msg);
                     }
                 },
-                error: function (data) {
-                    operateModalShow();
+                error: function () {
+                    $('#btn-cases-image').outerHTML = $('#btn-cases-image').outerHTML;
+                    operateModalShow("网络错误，请重试！");
                 }
             })
         })
     });
+
+    /**
+     * 移除图片
+     */
+    $('.release-image-container').on('click','.remove-cases-image',function () {
+            var _this = $(this);
+            var draft_id = $(this).parent().find(".cases-image-url").attr('draft_id');
+            var image = $(this).parent().find(".cases-image-url").attr('src');
+            $.post(requestUrl+'Index/removeCaseImg',{draft_id:draft_id,image:image},function (data) {
+                if(data.code == 100){
+                    window.location.href = "http://localhost/hoenypot/index.php/Home/Index/index?index_type=1";
+                }else if(data.code == 200){
+                    $(_this).parent('.image-list').remove();
+                }else{
+                    operateModalShow(data.msg);
+                }
+            })
+    });
+    $('.remove-cases-image').l
+
+    /**
+     * 发布作品
+     */
+    $('.btn-submit-cases').click(function () {
+        var title = $('.release-cases-title').val();
+        var synopsis = $('.release-cases-synopsis').val();
+        var images = "";
+        var draft_id = "";
+        $.each($('.cases-image-url'), function (k, v) {
+            images += $(v).attr('src') + ",";
+            draft_id += $(v).attr('draft_id')+",";
+        });
+        images = images.substring(0, images.length - 1);
+        draft_id = draft_id.substring(0, draft_id.length - 1);
+        $.post(requestUrl + 'Index/publishCases', {title: title, synopsis: synopsis, images: images,draft_id : draft_id}, function (data) {
+                if(data.code == 100){
+                    window.location.href = "http://localhost/honeypot/index.php/Home/Index/index?index_type=1";
+                }else {
+                    operateModalShow(data.msg);
+                    setTimeout(function () {
+                      window.location.reload();
+                    },500)
+                }
+        });
+    });
+
+    /**
+     * 搜索
+     */
+    $('.search-btn').click(function () {
+        var key_word = $('.search-key-word').val();
+        var order_type = $('.order-type-active').attr('order_type');
+        window.location.href = "http://localhost/honeypot/index.php/Home/Index/search?key_word="+key_word+"&order_type="+order_type;
+    });
+
+    $('.index-btn-search').click(function () {
+        var key_word = $('.index-search-text').val();
+        window.location.href = "http://localhost/honeypot/index.php/Home/Index/search?key_word="+key_word;
+    })
 
 });

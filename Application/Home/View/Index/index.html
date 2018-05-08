@@ -2,7 +2,7 @@
     <div id="top">
         <div class="top-info">
             <div class="top-log">
-                <a href="{:U('Index/userInfo')}">
+                <a href="{:U('Index/index')}">
                     <img src="__PUBLIC__/images/logo.png" />
                 </a>
                 <a>
@@ -13,7 +13,7 @@
             <p class="user-information">
                         <span>
                             <i>Hi!~</i>
-                            <i class="user-nickname">{$user_nickname}</i>
+                            <a href="{:U('Index/userInfo')}"><i class="user-nickname">{$user_nickname}</i></a>
                         </span>
                 <span class="index-login-out">注销</span>
             </p>
@@ -25,8 +25,8 @@
             <?php endif; ?>
             <h1 class="top-title">蜜罐，陪你做生活中的设计师</h1>
             <div class="top-search">
-                <input class="search-text" type="text" placeholder="搜你喜欢的" />
-                <i class="btn-search">
+                <input class="index-search-text" type="text" placeholder="搜你喜欢的" />
+                <i class="index-btn-search">
                     <img src="__PUBLIC__/images/search.png" >
                 </i>
             </div>
@@ -45,31 +45,53 @@
         <i></i>
     </div>
     <div class="hot-cases">
-        <div class="cases-container">
-            <div class="cases-details">
-                <img src="__PUBLIC__/images/test.jpg">
+        <volist name="hot_cases" id="vl">
+            <?php if($vl['style'] == 1): ?>
+            <div class="cases-container">
+                <div class="cases-img-details cases-details">
+                    <a><img src="{$vl['cover_img']}"></a>
+                </div>
+                <div class="cases-info-details cases-details">
+                    <p class="cases-sort" style="color:{$vl['color']}">
+                        <i>{$vl['index']}</i>
+                        <em>st</em>
+                    </p>
+                    <p class="cases-title">
+                        {$vl['title']}
+                    </p>
+                    <p class="cases-count">
+                        收藏数：{$vl['collect_count']}
+                    </p>
+                    <p class="cases-author">
+                        <span>作者：</span>
+                        <a>{$vl['nickname']}</a>
+                    </p>
+                </div>
             </div>
-            <div class="cases-details">
-                <p class="cases-sort">
-                    <i>1</i>
-                    <em>st</em>
-                </p>
-                <p class="cases-title">
-                    马来西亚风景
-                </p>
-                <p class="cases-count">
-                    收藏数：
-                </p>
-                <p class="cases-author">
-                    <span>作者：</span>
-                    <a>花无缺</a>
-                </p>
+            <?php elseif($vl['style'] == 2): ?>
+            <div class="cases-container">
+                <div class="cases-info-details cases-details">
+                    <p class="cases-sort" style="color:{$vl['color']}">
+                        <i>{$vl['index']}</i>
+                        <em>st</em>
+                    </p>
+                    <p class="cases-title">
+                        {$vl['title']}
+                    </p>
+                    <p class="cases-count">
+                        收藏数：{$vl['collect_count']}
+                    </p>
+                    <p class="cases-author">
+                        <span>作者：</span>
+                        <a>{$vl['nickname']}</a>
+                    </p>
+                </div>
+                <div class="cases-img-details cases-details">
+                    <a><img src="{$vl['cover_img']}"></a>
+                </div>
             </div>
-        </div>
-        <div class="cases-container">
-            <div class="cases-details"></div>
-            <div class="cases-details"></div>
-        </div>
+            <?php endif; ?>
+        </volist>
     </div>
 </div>
 <include file="Layouts:footer"/>

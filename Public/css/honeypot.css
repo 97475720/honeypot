@@ -220,19 +220,19 @@ i,em{
 }
 
 
-.search-text::-webkit-input-placeholder { /* WebKit browsers */
+.index-search-text::-webkit-input-placeholder { /* WebKit browsers */
     color: rgba(239,239,239,0.7);
     font-weight: 200;
 }
-.search-text:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+.index-search-text:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
     color: rgba(239,239,239,0.7);
     font-weight: 200;
 }
-.search-text::-moz-placeholder { /* Mozilla Firefox 19+ */
+.index-search-text::-moz-placeholder { /* Mozilla Firefox 19+ */
     color: rgba(239,239,239,0.7);
     font-weight: 200;
 }
-.search-text:-ms-input-placeholder { /* Internet Explorer 10+ */
+.index-search-text:-ms-input-placeholder { /* Internet Explorer 10+ */
     color: rgba(239,239,239,0.7);
     font-weight: 200;
 }
@@ -324,7 +324,10 @@ i,em{
     font-weight: 500;
     display: inline-block;
 }
-.user-information span .user-nickname{
+.user-information span a{
+    color: #FFFFFF;
+}
+.user-information span a .user-nickname{
     margin-left: 6px;
 }
 .user-information .index-login-out{
@@ -362,13 +365,13 @@ i,em{
     vertical-align: middle;
     font-weight: 200;
 }
-.btn-search{
+.index-btn-search{
     display: inline-block;
     vertical-align: middle;
 }
-.btn-search img{
-    width: 40px;
-    height: 40px;
+.index-btn-search img{
+    width: 36px;
+    height: 36px;
 }
 #top .hot-tag{
     width: 800px;
@@ -389,7 +392,7 @@ i,em{
     text-decoration: none;
 }
 #middle-content{
-    margin: 0 360px;
+    margin: 0 360px 50px;
     overflow: hidden;
 }
 #middle-content .recommend-line{
@@ -427,7 +430,14 @@ i,em{
     height: 300px;
     float: left;
 }
-.cases-details img{
+.cases-container .cases-info-details{
+    background: #FAFAFA;
+}
+.cases-details a{
+    width: 100%;
+    height: inherit;
+}
+.cases-details a img{
     width: 100%;
     height: inherit;
 
@@ -436,7 +446,7 @@ i,em{
     padding-left: 16px;
 }
 .cases-details .cases-sort{
-    color: #fcE806;
+    color: #d0d0d0;
 }
 
 .cases-details .cases-sort i{
@@ -448,6 +458,9 @@ i,em{
 .cases-details .cases-title{
     font-size: 25px;
     margin-top: 20px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
 }
 .cases-details .cases-count{
     font-size: 16px;
@@ -484,7 +497,7 @@ i,em{
     float: left;
     margin-left: 210px;
 }
-.common-log img{
+.common-log a img{
     width: 70px;
     height: 70px;
     display: inline-block;
@@ -521,6 +534,32 @@ i,em{
 }
 .common-sign-login .login{
     border-color:  #FFFFFF;
+}
+.common-user-information{
+    float: right;
+    margin-right: 210px;
+    padding-top: 6px;
+}
+.common-user-information span{
+    line-height: 32px;
+    vertical-align: middle;
+    font-size: 25px;
+    font-weight: 500;
+    display: inline-block;
+}
+.common-user-information span a{
+  color: inherit;
+}
+.common-user-information .index-login-out{
+    padding: 0 12px;
+    border:1px solid rgba(228,4,4,0.87);
+    border-radius: 5px;
+    margin-left: 16px;
+    color: rgba(228,4,4,0.87);
+    line-height: 30px;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
 }
 #warp .search-middle{
     width: inherit;
@@ -578,7 +617,7 @@ i,em{
     font-size: 14px;
     color: #444444;
 }
-.search-info .type-active{
+.search-info .order-type-active{
     color: #fe0304;
 }
 .search-type span{
@@ -839,10 +878,12 @@ i,em{
     top: 8px;
     width: 25px;
     height: 25px;
+    z-index: 9;
     /*background-image: url();*/
     /*background-size: 25px 25px;*/
     /*background-position:center;*/
-    background:url(../images/remove.jpg) no-repeat center;
+    background:url(../images/remove.png) no-repeat center;
+    cursor: pointer;
 }
 .image-list img{
     width: inherit;
@@ -873,5 +914,20 @@ i,em{
     text-align: center;
     color: #fe0304;
 
+}
+.release-operate-container{
+    width: inherit;
+    height: auto;
+    overflow: hidden;
+    margin: 30px 0;
+}
+.release-operate-container span{
+    padding: 16px 38px;
+    color: #FFFFFF;
+    background: #eaff00;
+    font-size: 28px;
+}
+.release-operate-container span:hover{
+    color: #FFFFFF;
 }
 

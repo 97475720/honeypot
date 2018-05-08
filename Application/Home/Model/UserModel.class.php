@@ -23,13 +23,13 @@ class UserModel extends Model {
 		);
 
 	protected $_auto = array (
-        array('updated_at',NOW_TIME,'register'),
         array('created_at',NOW_TIME,'register'),
+        array('photo',"http://localhost/honeypot/Uploads/cases2018-05-08/59a27a02cff01.jpg",'register'),
         array('token',NOW_TIME,'register'),
         array('login_ip','createdLoginIp','register','callback'),
         array('salt','randStringSalt','register','callback'),
 
-        array('updated_at',NOW_TIME,'update'),
+        array('updated_at',NOW_TIME,self::MODEL_BOTH),
      );
 
 
