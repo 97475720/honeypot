@@ -250,7 +250,7 @@ class IndexController extends Controller {
         if(!$draft_id || !$image){
             json(110,"删除图片失败，请重试");
         }
-        if($this->draftImgModel->where(['id'=>$draft_id]) === false){
+        if($this->draftImgModel->where(['id'=>$draft_id])->delete() === false){
             json(110,"删除图片失败，请重试");
         }
         $image = explode('honeypot/Uploads',$image);
