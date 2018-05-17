@@ -1,0 +1,57 @@
+<include file="Layouts:header"/>
+<div class="common-top">
+    <div class="common-log">
+        <a href="{:U('Index/index')}"><img src="__PUBLIC__/images/logo1.jpg" /></a>
+        <span>蜜罐</span>
+    </div>
+    <?php if($user_nickname): ?>
+    <div class="common-user-information">
+        <span>
+            <i>Hi!~</i>
+            <a href="{:U('Index/userInfo')}"><i class="user-nickname">{$user_nickname}</i></a>
+        </span>
+        <span class="index-login-out">注销</span>
+    </div>
+    <?php else: ?>
+    <div class="common-sign-login">
+        <span class="sign">注册</span>
+        <span class="login">登录</span>
+    </div>
+    <?php endif; ?>
+</div>
+<div id="cases-warp">
+    <div id="cases-details">
+        <div class="cases-writer">
+            <div class="cases-title">
+                <p>{$cases['title']}</p>
+                <span><?php echo date('Y-m-d H:i:s',$cases['created_at'])?></span>
+            </div>
+            <div class="cases-writer-info">
+                <div class="cases-writer-photo">
+                    <img src="{$cases['photo']}">
+                </div>
+                <div class="cases-writer-nickname">
+                    <span>{$cases['nickname']}</span>
+                </div>
+            </div>
+            <div class="cases-data">
+                <div>
+                    <img src="__PUBLIC__/images/collect.jpg">
+                    <span>{$cases['collect_count']}</span>
+                </div>
+                <div>
+                    <img src="__PUBLIC__/images/comment.jpg">
+                    <span>{$cases['comment_count']}</span>
+                </div>
+            </div>
+        </div>
+        <p class="cases-details-synopsis">{$cases['synopsis']}</p>
+        <div class="cases-content">
+
+        </div>
+    </div>
+</div>
+<div class="message-modal">
+
+</div>
+<include file="Layouts:footer"/>

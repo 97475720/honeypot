@@ -76,18 +76,14 @@
     <div id="top">
         <div class="top-info">
             <div class="top-log">
-                <a href="<?php echo U('Index/index');?>">
-                    <img src="/honeypot/Public/images/logo.png" />
-                </a>
-                <a>
-                    <span>蜜罐</span>
-                </a>
+                <img src="/honeypot/Public/images/logo.png" />
+                <span>蜜罐</span>
             </div>
             <?php if($user_nickname): ?>
             <p class="user-information">
                         <span>
                             <i>Hi!~</i>
-                            <a href="<?php echo U('Index/userInfo');?>"><i class="user-nickname"><?php echo ($user_nickname); ?></i></a>
+                            <i class="user-nickname"><?php echo ($user_nickname); ?></i>
                         </span>
                 <span class="index-login-out">注销</span>
             </p>
@@ -99,8 +95,8 @@
             <?php endif; ?>
             <h1 class="top-title">蜜罐，陪你做生活中的设计师</h1>
             <div class="top-search">
-                <input class="index-search-text" type="text" placeholder="搜你喜欢的" />
-                <i class="index-btn-search">
+                <input class="search-text" type="text" placeholder="搜你喜欢的" />
+                <i class="btn-search">
                     <img src="/honeypot/Public/images/search.png" >
                 </i>
             </div>
@@ -119,51 +115,31 @@
         <i></i>
     </div>
     <div class="hot-cases">
-        <?php if(is_array($hot_cases)): $i = 0; $__LIST__ = $hot_cases;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vl): $mod = ($i % 2 );++$i; if($vl['style'] == 1): ?>
-            <div class="cases-container">
-                <div class="cases-img-details cases-details">
-                    <a><img src="<?php echo ($vl['cover_img']); ?>"></a>
-                </div>
-                <div class="cases-info-details cases-details">
-                    <p class="cases-sort" style="color:<?php echo ($vl['color']); ?>">
-                        <i><?php echo ($vl['index']); ?></i>
-                        <em>st</em>
-                    </p>
-                    <p class="cases-title">
-                        <?php echo ($vl['title']); ?>
-                    </p>
-                    <p class="cases-count">
-                        收藏数：<?php echo ($vl['collect_count']); ?>
-                    </p>
-                    <p class="cases-author">
-                        <span>作者：</span>
-                        <a><?php echo ($vl['nickname']); ?></a>
-                    </p>
-                </div>
+        <div class="cases-container">
+            <div class="cases-details">
+                <img src="/honeypot/Public/images/test.jpg">
             </div>
-            <?php elseif($vl['style'] == 2): ?>
-            <div class="cases-container">
-                <div class="cases-info-details cases-details">
-                    <p class="cases-sort" style="color:<?php echo ($vl['color']); ?>">
-                        <i><?php echo ($vl['index']); ?></i>
-                        <em>st</em>
-                    </p>
-                    <p class="cases-title">
-                        <?php echo ($vl['title']); ?>
-                    </p>
-                    <p class="cases-count">
-                        收藏数：<?php echo ($vl['collect_count']); ?>
-                    </p>
-                    <p class="cases-author">
-                        <span>作者：</span>
-                        <a><?php echo ($vl['nickname']); ?></a>
-                    </p>
-                </div>
-                <div class="cases-img-details cases-details">
-                    <a><img src="<?php echo ($vl['cover_img']); ?>"></a>
-                </div>
+            <div class="cases-details">
+                <p class="cases-sort">
+                    <i>1</i>
+                    <em>st</em>
+                </p>
+                <p class="cases-title">
+                    马来西亚风景
+                </p>
+                <p class="cases-count">
+                    收藏数：
+                </p>
+                <p class="cases-author">
+                    <span>作者：</span>
+                    <a>花无缺</a>
+                </p>
             </div>
-            <?php endif; endforeach; endif; else: echo "" ;endif; ?>
+        </div>
+        <div class="cases-container">
+            <div class="cases-details"></div>
+            <div class="cases-details"></div>
+        </div>
     </div>
 </div>
     <div id="footer">

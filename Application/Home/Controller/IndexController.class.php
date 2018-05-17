@@ -315,4 +315,25 @@ class IndexController extends Controller {
         json(200,"作品上传成功");
     }
 
+    /**
+     * 作品详情页
+     */
+    public function getCases()
+    {
+//        $cases_id = I('get.cases_id');
+        $cases_id = 3;
+        $cases = $this->casesModel
+            ->join('user AS u on u.id = c.user_id')
+            ->field('c.id,c.title,c.cover_img,c.collect_count,c.comment_count,c.created_at,u.nickname,u.photo,c.synopsis')
+            ->where(['c.id'=>$cases_id])
+            ->alias('c')
+            ->find();
+        $cases['images'] = $this->casesImageModel
+            ->field('image')
+            ->where(['cases_id'=>$cases_id])
+            ->select();
+        $this->assign('cases',$cases);
+        $this->display();
+    }
+
 }

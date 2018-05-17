@@ -9,6 +9,7 @@ return array(
       'Home/Index/loginOut',
       'Home/Index/registerVerify',
       'Home/Index/sign',
+      'Home/Index/getCases',
     ],
 
 );
