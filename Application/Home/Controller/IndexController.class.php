@@ -19,6 +19,10 @@ class IndexController extends Controller {
      * @var \Home\Model\CasesImageModel
      */
     private $casesImageModel;
+    /**
+     * @var \Home\Model\CasesCommentModel
+     */
+    private $casesCommentModel;
 
 
     public function _initialize()
@@ -26,6 +30,7 @@ class IndexController extends Controller {
         $this->userModel = D('user');
         $this->casesModel = D('cases');
         $this->draftImgModel = D('DraftImg');
+        $this->casesCommentModel = D('CasesComment');
         $this->casesImageModel = D('CasesImage');
         $this->assign('user_nickname',$_SESSION['honeypot']['nickname']);
     }
@@ -332,6 +337,23 @@ class IndexController extends Controller {
             ->field('image')
             ->where(['cases_id'=>$cases_id])
             ->select();
+        $comment_count = $this->casesCommentModel
+            ->join('user AS u on u.id = cm.user_id')
+            ->where(['cm.cases_id'=>$cases_id])
+            ->alias('cm')
+            ->count();
+        $page = new \Think\Page($comment_count,10);
+        $show = $page->show();
+        $comment = $this->casesCommentModel
+            ->join('user AS u on u.id = cm.user_id')
+            ->field('u.photo,u.nickname,cm.id,cm.content,cm.user_id,cm.cases_id,cm.created_at')
+            ->where(['cm.cases_id'=>$cases_id])
+            ->limit($page->firstRow,$page->listRows)
+            ->order('cm.created_at desc')
+            ->alias('cm')
+            ->select();
+        $this->assign('show',$show);
+        $this->assign('comment',$comment);
         $this->assign('cases',$cases);
         $this->display();
     }

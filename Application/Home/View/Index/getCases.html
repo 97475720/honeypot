@@ -46,8 +46,26 @@
             </div>
         </div>
         <p class="cases-details-synopsis">{$cases['synopsis']}</p>
-        <div class="cases-content">
+    </div>
+    <div class="cases-content">
+            <volist name="cases['images']" id="vl">
+                <img src="{$vl['image']}">
+            </volist>
+    </div>
 
+    <div class="cases-comment">
+        <div class="cases-comment-container">
+            <volist name="comment" id="vl">
+                <div class="comment-list">
+                    <img src="{$vl['photo']}">
+                    <div class="comment-info">
+                        <p class="info-user-nickname">{$vl['nickname']}</p>
+                    </div>
+                </div>
+            </volist>
+        </div>
+        <div class="pagination-container">
+                {$show}
         </div>
     </div>
 </div>
