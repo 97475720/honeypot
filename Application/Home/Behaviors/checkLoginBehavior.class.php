@@ -32,11 +32,15 @@ class checkLoginBehavior extends Behavior
             if (IS_POST) {
                 json(100, "没有登录");
             }
+            //如果上一个请求地址存在
             if($referer_url){
+                //去找这个地址是否有get参数
                 $redirect_url = strstr($referer_url,'?',true);
+                //如果有参数
                 if($redirect_url){
-                    die(redirect($redirect_url.'?index_type=1'));
+                    die(redirect($redirect_url.'$index_type=1'));
                 }
+                //没有get参数的话
                 die(redirect($referer_url.'?index_type=1'));
             }
             die(redirect("http://localhost/honeypot/index.php/Home/Index/index?index_type=1"));

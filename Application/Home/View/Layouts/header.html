@@ -9,6 +9,20 @@
     <link href="__PUBLIC__/css/honeypot.css" rel="stylesheet">
     <link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
     <link href="__PUBLIC__/css/sb-admin.css" rel="stylesheet">
+    <script src="__PUBLIC__/js/jquery-3.1.1.js"></script>
+    <script>
+        /**
+         * input框是否有值得检测
+         * @param obj
+         */
+        function changeBtn(obj){
+            if(obj.value.length>0){
+                $('.btn-reply').addClass('comment-can-submit').removeClass('comment-cannot-submit');
+            }else{
+                $('.btn-reply').removeClass('comment-can-submit').addClass('comment-cannot-submit');
+            }
+        }
+    </script>
 </head>
 <body>
 <div id="warp">

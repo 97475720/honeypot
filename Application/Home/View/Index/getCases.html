@@ -36,7 +36,11 @@
             </div>
             <div class="cases-data">
                 <div>
-                    <img src="__PUBLIC__/images/collect.jpg">
+                    <?php if($is_collect): ?>
+                    <img src="__PUBLIC__/images/is_collect.jpg" class="cancel-collect" cases_id="{$cases_id}">
+                    <?php else: ?>
+                    <img src="__PUBLIC__/images/collect.jpg" class="increase-collect" cases_id="{$cases_id}">
+                    <?php endif; ?>
                     <span>{$cases['collect_count']}</span>
                 </div>
                 <div>
@@ -55,11 +59,26 @@
 
     <div class="cases-comment">
         <div class="cases-comment-container">
+            <div class="comment-list">
+                <img src="{$user_photo}">
+                <div class="comment-info">
+                    <div class="join-comment-input">
+                        <textarea class="join-comment-content" rows="3" oninput="changeBtn(this)"></textarea>
+                    </div>
+                    <div class="join-comment-btn">
+                        <span class="btn comment-cannot-submit btn-reply" cases_id="{$cases_id}">发 布</span>
+                    </div>
+                </div>
+            </div>
             <volist name="comment" id="vl">
                 <div class="comment-list">
                     <img src="{$vl['photo']}">
                     <div class="comment-info">
                         <p class="info-user-nickname">{$vl['nickname']}</p>
+                        <p class="comment-content">{$vl['content']}</p>
+                        <p class="comment-created">
+                            <?php echo date("Y-m-d H:i:s",$vl['created_at'])?>
+                        </p>
                     </div>
                 </div>
             </volist>

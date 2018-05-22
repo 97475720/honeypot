@@ -1042,11 +1042,12 @@ i,em{
     overflow: hidden;
 }
 .cases-comment .cases-comment-container{
-    padding: 30px;
     overflow: hidden;
 }
 .cases-comment-container .comment-list{
-    margin-bottom: 30px;
+    padding: 30px 30px 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #c2c2c2;
 }
 .comment-list .comment-info{
     display: block;
@@ -1062,10 +1063,59 @@ i,em{
 }
 .comment-user-info span{
     display: inline-block;
-    line-height: 140px;
+    line-height: 100px;
     font-size: 30px;
 }
 .comment-info .info-user-nickname{
-    line-height: 140px;
+    line-height: 100px;
     font-size: 30px;
+}
+.comment-info .comment-content{
+    font-size: 20px;
+    color: #444444;
+    margin-bottom: 30px;
+}
+.comment-info .comment-created{
+    font-size: 16px;
+    color: #a8a8a8;
+    text-align: right;
+}
+.comment-info .join-comment-input{
+    width: 100%;
+}
+.join-comment-input textarea{
+    width: 100%;
+    border: 1px solid #cccccc;
+    background: #f2f2f2;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #a9a9a9;
+    padding: 12px;
+}
+.comment-info .join-comment-btn{
+    width: 100%;
+    text-align: right;
+    margin-top: 30px;
+}
+.join-comment-btn .comment-cannot-submit{
+    font-size: 20px;
+    color: #a9a9a9;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    background: #f2f2f2;
+}
+.join-comment-btn .comment-cannot-submit:hover{
+    color:#a9a9a9;
+}
+.join-comment-btn .comment-can-submit{
+    font-size: 20px;
+    border-radius: 4px;
+    border: 1px solid #00c8e6;
+    color: #fff;
+    background: #00c8e6;
+}
+.join-comment-btn .comment-can-submit:hover{
+    color: #fff;
+    background: rgba(0,200,230,0.8);
 }

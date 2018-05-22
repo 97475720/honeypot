@@ -23,6 +23,10 @@ class IndexController extends Controller {
      * @var \Home\Model\CasesCommentModel
      */
     private $casesCommentModel;
+    /**
+     * @var \Home\Model\CollectModel
+     */
+    private $collectModel;
 
 
     public function _initialize()
@@ -32,7 +36,9 @@ class IndexController extends Controller {
         $this->draftImgModel = D('DraftImg');
         $this->casesCommentModel = D('CasesComment');
         $this->casesImageModel = D('CasesImage');
+        $this->collectModel = D('Collect');
         $this->assign('user_nickname',$_SESSION['honeypot']['nickname']);
+        $this->assign('user_photo',$_SESSION['honeypot']['photo']);
     }
 
 
@@ -93,10 +99,11 @@ class IndexController extends Controller {
         $_SESSION['honeypot'] = array(
             'id' => $user_info['id'],
             'nickname'=> $user_info['nickname'],
+            'photo'=> $user_info['photo'],
             'token' => $token,
             'expire'=>time(),
         );
-        json();
+        json(200,"登录成功");
 
     }
 
@@ -178,8 +185,6 @@ class IndexController extends Controller {
         $key_word = I('key_word');
         if($key_word){
             $where['title'] = array('like',"%$key_word%");
-        }else{
-            $where['title'] = true;
         }
         if($order_type == 1){
             $order = "created_at desc";
@@ -325,8 +330,7 @@ class IndexController extends Controller {
      */
     public function getCases()
     {
-//        $cases_id = I('get.cases_id');
-        $cases_id = 3;
+        $cases_id = I('get.cases_id');
         $cases = $this->casesModel
             ->join('user AS u on u.id = c.user_id')
             ->field('c.id,c.title,c.cover_img,c.collect_count,c.comment_count,c.created_at,u.nickname,u.photo,c.synopsis')
@@ -352,10 +356,90 @@ class IndexController extends Controller {
             ->order('cm.created_at desc')
             ->alias('cm')
             ->select();
+        $is_collect = $this->collectModel->where(array('user_id'=>$_SESSION['honeypot']['id'],'cases_id'=>$cases_id))->find();
+        $this->assign('is_collect',$is_collect);
         $this->assign('show',$show);
         $this->assign('comment',$comment);
         $this->assign('cases',$cases);
+        $this->assign('cases_id',$cases_id);
         $this->display();
     }
 
+
+    /**
+     * 评论
+     */
+    public function addReply()
+    {
+        $_POST['user_id'] = $_SESSION['honeypot']['id'];
+        $cases_id = I('post.cases_id');
+        $this->casesCommentModel->startTrans();
+        if($this->casesCommentModel->create('','addCasesComment') === false){
+            $this->casesCommentModel->rollback();
+            json(110,$this->casesCommentModel->getError());
+        }
+        if($this->casesCommentModel->add() === false){
+            $this->casesCommentModel->rollback();
+            json(110,"回复失败");
+        }
+        if($this->casesModel->where(['id'=>$cases_id])->setInc('comment_count',1) === false){
+            $this->casesCommentModel->rollback();
+            json(110,"回复失败");
+        }
+        $this->casesCommentModel->commit();
+        json(200,"回复成功");
+    }
+    
+    
+    
+    /**
+     * 收藏作品
+     */
+    public function collectCases()
+    {
+        $_POST['user_id'] = $_SESSION['honeypot']['id'];
+        $cases_id = I('post.cases_id');
+        $cases = $this->casesModel
+            ->where(['id'=>$cases_id])
+            ->find();
+        if($_POST['user_id'] == $cases['user_id']){
+            json(110,"不能收藏自己的作品");
+        }
+        $this->collectModel->startTrans();
+        if($this->collectModel->create('','collectCases') === false){
+            $this->collectModel->rollback();
+            json(110,$this->collectModel->getError());
+        }
+        if($this->collectModel->add() === false){
+            $this->collectModel->rollback();
+            json(110,"评论失败");
+        }
+        if($this->casesModel->where(['id'=>$cases_id])->setInc('collect_count',1) === false){
+            $this->collectModel->rollback();
+            json(110,"收藏失败");
+        }
+        $this->casesModel->commit();
+        json(200,"收藏成功");
+    }
+
+
+    public function cancelCollect()
+    {
+        $where['user_id'] = $_SESSION['honeypot']['id'];
+        $where['cases_id'] = I('post.cases_id');
+        if(!$where['user_id'] || !$where['cases_id']){
+            json(110,"取消收藏失败");
+        }
+        $this->collectModel->startTrans();
+        if($this->collectModel->where($where)->delete() === false){
+            $this->collectModel->rollback();
+            json(110,"取消收藏失败");
+        }
+        if($this->casesModel->where(['id'=>$where['cases_id']])->setDec('collect_count',1) === false){
+            $this->collectModel->rollback();
+            json(110,"取消收藏失败");
+        }
+        $this->casesModel->commit();
+        json(200,"取消收藏成功");
+    }
 }

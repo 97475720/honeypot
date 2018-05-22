@@ -7,7 +7,7 @@ $(document).ready(function () {
     function getUrlParam(name) {
         var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
         var r = window.location.search.substr(1).match(reg); //匹配目标参数
-        if (r != null) return unescape(r[2]); return null; //返回参数值
+        if (r != null) return decodeURI(r[2]); return null; //返回参数值
     }
     /**
      * 阻止冒泡使再登录和注册容器内不会触发时间
@@ -65,8 +65,7 @@ $(document).ready(function () {
             $('#tips-modal').css({
                 'z-index':'-99',
             });
-        }),100)
-        $('.tips-content').text("");
+        }),100);
     }
 
     /**
@@ -223,12 +222,22 @@ $(document).ready(function () {
         event.stopPropagation();
         var username = $('.login-username input[name=username]').val();
         var password = $('.login-password input[name=password]').val();
+        var cases_id = getUrlParam('cases_id');
+        var key_word = getUrlParam('key_word');
+        var order_type = getUrlParam('order_type');
         password = hex_md5(password);
         $.post(requestUrl+'Index/login',{username:username,password:password},function (data) {
             if(data.code == 200){
                 formModal(2,loginErrorTips,"登录成功！");
                 setTimeout(function () {
-                    window.location.reload();
+                    if(cases_id != null){
+                        window.location.href = "http://localhost/honeypot/index.php/Home/Index/getCases?cases_id="+cases_id;
+                    }else if(key_word != null){
+                        window.location.href = "http://localhost/honeypot/index.php/Home/Index/search?key_word="+key_word+"&order_type="+order_type;
+                    }else {
+                        window.location.href = "http://localhost/honeypot/index.php/Home/Index/index";
+                    }
+
                 },2000);
             }else {
                 formModal(1,loginErrorTips,data.msg);
@@ -336,11 +345,13 @@ $(document).ready(function () {
         $.post(requestUrl + 'Index/publishCases', {title: title, synopsis: synopsis, images: images,draft_id : draft_id}, function (data) {
                 if(data.code == 100){
                     window.location.href = "http://localhost/honeypot/index.php/Home/Index/index?index_type=1";
-                }else {
+                }else if(data.code == 200){
                     operateModalShow(data.msg);
                     setTimeout(function () {
                       window.location.reload();
                     },500)
+                }else {
+                    operateModalShow(data.msg);
                 }
         });
     });
@@ -356,7 +367,66 @@ $(document).ready(function () {
 
     $('.index-btn-search').click(function () {
         var key_word = $('.index-search-text').val();
-        window.location.href = "http://localhost/honeypot/index.php/Home/Index/search?key_word="+key_word;
+        window.location.href = "http://localhost/honeypot/index.php/Home/Index/search?key_word="+key_word+"order_type=1";
+    });
+
+    /**
+     * 回复
+     */
+    $('.join-comment-btn').on('click','.comment-can-submit',function () {
+       var content = $('.join-comment-content').val();
+       var cases_id = $(this).attr('cases_id');
+       $.post(requestUrl+'Index/addReply',{content:content,cases_id:cases_id},function (data) {
+           if(data.code == 100){
+               window.location.href = "http://localhost/honeypot/index.php/Home/Index/getCases?index_type=1&cases_id="+cases_id;
+           }else if(data.code == 200){
+               operateModalShow(data.msg);
+               setTimeout(function () {
+                   window.location.reload();
+               },2000)
+           }else {
+               operateModalShow(data.msg);
+           }
+       })
+    });
+
+
+    /**
+     * 收藏作品
+     */
+    $('.increase-collect').click(function () {
+        var cases_id =  $(this).attr('cases_id');
+        $.post(requestUrl+"Index/collectCases",{cases_id:cases_id},function (data) {
+            if(data.code == 100){
+                window.location.href = "http://localhost/honeypot/index.php/Home/Index/getCases?index_type=1&cases_id="+cases_id;
+            }else if(data.code == 200){
+                operateModalShow(data.msg);
+                setTimeout(function () {
+                    window.location.reload();
+                },2000)
+            }else {
+                operateModalShow(data.msg);
+            }
+        })
+    });
+
+    /**
+     * 取消收藏
+     */
+    $('.cancel-collect').click(function () {
+        var cases_id =  $(this).attr('cases_id');
+        $.post(requestUrl+"Index/cancelCollect",{cases_id:cases_id},function (data) {
+            if(data.code == 100){
+                window.location.href = "http://localhost/honeypot/index.php/Home/Index/getCases?index_type=1&cases_id="+cases_id;
+            }else if(data.code == 200){
+                operateModalShow(data.msg);
+                setTimeout(function () {
+                    window.location.reload();
+                },2000)
+            }else {
+                operateModalShow(data.msg);
+            }
+        })
     })
 
 });
