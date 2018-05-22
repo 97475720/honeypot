@@ -24,7 +24,7 @@ class UserModel extends Model {
 
 	protected $_auto = array (
         array('created_at',NOW_TIME,'register'),
-        array('photo',"http://localhost/honeypot/Uploads/cases2018-05-08/59a27a02cff01.jpg",'register'),
+        array('photo',"http://localhost/honeypot/Public/images/photo_default.jpg",'register'),
         array('token',NOW_TIME,'register'),
         array('login_ip','createdLoginIp','register','callback'),
         array('salt','randStringSalt','register','callback'),
