@@ -27,6 +27,18 @@ class IndexController extends Controller {
      * @var \Home\Model\CollectModel
      */
     private $collectModel;
+    /**
+     * @var \Home\Model\SearchKeyModel
+     */
+    private $searchKeyModel;
+    /**
+     * @var \Home\Model\IntegralModel
+     */
+    private $integralModel;
+    /**
+     * @var \Home\Model\OrdersModel
+     */
+    private $ordersModel;
 
 
     public function _initialize()
@@ -37,6 +49,9 @@ class IndexController extends Controller {
         $this->casesCommentModel = D('CasesComment');
         $this->casesImageModel = D('CasesImage');
         $this->collectModel = D('Collect');
+        $this->searchKeyModel = D('SearchKey');
+        $this->integralModel = D('Integral');
+        $this->ordersModel = D('Orders');
         $this->assign('user_nickname',$_SESSION['honeypot']['nickname']);
         $this->assign('user_photo',$_SESSION['honeypot']['photo']);
     }
@@ -76,6 +91,7 @@ class IndexController extends Controller {
         $this->assign('hot_cases',$hot_cases);
         $this->display();
     }
+    
 
     /**
      * 登录
@@ -137,14 +153,26 @@ class IndexController extends Controller {
      */
     public function sign()
     {
+        $this->userModel->startTrans();
         $user_info = $this->userModel->create('','register');
         if($user_info === false){
+            $this->userModel->rollback();
             json(110,$this->userModel->getError());
         }
         $user_id = $this->userModel->registerNewUser();
         if($user_id === false){
+            $this->userModel->rollback();
             json(110,$this->userModel->getError());
         }
+        if($this->integralModel->create(array('user_id'=>$user_id),'add') === false){
+            $this->userModel->rollback();
+            json(110,$this->userModel->getError());
+        }
+        if($this->integralModel->add() === false){
+            $this->userModel->rollback();
+            json(110,"注册失败");
+        }
+        $this->userModel->commit();
         $data = array(
             'id' => $user_id,
             'photo' => $user_info['photo'],
@@ -162,10 +190,13 @@ class IndexController extends Controller {
     public function userInfo()
     {
         $user_id = $_SESSION['honeypot']['id'];
-        $count = $this->casesModel
+        $collectCount = $this->collectModel
             ->where(['user_id'=> $user_id])
             ->count();
-        $page = new \Think\Page($count, 23);
+        $releaseCount = $this->casesModel
+            ->where(['user_id'=> $user_id])
+            ->count();
+        $page = new \Think\Page($releaseCount, 23);
         $show = $page->show();
         $user_cases = $this->casesModel
             ->where(['user_id'=> $user_id])
@@ -173,6 +204,37 @@ class IndexController extends Controller {
             ->select();
         $this->assign('cases',$user_cases);
         $this->assign('show',$show);
+        $this->assign('releaseCount',$releaseCount);
+        $this->assign('collectCount',$collectCount);
+        $this->display();
+    }
+
+
+    /**
+     * 获取用户发布的作品列表
+     */
+    public function getCollectList()
+    {
+        $user_id = $_SESSION['honeypot']['id'];
+        $releaseCount = $this->casesModel
+            ->where(['user_id'=> $user_id])
+            ->count();
+        $collectCount = $this->collectModel
+            ->where(['user_id'=> $user_id])
+            ->count();
+        $page = new \Think\Page($collectCount, 23);
+        $show = $page->show();
+        $user_cases = $this->collectModel
+            ->join('cases AS c on c.id = cl.cases_id')
+            ->field('c.id,c.user_id,c.title,c.cover_img,c.collect_count,c.comment_count,cl.created_at')
+            ->where(['cl.user_id'=> $user_id])
+            ->order('cl.created_at desc')
+            ->alias('cl')
+            ->select();
+        $this->assign('cases',$user_cases);
+        $this->assign('show',$show);
+        $this->assign('releaseCount',$releaseCount);
+        $this->assign('collectCount',$collectCount);
         $this->display();
     }
     
@@ -184,6 +246,19 @@ class IndexController extends Controller {
         $order_type = I('order_type',1);
         $key_word = I('key_word');
         if($key_word){
+            $is_search = $this->searchKeyModel
+                ->where(['key_word'=>$key_word])
+                ->find();
+            if($is_search){
+                $this->searchKeyModel->where(['id'=>$is_search['id']])->setInc('search_count',1);
+            }else{
+                $data = array(
+                    'key_word' => $key_word,
+                );
+                if($this->searchKeyModel->create($data,'addSearchKey')){
+                    $this->searchKeyModel->add();
+                }
+            }
             $where['title'] = array('like',"%$key_word%");
         }
         if($order_type == 1){
@@ -278,7 +353,6 @@ class IndexController extends Controller {
     {
         $images = I('post.images');
         $draft_id = I('post.draft_id');
-//        dump(!$images);die;
         if(!$images){
             json(110,"请至少上传一张封面图");
         }
@@ -286,7 +360,6 @@ class IndexController extends Controller {
         $draft_id = explode(',',$draft_id);
         $_POST['cover_img'] = $images[0];
         $_POST['user_id'] = $_SESSION['honeypot']['id'];
-        array_splice($images,0,1);
         $this->casesModel->startTrans();
         if($this->casesModel->create('','addCases') === false){
             $this->casesModel->rollback();
@@ -330,17 +403,61 @@ class IndexController extends Controller {
      */
     public function getCases()
     {
+        if($_SESSION['honeypot']['id']){
+            $user_id = $_SESSION['honeypot']['id'];
+        }else{
+            $user_id = 0;
+        }
         $cases_id = I('get.cases_id');
         $cases = $this->casesModel
             ->join('user AS u on u.id = c.user_id')
-            ->field('c.id,c.title,c.cover_img,c.collect_count,c.comment_count,c.created_at,u.nickname,u.photo,c.synopsis')
+            ->field('c.id,c.title,c.cover_img,c.collect_count,c.comment_count,c.created_at,u.nickname,u.photo,c.synopsis,c.type,c.user_id,c.integral')
             ->where(['c.id'=>$cases_id])
             ->alias('c')
             ->find();
-        $cases['images'] = $this->casesImageModel
-            ->field('image')
-            ->where(['cases_id'=>$cases_id])
-            ->select();
+        if($user_id == $cases['user_id']){
+            $cases['images'] = $this->casesImageModel
+                ->field('image')
+                ->where(['cases_id'=>$cases_id])
+                ->select();
+            if($cases['type'] == 1){
+                $cases_type = 1;
+            }else{
+                $cases_type = 2;
+            }
+
+        }else{
+            switch ($cases['type']){
+                case 1:
+                    $cases['images'] = $this->casesImageModel
+                        ->field('image')
+                        ->where(['cases_id'=>$cases_id])
+                        ->select();
+                    $cases_type = 3;
+                    break;
+                case 2:
+                    $where = array(
+                        'user_id' => $user_id,
+                        'cases_id' => $cases_id,
+                    );
+                    //查询用户是否购买这个作品
+                    $is_buy = $this->ordersModel->where($where)->find();
+                    if($is_buy){
+                        $cases['images'] = $this->casesImageModel
+                            ->field('image')
+                            ->where(['cases_id'=>$cases_id])
+                            ->select();
+                        $cases_type = 4;
+                    }else{
+                        $cases['images'] = '';
+                        $cases_type = 5;
+                    }
+                    break;
+                default:
+                    $cases['images'] = '';
+                    $cases_type = 5;
+            }
+        }
         $comment_count = $this->casesCommentModel
             ->join('user AS u on u.id = cm.user_id')
             ->where(['cm.cases_id'=>$cases_id])
@@ -362,9 +479,50 @@ class IndexController extends Controller {
         $this->assign('comment',$comment);
         $this->assign('cases',$cases);
         $this->assign('cases_id',$cases_id);
+        $this->assign('cases_type',$cases_type);
         $this->display();
     }
 
+    /**
+     * 购买作品
+     */
+    public function buyCases()
+    {
+        $cases_id = I('post.cases_id');
+        $user_id = $_SESSION['honeypot']['id'];
+        $need_integral = $this->casesModel
+            ->field('integral')
+            ->where(['id'=>$cases_id])
+            ->find()['integral'];
+        $has_integral = $this->integralModel
+            ->field('id,integral')
+            ->where(['user_id'=>$user_id])
+            ->find();
+        if($has_integral['integral']-$need_integral<0){
+            json(110,'购买失败，用户所需积分不够');
+        }
+        $this->ordersModel->startTrans();
+        if($this->integralModel->where(['id'=>$has_integral['id']])->setDec('integral',$need_integral) === false){
+            $this->ordersModel->rollback();
+            json(110,'购买失败');
+        }
+        $data = array(
+            'user_id'=>$user_id,
+            'cases_id'=>$cases_id,
+        );
+        if($this->ordersModel->create($data,'add') === false){
+            $this->ordersModel->rollback();
+            json(110,'购买失败');
+        }
+        if($this->ordersModel->add() === false){
+            $this->ordersModel->rollback();
+            json(110,'购买失败');
+        }
+        $this->ordersModel->commit();
+        json('','购买成功');
+
+
+    }
 
     /**
      * 评论
@@ -405,6 +563,12 @@ class IndexController extends Controller {
         if($_POST['user_id'] == $cases['user_id']){
             json(110,"不能收藏自己的作品");
         }
+        $is_collect = $this->collectModel
+            ->where(['user_id'=>$_POST['user_id'],'cases_id'=>$cases_id])
+            ->find();
+        if($is_collect){
+            json(110,"你已经收藏过此作品");
+        }
         $this->collectModel->startTrans();
         if($this->collectModel->create('','collectCases') === false){
             $this->collectModel->rollback();
@@ -423,12 +587,21 @@ class IndexController extends Controller {
     }
 
 
+    /**
+     * 取消收藏
+     */
     public function cancelCollect()
     {
         $where['user_id'] = $_SESSION['honeypot']['id'];
         $where['cases_id'] = I('post.cases_id');
         if(!$where['user_id'] || !$where['cases_id']){
             json(110,"取消收藏失败");
+        }
+        $is_collect = $this->collectModel
+            ->where($where)
+            ->find();
+        if(!$is_collect){
+            json(110,"你没有收藏过这个作品");
         }
         $this->collectModel->startTrans();
         if($this->collectModel->where($where)->delete() === false){

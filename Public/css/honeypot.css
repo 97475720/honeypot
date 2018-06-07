@@ -1031,10 +1031,48 @@ i,em{
     background: #ffffff;
     overflow: hidden;
 }
-.cases-content img{
+.cases-content .is_buy{
+    width: 800px;
+    margin:18px auto 0;
+}
+.cases-content .is_buy p{
+    color: #000000;
+    font-size: 24px;
+}
+.cases-content>div{
     width: 800px;
     display: block;
-    margin: 50px auto;
+    margin: 30px auto 50px;
+    position: relative;
+}
+.cases-content>div>img{
+    width: 100%;
+}
+.cases-content>div>.buy-cases{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(255,255,255,0.5);
+}
+.buy-cases>.buy-cases-container{
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.buy-cases-container>img{
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+.buy-cases-container>p{
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    margin: 10px auto;
 }
 #cases-warp .cases-comment{
     margin: 50px 210px;

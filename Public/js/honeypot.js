@@ -251,9 +251,9 @@ $(document).ready(function () {
     $('.index-login-out').click(function () {
         $.post(requestUrl+'Index/loginOut',function (data) {
             if(data.code == 200){
-                window.location.href = requestUrl+"Index/index";
+                window.location.reload();
             }else {
-
+                operateModalShow("用户退出失败!");
             }
         })
     });
@@ -367,7 +367,18 @@ $(document).ready(function () {
 
     $('.index-btn-search').click(function () {
         var key_word = $('.index-search-text').val();
-        window.location.href = "http://localhost/honeypot/index.php/Home/Index/search?key_word="+key_word+"order_type=1";
+        window.location.href = "http://localhost/honeypot/index.php/Home/Index/search?key_word="+key_word+"&order_type=1";
+    });
+
+    /**
+     * 排序
+     */
+    $('.order-type').each(function () {
+        $(this).click(function () {
+            var order_type = $(this).attr('order_type');
+            var key_word = $('.search-key-word').val();
+            window.location.href = "http://localhost/honeypot/index.php/Home/Index/search?key_word="+key_word+"&order_type="+order_type;
+        });
     });
 
     /**
@@ -429,4 +440,22 @@ $(document).ready(function () {
         })
     })
 
+    /**
+     * 点击购买作品
+     */
+    $('.click-buy-cases').click(function () {
+        var cases_id = $(this).attr('cases_id');
+        $.post(requestUrl+'Index/buyCases',{cases_id:cases_id},function (data) {
+            if(data.code == 100){
+                window.location.href = "http://localhost/honeypot/index.php/Home/Index/getCases?index_type=1&cases_id="+cases_id;
+            }else if(data.code == 200){
+                operateModalShow(data.msg);
+                setTimeout(function () {
+                    window.location.reload();
+                },2000)
+            }else {
+                operateModalShow(data.msg);
+            }
+        })
+    });
 });

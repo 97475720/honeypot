@@ -52,24 +52,65 @@
         <p class="cases-details-synopsis">{$cases['synopsis']}</p>
     </div>
     <div class="cases-content">
+        <div class="is_buy">
+            <p>
+                <?php
+                        switch ($cases_type){
+                            case 1:
+                                echo "免费作品(拥有者)";
+                                break;
+                            case 2:
+                                echo "免费作品(拥有者)";
+                                break;
+                            case 3:
+                                echo "免费作品";
+                                break;
+                            case 4:
+                                echo "收费作品(已购买)";
+                                break;
+                            case 5:
+                                echo "收费作品(".$cases['integral']."积分)";
+                                break;
+                            default:
+                                echo "收费作品(".$cases['integral']."积分)";
+                        }
+                    ?>
+            </p>
+        </div>
+        <?php if($cases['images']): ?>
             <volist name="cases['images']" id="vl">
-                <img src="{$vl['image']}">
+                <div>
+                    <img src="{$vl['image']}">
+                </div>
             </volist>
+        <?php else: ?>
+            <div>
+                <img src="{$cases['cover_img']}">
+                <div class="buy-cases">
+                    <div class="buy-cases-container">
+                        <img src="__PUBLIC__/images/buy" class="click-buy-cases" cases_id="{$cases['id']}">
+                        <p>点击购买</p>
+                    </div>
+                </div>
+            </div>
+        <?php endif; ?>
     </div>
 
     <div class="cases-comment">
         <div class="cases-comment-container">
-            <div class="comment-list">
-                <img src="{$user_photo}">
-                <div class="comment-info">
-                    <div class="join-comment-input">
-                        <textarea class="join-comment-content" rows="3" oninput="changeBtn(this)"></textarea>
-                    </div>
-                    <div class="join-comment-btn">
-                        <span class="btn comment-cannot-submit btn-reply" cases_id="{$cases_id}">发 布</span>
+            <?php if($user_photo): ?>
+                <div class="comment-list">
+                    <img src="{$user_photo}">
+                    <div class="comment-info">
+                        <div class="join-comment-input">
+                            <textarea class="join-comment-content" rows="3" oninput="changeBtn(this)"></textarea>
+                        </div>
+                        <div class="join-comment-btn">
+                            <span class="btn comment-cannot-submit btn-reply" cases_id="{$cases_id}">发 布</span>
+                        </div>
                     </div>
                 </div>
-            </div>
+            <?php endif; ?>
             <volist name="comment" id="vl">
                 <div class="comment-list">
                     <img src="{$vl['photo']}">
