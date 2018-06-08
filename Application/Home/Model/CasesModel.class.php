@@ -12,6 +12,8 @@ class CasesModel extends Model {
         array('title', 'titleLength', '作品标题长度不符合规则',self::MUST_VALIDATE,'callback','addCases'),
         array('synopsis', 'synopsisLength', '作品简介长度不符合规则',self::MUST_VALIDATE,'callback','addCases'),
         array('cover_img', 'require', '请上传作品封面图',self::MUST_VALIDATE,'','addCases'),
+        array('type', 'require', '请选择作品是否收费',self::MUST_VALIDATE,'','addCases'),
+        array('integral', 'require', '请输入购买作品所需积分',self::MUST_VALIDATE,'','addCases'),
 
     );
 

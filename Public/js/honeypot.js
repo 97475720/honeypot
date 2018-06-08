@@ -331,9 +331,32 @@ $(document).ready(function () {
     /**
      * 发布作品
      */
+    $('.release-cases-type').change(function () {
+        var type = $(this).val();
+        if(type == 1){
+            $('.release-cases-integral').css('display','none');
+        }else if(type == 2){
+            $('.release-cases-integral').css('display','block');
+        }
+    });
+    $('.release-cases-integral').on("input propertychange",function () {
+        var integral = $('.release-cases-integral').val();
+        if(integral<1){
+            $('.release-cases-integral').val(1);
+        }
+        if(integral>999){
+            $('.release-cases-integral').val(999);
+        }
+    });
+    
     $('.btn-submit-cases').click(function () {
         var title = $('.release-cases-title').val();
         var synopsis = $('.release-cases-synopsis').val();
+        var type = $('.release-cases-type').val();
+        var integral = $('.release-cases-integral').val();
+        if(type == 1){
+            integral = 0;
+        }
         var images = "";
         var draft_id = "";
         $.each($('.cases-image-url'), function (k, v) {
@@ -342,7 +365,7 @@ $(document).ready(function () {
         });
         images = images.substring(0, images.length - 1);
         draft_id = draft_id.substring(0, draft_id.length - 1);
-        $.post(requestUrl + 'Index/publishCases', {title: title, synopsis: synopsis, images: images,draft_id : draft_id}, function (data) {
+        $.post(requestUrl + 'Index/publishCases', {title: title, synopsis: synopsis, images: images,draft_id : draft_id,type:type,integral:integral}, function (data) {
                 if(data.code == 100){
                     window.location.href = "http://localhost/honeypot/index.php/Home/Index/index?index_type=1";
                 }else if(data.code == 200){

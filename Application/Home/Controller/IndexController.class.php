@@ -353,6 +353,7 @@ class IndexController extends Controller {
     {
         $images = I('post.images');
         $draft_id = I('post.draft_id');
+        $user_id = $_SESSION['honeypot']['id'];
         if(!$images){
             json(110,"请至少上传一张封面图");
         }
@@ -393,6 +394,10 @@ class IndexController extends Controller {
                     json(110,'作品上传失败，请重试');
                 }
             }
+        }
+        if($this->integralModel->where(['user_id'=>$user_id])->setInc('integral',5) === false){
+            $this->casesModel->rollback();
+            json(110,'作品上传失败，请重试');
         }
         $this->casesModel->commit();
         json(200,"作品上传成功");
@@ -541,6 +546,10 @@ class IndexController extends Controller {
             json(110,"回复失败");
         }
         if($this->casesModel->where(['id'=>$cases_id])->setInc('comment_count',1) === false){
+            $this->casesCommentModel->rollback();
+            json(110,"回复失败");
+        }
+        if($this->integralModel->where(['user_id'=>$_POST['user_id']])->setInc('integral',1) === false){
             $this->casesCommentModel->rollback();
             json(110,"回复失败");
         }

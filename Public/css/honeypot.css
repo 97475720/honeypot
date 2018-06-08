@@ -827,6 +827,10 @@ i,em{
 .release-info-form .form-group{
     margin: 30px 60px;
 }
+.form-group .release-cases-integral{
+    display: none;
+    margin-top: 18px;
+}
 .form-group .release-tips{
     font-size: 12px;
     color: #fe0304;
