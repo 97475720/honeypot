@@ -102,24 +102,41 @@ class IndexController extends Controller {
     {
         $username = I('post.username');
         $password = I('post.password');
+        $type = I('post.type');
         $user_info = $this->userModel
             ->where(['username'=>$username])
             ->find();
         if(!$user_info || md5($password.$user_info['salt']) != $user_info['password']){
             json(110,'用户名不存在或密码错误');
         }
-        $token = time();
-        if($this->userModel->where(['username'=>$username])->setField('token',$token) === false){
+        $token = $this->userModel->saveToken($type);
+        if($token === false){
             json(110,'网络错误，登录失败！');
         }
-        $_SESSION['honeypot'] = array(
-            'id' => $user_info['id'],
-            'nickname'=> $user_info['nickname'],
-            'photo'=> $user_info['photo'],
-            'token' => $token,
-            'expire'=>time(),
-        );
-        json(200,"登录成功");
+        switch ($type){
+            case 1:
+                $_SESSION['honeypot'] = array(
+                    'id' => $user_info['id'],
+                    'nickname'=> $user_info['nickname'],
+                    'photo'=> $user_info['photo'],
+                    'token' => $token,
+                    'expire'=>time(),
+                );
+                json(200,"登录成功");
+                break;
+            case 2:
+                $data = array(
+                    'id' => $user_info['id'],
+                    'photo' => $user_info['photo'],
+                    'nickname'=> $user_info['nickname'],
+                    'token' => $user_info['app_token'],
+                );
+                json(200,'success',$data);
+                break;
+            default:
+                json(110,'网络错误，登录失败！');
+        }
+
 
     }
 
@@ -153,6 +170,7 @@ class IndexController extends Controller {
      */
     public function sign()
     {
+        $type = I('post.type');
         $this->userModel->startTrans();
         $user_info = $this->userModel->create('','register');
         if($user_info === false){
@@ -173,15 +191,31 @@ class IndexController extends Controller {
             json(110,"注册失败");
         }
         $this->userModel->commit();
-        $data = array(
-            'id' => $user_id,
-            'photo' => $user_info['photo'],
-            'nickname'=> $user_info['nickname'],
-            'token' => $user_info['token'],
-            'expire'=>time(),
-        );
-        $_SESSION['honeypot'] = $data;
-        json();
+        switch ($type){
+            case 1:
+                $data = array(
+                    'id' => $user_id,
+                    'photo' => $user_info['photo'],
+                    'nickname'=> $user_info['nickname'],
+                    'token' => $user_info['token'],
+                    'expire'=>time(),
+                );
+                $_SESSION['honeypot'] = $data;
+                json();
+                break;
+            case 2:
+                $data = array(
+                    'id' => $user_id,
+                    'photo' => $user_info['photo'],
+                    'nickname'=> $user_info['nickname'],
+                    'token' => $user_info['app_token'],
+                );
+                json(200,'success',$data);
+                break;
+            default:
+                json(110,"注册失败");
+        }
+
     }
 
     /**
@@ -304,7 +338,7 @@ class IndexController extends Controller {
         if($img_info === false){
             json(110,"图片上传失败,请检查图片格式及大小是否符合要求");
         }
-        $img_url = 'http://127.0.0.1/honeypot/Uploads/'.$img_info;
+        $img_url = 'https://freakcn.com/honeypot/Uploads/'.$img_info;
         $data = array(
             'user_id' => $_SESSION['honeypot']['id'],
             'image_url' => $img_url,
@@ -571,12 +605,6 @@ class IndexController extends Controller {
             ->find();
         if($_POST['user_id'] == $cases['user_id']){
             json(110,"不能收藏自己的作品");
-        }
-        $is_collect = $this->collectModel
-            ->where(['user_id'=>$_POST['user_id'],'cases_id'=>$cases_id])
-            ->find();
-        if($is_collect){
-            json(110,"你已经收藏过此作品");
         }
         $this->collectModel->startTrans();
         if($this->collectModel->create('','collectCases') === false){

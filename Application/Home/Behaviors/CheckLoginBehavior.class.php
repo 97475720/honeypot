@@ -43,7 +43,7 @@ class checkLoginBehavior extends Behavior
                 //没有get参数的话
                 die(redirect($referer_url.'?index_type=1'));
             }
-            die(redirect("http://localhost/honeypot/index.php/Home/Index/index?index_type=1"));
+            die(redirect("https://freakcn.com/honeypot/index.php/Home/Index/index?index_type=1"));
         }
         $login_info = M('user')->where(['token' => $token, 'id' => $user_id])->find();
         if ($login_info) {
@@ -59,7 +59,7 @@ class checkLoginBehavior extends Behavior
             }
             die(redirect($referer_url.'?index_type=1'));
         }
-        die(redirect('http://localhost/honeypot/index.php/Home/index/index?index_type=1'));
+        die(redirect('https://freakcn.com/honeypot/index.php/Home/index/index?index_type=1'));
     }
 
 }

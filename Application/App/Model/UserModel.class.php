@@ -1,5 +1,5 @@
 <?php
-namespace Home\Model;
+namespace App\Model;
 use Think\Model;
 class UserModel extends Model {
 	protected $tableName="user";
@@ -7,7 +7,7 @@ class UserModel extends Model {
 
 	    array('username', 'require', '请输入用户名',self::MUST_VALIDATE,'','register'),
         array('username', '', '用户名已存在',self::MUST_VALIDATE,'unique','register'),
-        array('username', '6,16', '请输入6到16位的用户名',self::MUST_VALIDATE,'length','register'),
+        array('username', '6,16', '请输入6到16位的账号',self::MUST_VALIDATE,'length','register'),
         array('nickname', 'require', '请输入昵称',self::MUST_VALIDATE,'','register'),
         array('nickname', '', '该昵称已存在',self::MUST_VALIDATE,'unique','register'),
         array('password', '', '请输入密码',self::MUST_VALIDATE,'unique','register'),
@@ -24,8 +24,9 @@ class UserModel extends Model {
 
 	protected $_auto = array (
         array('created_at',NOW_TIME,'register'),
-        array('photo',"https://freakcn.com/honeypot/Public/images/photo_default.jpg",'register'),
+        array('photo',"c/honeypot/Public/images/photo_default.jpg",'register'),
         array('token',NOW_TIME,'register'),
+        array('app_token',NOW_TIME,'register'),
         array('login_ip','createdLoginIp','register','callback'),
         array('salt','randStringSalt','register','callback'),
 
@@ -59,29 +60,5 @@ class UserModel extends Model {
         $this->data['password'] = md5($this->data['password'].$this->data['salt']);
         return $this->add();
 	}
-	
-	
-	/**
-     * 用户登录更新token
-     */
-    public function saveToken($type)
-    {
-        $token =time();
-        switch ($type){
-            case 1:
-               if($this->setField('token',$token) === false){
-                 return false;
-               }
-               return $token;
-               break;
-            case 2:
-                if($this->setField('app_token',$token) === false){
-                    return false;
-                }
-                return $token;
-                break;
-            default:
-                return false;
-        }
-    }
+
 }
