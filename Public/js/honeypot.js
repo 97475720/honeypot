@@ -1,6 +1,6 @@
 $(document).ready(function () {
     //定义全局的变量
-    var requestUrl = "http://localhost/honeypot/index.php/Home/";
+    var requestUrl = "https://freakcn.com/honeypot/index.php/Home/";
     var signErrorTips = $('.sign-error-tips');
     var loginErrorTips = $('.login-error-tips');
     //获取url参数
@@ -202,7 +202,7 @@ $(document).ready(function () {
         }
         password = hex_md5(password);
         repassword = hex_md5(repassword);
-        $.post(requestUrl+'Index/sign',{username:username,nickname:nickname,password:password,repassword:repassword},function (data) {
+        $.post(requestUrl+'Index/sign',{username:username,nickname:nickname,password:password,repassword:repassword,type:1},function (data) {
             if(data.code == 200){
                 formModal(2,signErrorTips,"注册成功！");
                 setTimeout(function () {
@@ -226,16 +226,16 @@ $(document).ready(function () {
         var key_word = getUrlParam('key_word');
         var order_type = getUrlParam('order_type');
         password = hex_md5(password);
-        $.post(requestUrl+'Index/login',{username:username,password:password},function (data) {
+        $.post(requestUrl+'Index/login',{username:username,password:password,type:1},function (data) {
             if(data.code == 200){
                 formModal(2,loginErrorTips,"登录成功！");
                 setTimeout(function () {
                     if(cases_id != null){
-                        window.location.href = "http://localhost/honeypot/index.php/Home/Index/getCases?cases_id="+cases_id;
+                        window.location.href = requestUrl+"Index/getCases?cases_id="+cases_id;
                     }else if(key_word != null){
-                        window.location.href = "http://localhost/honeypot/index.php/Home/Index/search?key_word="+key_word+"&order_type="+order_type;
+                        window.location.href = requestUrl+"Index/search?key_word="+key_word+"&order_type="+order_type;
                     }else {
-                        window.location.href = "http://localhost/honeypot/index.php/Home/Index/index";
+                        window.location.href = requestUrl+"Index/index";
                     }
 
                 },2000);
@@ -296,7 +296,7 @@ $(document).ready(function () {
                         var str = "<div class='image-list'><i class='remove-cases-image'></i><img src='"+data.data.image+"' class='cases-image-url' draft_id='"+data.data.draft_id+"'></div>";
                         $(".release-image-container").append(str);
                     } else if(data.code == 100) {
-                        window.location.href = "http://localhost/hoenypot/index.php/Home/Index/index?index_type=1";
+                        window.location.href = requestUrl+"Index/index?index_type=1";
                     } else {
                         operateModalShow(data.msg);
                     }
@@ -318,7 +318,7 @@ $(document).ready(function () {
             var image = $(this).parent().find(".cases-image-url").attr('src');
             $.post(requestUrl+'Index/removeCaseImg',{draft_id:draft_id,image:image},function (data) {
                 if(data.code == 100){
-                    window.location.href = "http://localhost/hoenypot/index.php/Home/Index/index?index_type=1";
+                    window.location.href = requestUrl+"Index/index?index_type=1";
                 }else if(data.code == 200){
                     $(_this).parent('.image-list').remove();
                 }else{
@@ -367,7 +367,7 @@ $(document).ready(function () {
         draft_id = draft_id.substring(0, draft_id.length - 1);
         $.post(requestUrl + 'Index/publishCases', {title: title, synopsis: synopsis, images: images,draft_id : draft_id,type:type,integral:integral}, function (data) {
                 if(data.code == 100){
-                    window.location.href = "http://localhost/honeypot/index.php/Home/Index/index?index_type=1";
+                    window.location.href = requestUrl+"Index/index?index_type=1";
                 }else if(data.code == 200){
                     operateModalShow(data.msg);
                     setTimeout(function () {
@@ -385,12 +385,12 @@ $(document).ready(function () {
     $('.search-btn').click(function () {
         var key_word = $('.search-key-word').val();
         var order_type = $('.order-type-active').attr('order_type');
-        window.location.href = "http://localhost/honeypot/index.php/Home/Index/search?key_word="+key_word+"&order_type="+order_type;
+        window.location.href = requestUrl+"Index/search?key_word="+key_word+"&order_type="+order_type;
     });
 
     $('.index-btn-search').click(function () {
         var key_word = $('.index-search-text').val();
-        window.location.href = "http://localhost/honeypot/index.php/Home/Index/search?key_word="+key_word+"&order_type=1";
+        window.location.href = requestUrl+"Index/search?key_word="+key_word+"&order_type=1";
     });
 
     /**
@@ -400,7 +400,7 @@ $(document).ready(function () {
         $(this).click(function () {
             var order_type = $(this).attr('order_type');
             var key_word = $('.search-key-word').val();
-            window.location.href = "http://localhost/honeypot/index.php/Home/Index/search?key_word="+key_word+"&order_type="+order_type;
+            window.location.href = requestUrl+"Index/search?key_word="+key_word+"&order_type="+order_type;
         });
     });
 
@@ -412,7 +412,7 @@ $(document).ready(function () {
        var cases_id = $(this).attr('cases_id');
        $.post(requestUrl+'Index/addReply',{content:content,cases_id:cases_id},function (data) {
            if(data.code == 100){
-               window.location.href = "http://localhost/honeypot/index.php/Home/Index/getCases?index_type=1&cases_id="+cases_id;
+               window.location.href = requestUrl+"Index/getCases?index_type=1&cases_id="+cases_id;
            }else if(data.code == 200){
                operateModalShow(data.msg);
                setTimeout(function () {
@@ -432,7 +432,7 @@ $(document).ready(function () {
         var cases_id =  $(this).attr('cases_id');
         $.post(requestUrl+"Index/collectCases",{cases_id:cases_id},function (data) {
             if(data.code == 100){
-                window.location.href = "http://localhost/honeypot/index.php/Home/Index/getCases?index_type=1&cases_id="+cases_id;
+                window.location.href = requestUrl+"Index/getCases?index_type=1&cases_id="+cases_id;
             }else if(data.code == 200){
                 operateModalShow(data.msg);
                 setTimeout(function () {
@@ -451,7 +451,7 @@ $(document).ready(function () {
         var cases_id =  $(this).attr('cases_id');
         $.post(requestUrl+"Index/cancelCollect",{cases_id:cases_id},function (data) {
             if(data.code == 100){
-                window.location.href = "http://localhost/honeypot/index.php/Home/Index/getCases?index_type=1&cases_id="+cases_id;
+                window.location.href = requestUrl+"Index/getCases?index_type=1&cases_id="+cases_id;
             }else if(data.code == 200){
                 operateModalShow(data.msg);
                 setTimeout(function () {
@@ -470,7 +470,7 @@ $(document).ready(function () {
         var cases_id = $(this).attr('cases_id');
         $.post(requestUrl+'Index/buyCases',{cases_id:cases_id},function (data) {
             if(data.code == 100){
-                window.location.href = "http://localhost/honeypot/index.php/Home/Index/getCases?index_type=1&cases_id="+cases_id;
+                window.location.href = requestUrl+"Index/getCases?index_type=1&cases_id="+cases_id;
             }else if(data.code == 200){
                 operateModalShow(data.msg);
                 setTimeout(function () {

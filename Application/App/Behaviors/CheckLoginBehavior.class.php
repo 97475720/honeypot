@@ -26,12 +26,12 @@ class CheckLoginBehavior extends Behavior
         $token = I('post.token');
         $user_id = I('post.user_id');
         if (!$token || !$user_id) {
-            json(100, C('CODE.100'));
+            json(100, C('CODE.100'),(object)array());
         }
         $login_info = M('user')->where(['app_token' => $token, 'id' => $user_id])->find();
         if ($login_info) {
             return true;
         }
-        json(100, C('CODE.100'));
+        json(100, C('CODE.100'),(object)array());
     }
 }

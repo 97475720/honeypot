@@ -74,6 +74,7 @@ class IndexController extends Controller {
             ->field('id,title,synopsis,cover_img,collect_count,comment_count')
             ->where($where)
             ->page($page,$page_size)
+            ->order('collect_count desc')
             ->select();
         if(!$list['list']){
             json('','',(object)array());
@@ -94,7 +95,7 @@ class IndexController extends Controller {
             ->where(['id'=>$cases_id])
             ->find();
         if($user_id == $cases['user_id']){
-            json(110,"不能收藏自己的作品");
+            json(110,"不能收藏自己的作品",(object)array());
         }
         $where['user_id'] = $user_id;
         $where['cases_id'] = $cases_id;
@@ -102,20 +103,20 @@ class IndexController extends Controller {
             ->where($where)
             ->find();
         if($is_collect){
-            json(110,'请勿重复收藏');
+            json(110,'请勿重复收藏',(object)array());
         }
         $this->collectModel->startTrans();
         if($this->collectModel->create('','collectCases') === false){
-            json(110,'收藏失败');
+            json(110,'收藏失败',(object)array());
         }
         if($this->collectModel->add() === false){
-            json(110,'收藏失败');
+            json(110,'收藏失败',(object)array());
         }
         if($this->casesModel->where(['id'=>$cases_id])->setInc('collect_count',1) === false){
-            json(110,'收藏失败');
+            json(110,'收藏失败',(object)array());
         }
         $this->collectModel->commit();
-        json();
+        json('','',(object)array());
     }
 
     
@@ -170,16 +171,38 @@ class IndexController extends Controller {
     {
         $cases_id = I('post.cases_id');
         $user_id = I('post.user_id');
+        $token = I('post.token');
+        $is_login = $this->userModel
+            ->where(['id'=>$user_id,'app_token'=>$token])
+            ->find();
         $cases = $this->casesModel
             ->join('user AS u on u.id = c.user_id')
-            ->field('u.nickname,u.photo,c.title,c.id,c.synopsis,c.cover_img,c.collect_count,c.comment_count,c.created_at,c.user_idm,c.type,c.integral')
+            ->field('c.id,c.user_id,u.nickname,u.photo,c.title,c.synopsis,c.cover_img,c.collect_count,c.comment_count,c.created_at,c.type,c.integral')
             ->where(['c.id'=>$cases_id])
             ->alias('c')
             ->find();
+        if($cases){
+            $cases['created_at'] = date('Y-m-d H:i:s',$cases['created_at']);
+        }
+        //如果没有登录
+        if(!$is_login){
+            switch ($cases['type']){
+                case 1:
+                    $cases['is_buy'] = 1;
+                    $cases['img'] = $this->casesImageModel->getImage($cases_id,$user_id);
+                    break;
+                case 2:
+                    $cases['is_buy'] = 2;
+                    $cases['img'] = array();
+            }
+
+            json('','',$cases);
+        }
         switch ($cases['type']){
             case 1:
                 $cases['is_buy'] = 1;
                 $cases['img'] = $this->casesImageModel->getImage($cases_id,$user_id);
+
             break;
             case 2:
                 $where['cases_id'] = $cases_id;
@@ -187,18 +210,67 @@ class IndexController extends Controller {
                 $is_buy = $this->ordersModel
                     ->where($where)
                     ->find();
-                if($is_buy){
+                if($user_id = $cases['user_id']){
                     $cases['is_buy'] = 3;
                     $cases['img'] = $this->casesImageModel->getImage($cases_id,$user_id);
                 }else{
-                    $cases['is_buy'] = 2;
-                    $cases['img'] = (object)array();
+                    if($is_buy){
+                        $cases['is_buy'] = 3;
+                        $cases['img'] = $this->casesImageModel->getImage($cases_id,$user_id);
+                    }else{
+                        $cases['is_buy'] = 2;
+                        $cases['img'] = array();
+                    }
                 }
                 break;
             default:
                 $cases['is_buy'] = 0;
-                $cases['img'] = (object)array();
+                $cases['img'] = array();
         }
+        json('','',$cases);
     }
 
+
+    /**
+     * 购买作品
+     */
+    public function buyCases()
+    {
+        $user_id = I('post.user_id');
+        $cases_id = I('post.cases_id');
+        $cases = $this->casesModel
+            ->field('id,integral')
+            ->where(['id'=>$cases_id])
+            ->find();
+        $user_integral = $this->integralModel
+            ->field('id,user_id,integral')
+            ->where(['user_id'=>$user_id])
+            ->find();
+        if($user_integral['integral'] - $cases['integral'] <0){
+            json(110,'购买失败，您的积分不足',(object)array());
+        }
+        $this->integralModel->startTrans();
+        if($this->integralModel->where(['id'=>$user_integral['id']])->setDec('integral',$cases['integral']) === false){
+            $this->integralModel->rollback();
+            json(110,'购买失败',(object)array());
+        }
+        $order_data = array(
+            'user_id'=>$user_id,
+            'cases_id'=>$cases_id,
+        );
+        if($this->ordersModel->create($order_data,'add') === false){
+            $this->integralModel->rollback();
+            json(110,'购买失败',(object)array());
+        }
+        if($this->ordersModel->add() === false){
+            $this->integralModel->rollback();
+            json(110,'购买失败',(object)array());
+        }
+        $images = $this->casesImageModel
+            ->field('image')
+            ->where(['cases_id'=>$cases_id])
+            ->select();
+        $this->integralModel->commit();
+        json('','',$images);
+    }
 }

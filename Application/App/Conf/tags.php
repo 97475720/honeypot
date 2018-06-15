@@ -2,7 +2,7 @@
 
 return [
     'action_begin' => [
-//        '\App\Behaviors\CheckLoginBehavior',
+        '\App\Behaviors\CheckLoginBehavior',
     ],
 ];
 //return array(

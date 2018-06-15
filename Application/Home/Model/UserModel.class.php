@@ -11,6 +11,7 @@ class UserModel extends Model {
         array('nickname', 'require', '请输入昵称',self::MUST_VALIDATE,'','register'),
         array('nickname', '', '该昵称已存在',self::MUST_VALIDATE,'unique','register'),
         array('password', '', '请输入密码',self::MUST_VALIDATE,'unique','register'),
+        array('password', '32', '确认密码不正确',self::MUST_VALIDATE,'length','register'),
         array('repassword','password','确认密码不正确',self::MUST_VALIDATE,'confirm','register'),
 
         array('username', 'require', '请输入用户名',self::EXISTS_VALIDATE,'','registerVerify'),
@@ -26,6 +27,7 @@ class UserModel extends Model {
         array('created_at',NOW_TIME,'register'),
         array('photo',"https://freakcn.com/honeypot/Public/images/photo_default.jpg",'register'),
         array('token',NOW_TIME,'register'),
+        array('app_token',NOW_TIME,'register'),
         array('login_ip','createdLoginIp','register','callback'),
         array('salt','randStringSalt','register','callback'),
 
@@ -64,18 +66,18 @@ class UserModel extends Model {
 	/**
      * 用户登录更新token
      */
-    public function saveToken($type)
+    public function saveToken($type,$user_id)
     {
         $token =time();
         switch ($type){
             case 1:
-               if($this->setField('token',$token) === false){
+               if($this->where(['id'=>$user_id])->setField('token',$token) === false){
                  return false;
                }
                return $token;
                break;
             case 2:
-                if($this->setField('app_token',$token) === false){
+                if($this->where(['id'=>$user_id])->setField('app_token',$token) === false){
                     return false;
                 }
                 return $token;

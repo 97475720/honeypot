@@ -89,6 +89,7 @@ class IndexController extends Controller {
 //        dump($hot_cases);
 //        die;
         $this->assign('hot_cases',$hot_cases);
+        $this->assign('title',"蜜罐");
         $this->display();
     }
     
@@ -106,12 +107,15 @@ class IndexController extends Controller {
         $user_info = $this->userModel
             ->where(['username'=>$username])
             ->find();
-        if(!$user_info || md5($password.$user_info['salt']) != $user_info['password']){
-            json(110,'用户名不存在或密码错误');
+        if(!$type){
+            json(110,'网络错误，登录失败',(object)array());
         }
-        $token = $this->userModel->saveToken($type);
+        if(!$user_info || md5($password.$user_info['salt']) != $user_info['password']){
+            json(110,'用户名不存在或密码错误',(object)array());
+        }
+        $token = $this->userModel->saveToken($type,$user_info['id']);
         if($token === false){
-            json(110,'网络错误，登录失败！');
+            json(110,'网络错误，登录失败',(object)array());
         }
         switch ($type){
             case 1:
@@ -122,19 +126,19 @@ class IndexController extends Controller {
                     'token' => $token,
                     'expire'=>time(),
                 );
-                json(200,"登录成功");
+                json(200,"登录成功",$token);
                 break;
             case 2:
                 $data = array(
                     'id' => $user_info['id'],
                     'photo' => $user_info['photo'],
                     'nickname'=> $user_info['nickname'],
-                    'token' => $user_info['app_token'],
+                    'token' => $token,
                 );
                 json(200,'success',$data);
                 break;
             default:
-                json(110,'网络错误，登录失败！');
+                json(110,'网络错误，登录失败',(object)array());
         }
 
 
@@ -171,24 +175,27 @@ class IndexController extends Controller {
     public function sign()
     {
         $type = I('post.type');
+        if(!$type){
+            json(110,"注册失败");
+        }
         $this->userModel->startTrans();
         $user_info = $this->userModel->create('','register');
         if($user_info === false){
             $this->userModel->rollback();
-            json(110,$this->userModel->getError());
+            json(110,$this->userModel->getError(),(object)array());
         }
         $user_id = $this->userModel->registerNewUser();
         if($user_id === false){
             $this->userModel->rollback();
-            json(110,$this->userModel->getError());
+            json(110,$this->userModel->getError(),(object)array());
         }
         if($this->integralModel->create(array('user_id'=>$user_id),'add') === false){
             $this->userModel->rollback();
-            json(110,$this->userModel->getError());
+            json(110,$this->userModel->getError(),(object)array());
         }
         if($this->integralModel->add() === false){
             $this->userModel->rollback();
-            json(110,"注册失败");
+            json(110,"注册失败",(object)array());
         }
         $this->userModel->commit();
         switch ($type){
@@ -213,7 +220,7 @@ class IndexController extends Controller {
                 json(200,'success',$data);
                 break;
             default:
-                json(110,"注册失败");
+                json(110,"注册失败",(object)array());
         }
 
     }
@@ -240,6 +247,7 @@ class IndexController extends Controller {
         $this->assign('show',$show);
         $this->assign('releaseCount',$releaseCount);
         $this->assign('collectCount',$collectCount);
+        $this->assign('title',"个人信息");
         $this->display();
     }
 
@@ -269,6 +277,7 @@ class IndexController extends Controller {
         $this->assign('show',$show);
         $this->assign('releaseCount',$releaseCount);
         $this->assign('collectCount',$collectCount);
+        $this->assign('title',"我发布的");
         $this->display();
     }
     
@@ -315,6 +324,7 @@ class IndexController extends Controller {
         $this->assign('key_word',$key_word);
         $this->assign('show',$show);
         $this->assign('order_type',$order_type);
+        $this->assign('title',$key_word);
         $this->display();
     }
 
@@ -323,6 +333,7 @@ class IndexController extends Controller {
      */
     public function releaseCases()
     {
+        $this->assign('title',"发布新作品");
         $this->display();
     }
 
@@ -519,6 +530,7 @@ class IndexController extends Controller {
         $this->assign('cases',$cases);
         $this->assign('cases_id',$cases_id);
         $this->assign('cases_type',$cases_type);
+        $this->assign('title',$cases['title']);
         $this->display();
     }
 

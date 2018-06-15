@@ -12,7 +12,11 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "guzzlehttp/guzzle": "^6.2@dev",
+        "gidkom/php-openfire-restapi": "dev-master",
+        "yurunsoft/yurun-oauth-login": "1.*",
+        "gnello/php-openfire-restapi": "dev-master"
     },
     "minimum-stability": "dev"
 }
